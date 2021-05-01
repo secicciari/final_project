@@ -9,6 +9,7 @@ Where are the best wines coming from - based on Wine Enthusiast reviews and weat
 We're sick of COVID data and wanted to analyze something a little more fun! We're excited for individuals to use our app to determine whether they should start a winery in their area.
 
 ### Questions we hope to answer
+- What combination(s) of weather features (max temp, min temp, avg precipitation, snow totals) will lead to the best wines by variety (according to Wine Enthusiast ratings)?
 - Can I grow a specific variety of grapes in a given zip code that will create great wine?
 
 ### Data source
