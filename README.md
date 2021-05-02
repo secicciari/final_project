@@ -18,6 +18,7 @@ Weather data from NOAA
 
 ## Communication protocols
 Our main tool for communicating as a group will be Slack. To get in contact urgently we exchanged phone numbers and emails.
+We're also using a Trello board to track our deliverables and outstanding questions: https://trello.com/b/GN9969Z9/green-team-final-project
 
 ## Segment 1 roles
 - Square (repo, updating documentation, eda): Sam
