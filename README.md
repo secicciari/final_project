@@ -43,4 +43,7 @@ We're also using a Trello board to track our deliverables and outstanding questi
 - We trained our model with the county name along with their success in having ideal weather parameters.
 - We found a low accuracy with linear regression, a higher accuracy with random forest, and even higher with the decision tree classifier at almost 70%.  
 - This model will work to take the ideal features (high/low temp, precipitation, snowfall) and determine if "Yes" the area meets ideal weather conditions for growing grapes for the purpose of wine production, or "No", the area does not meet this criteria.
-  
+
+## Project Database
+A mockup database has been created using Postgres via AWS.  A file has been pushed to demonstrate this connection named "wine_pyspark.ipynb".
+Small samples of our actual data were used to test this database. The datasets are included here on GitHub. 
