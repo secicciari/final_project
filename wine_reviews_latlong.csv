@@ -1,0 +1,11 @@
+,latitude,longitude,input_string,number_of_results,status
+0,37.6221504,15.0747503,Nicosia winery Italy,1,OK
+1,41.183402,-7.757935499999999,Quinta dos Avidagos winery Portugal,1,OK
+2,,,Rainstorm winery US,0,ZERO_RESULTS
+3,42.2122513,-85.8917127,St. Julian winery US,1,OK
+4,43.9566698,-123.2791353,Sweet Cheeks winery US,1,OK
+5,42.66744000000001,-1.954268,Tandem winery Spain,1,OK
+6,37.1112433,14.6327287,Terre di Giurfo winery Italy,1,OK
+7,48.1949046,7.3260159,Trimbach winery France,1,OK
+8,49.82541,6.900049999999999,Heinz Eifel winery Germany,2,OK
+9,48.1265682,7.283714199999999,Jean-Baptiste Adam winery France,1,OK
