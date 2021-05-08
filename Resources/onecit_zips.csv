@@ -1,0 +1,1798 @@
+zip,lat,lng,city,state_id,state_name,county_name
+1001,42.06259,-72.62589,Agawam,MA,Massachusetts,Hampden
+1002,42.37492,-72.4621,Amherst,MA,Massachusetts,Hampshire
+1005,42.42017,-72.10615,Barre,MA,Massachusetts,Worcester
+1029,42.19632,-73.04836,East Otis,MA,Massachusetts,Berkshire
+1054,42.47363,-72.48746,Leverett,MA,Massachusetts,Franklin
+1431,42.676520000000004,-71.82321999999999,Ashby,MA,Massachusetts,Middlesex
+1810,42.64655,-71.16505,Andover,MA,Massachusetts,Essex
+2019,42.077740000000006,-71.47409,Bellingham,MA,Massachusetts,Norfolk
+2043,42.21678,-70.88499,Hingham,MA,Massachusetts,Plymouth
+2048,42.016259999999996,-71.21868,Mansfield,MA,Massachusetts,Bristol
+2108,42.35767,-71.06505,Boston,MA,Massachusetts,Suffolk
+2532,41.75162,-70.59728,Buzzards Bay,MA,Massachusetts,Barnstable
+2535,41.34896,-70.74629,Chilmark,MA,Massachusetts,Dukes
+2554,41.285379999999996,-70.07982,Nantucket,MA,Massachusetts,Nantucket
+2802,41.95195,-71.45534,Albion,RI,Rhode Island,Providence
+2804,41.43188,-71.77235999999999,Ashaway,RI,Rhode Island,Washington
+2816,41.69086,-71.61976999999999,Coventry,RI,Rhode Island,Kent
+2835,41.51497,-71.3771,Jamestown,RI,Rhode Island,Newport
+3031,42.87036,-71.6079,Amherst,NH,New Hampshire,Hillsborough
+3032,42.9906,-71.34379,Auburn,NH,New Hampshire,Rockingham
+3046,43.10184,-71.60561,Dunbarton,NH,New Hampshire,Merrimack
+3215,43.9453,-71.45281999999999,Waterville Valley,NH,New Hampshire,Grafton
+3218,43.33463,-71.28921,Barnstead,NH,New Hampshire,Belknap
+3227,43.827740000000006,-71.4678,Center Sandwich,NH,New Hampshire,Carroll
+3280,43.18298,-72.08925,Washington,NH,New Hampshire,Sullivan
+3431,42.96265,-72.29556,Keene,NH,New Hampshire,Cheshire
+3570,44.49905,-71.15716,Berlin,NH,New Hampshire,Coos
+3820,43.188790000000004,-70.88678,Dover,NH,New Hampshire,Strafford
+3901,43.30056,-70.84329,Berwick,ME,Maine,York
+4003,43.73158,-69.98824,Bailey Island,ME,Maine,Cumberland
+4008,44.03716,-69.86206999999999,Bowdoinham,ME,Maine,Sagadahoc
+4010,43.93305,-70.91671,Brownfield,ME,Maine,Oxford
+4210,44.0849,-70.24922,Auburn,ME,Maine,Androscoggin
+4259,44.228359999999995,-70.00856,Monmouth,ME,Maine,Kennebec
+4342,44.07942,-69.73938000000001,Dresden,ME,Maine,Lincoln
+4354,44.396029999999996,-69.42707,Palermo,ME,Maine,Waldo
+4401,44.84923,-68.84479,Bangor,ME,Maine,Penobscot
+4406,45.23454,-69.56989,Abbot,ME,Maine,Piscataquis
+4408,44.99135,-68.23071999999999,Aurora,ME,Maine,Hancock
+4471,45.89108,-67.84714,Orient,ME,Maine,Aroostook
+4478,45.86407,-69.87680999999999,Rockwood,ME,Maine,Somerset
+4547,43.99388,-69.32779000000001,Friendship,ME,Maine,Knox
+5001,43.67222,-72.38133,White River Junction,VT,Vermont,Windsor
+5033,44.00888,-72.15799,Bradford,VT,Vermont,Orange
+5042,44.22756,-72.09962,East Ryegate,VT,Vermont,Caledonia
+5101,43.17899,-72.49454,Bellows Falls,VT,Vermont,Windham
+5152,43.25358,-72.9153,Peru,VT,Vermont,Bennington
+5401,44.476290000000006,-73.20997,Burlington,VT,Vermont,Chittenden
+5440,44.95953,-73.27951999999999,Alburgh,VT,Vermont,Grand Isle
+5442,44.75855,-72.67678000000001,Belvidere Center,VT,Vermont,Lamoille
+5443,44.13347,-73.03668,Bristol,VT,Vermont,Addison
+5701,43.62458,-72.90981,Rutland,VT,Vermont,Rutland
+5820,44.73871,-72.34482,Albany,VT,Vermont,Orleans
+6001,41.7907,-72.85385,Avon,CT,Connecticut,Hartford
+6018,42.02648,-73.30872,Canaan,CT,Connecticut,Litchfield
+6029,41.91503,-72.44946999999999,Ellington,CT,Connecticut,Tolland
+6249,41.63128,-72.2402,Lebanon,CT,Connecticut,New London
+6401,41.34424,-73.0689,Ansonia,CT,Connecticut,New Haven
+6468,41.33786,-73.22506,Monroe,CT,Connecticut,Fairfield
+7002,40.664640000000006,-74.10866999999999,Bayonne,NJ,New Jersey,Hudson
+7005,40.92947,-74.421,Boonton,NJ,New Jersey,Morris
+7010,40.822109999999995,-73.98794000000001,Cliffside Park,NJ,New Jersey,Bergen
+7011,40.878479999999996,-74.14478000000001,Clifton,NJ,New Jersey,Passaic
+7016,40.65643,-74.30357,Cranford,NJ,New Jersey,Union
+7416,41.11589,-74.59775,Franklin,NJ,New Jersey,Sussex
+7701,40.36144,-74.07745,Red Bank,NJ,New Jersey,Monmouth
+7820,40.92708,-74.81142,Allamuchy,NJ,New Jersey,Warren
+7830,40.72104,-74.80747,Califon,NJ,New Jersey,Hunterdon
+8001,39.55073,-75.34976999999999,Alloway,NJ,New Jersey,Salem
+8002,39.931329999999996,-75.02539,Cherry Hill,NJ,New Jersey,Camden
+8005,39.763659999999994,-74.3153,Barnegat,NJ,New Jersey,Ocean
+8010,40.053329999999995,-74.91419,Beverly,NJ,New Jersey,Burlington
+8014,39.81795,-75.35809,Bridgeport,NJ,New Jersey,Gloucester
+8037,39.638000000000005,-74.77275,Hammonton,NJ,New Jersey,Atlantic
+8202,39.10018,-74.73873,Avalon,NJ,New Jersey,Cape May
+8512,40.32022,-74.52660999999999,Cranbury,NJ,New Jersey,Mercer
+10001,40.75065,-73.99718,New York,NY,New York,New York
+10301,40.62846,-74.0962,Staten Island,NY,New York,Richmond
+10451,40.82077,-73.92387,Bronx,NY,New York,Bronx
+10501,41.29448,-73.76075,Amawalk,NY,New York,Westchester
+10509,41.41174,-73.59437,Brewster,NY,New York,Putnam
+10901,41.13876,-74.11615,Suffern,NY,New York,Rockland
+11001,40.72353,-73.70456999999999,Floral Park,NY,New York,Nassau
+11004,40.74628,-73.71148000000001,Glen Oaks,NY,New York,Queens
+11201,40.69463,-73.98971999999999,Brooklyn,NY,New York,Kings
+12007,42.45616,-73.92765,Alcove,NY,New York,Albany
+12008,42.85301,-73.90799,Alplaus,NY,New York,Schenectady
+12010,42.93797,-74.17385999999999,Amsterdam,NY,New York,Montgomery
+12015,42.28262,-73.8272,Athens,NY,New York,Greene
+12017,42.32118,-73.46216,Austerlitz,NY,New York,Columbia
+12018,42.62952,-73.52591,Averill Park,NY,New York,Rensselaer
+12019,42.93075,-73.88635,Ballston Lake,NY,New York,Saratoga
+12025,43.0833,-74.13600000000001,Broadalbin,NY,New York,Fulton
+12031,42.76477,-74.4569,Carlisle,NY,New York,Schoharie
+12064,42.614340000000006,-74.65729,East Worcester,NY,New York,Otsego
+12108,43.57407,-74.44934,Lake Pleasant,NY,New York,Hamilton
+12167,42.420759999999994,-74.58407,Stamford,NY,New York,Delaware
+12401,41.93558,-74.05278,Kingston,NY,New York,Ulster
+12501,41.85964,-73.55856999999999,Amenia,NY,New York,Dutchess
+12901,44.70382,-73.47381999999999,Plattsburgh,NY,New York,Clinton
+12922,44.28808,-74.71793000000001,Childwold,NY,New York,St. Lawrence
+13020,42.81647,-76.07455,Apulia Station,NY,New York,Onondaga
+13021,42.923790000000004,-76.55886,Auburn,NY,New York,Cayuga
+13028,43.2969,-75.93471,Bernhards Bay,NY,New York,Oswego
+13030,43.15504,-75.96070999999999,Bridgeport,NY,New York,Madison
+13040,42.56139,-75.93225,Cincinnatus,NY,New York,Cortland
+13053,42.47462,-76.26598,Dryden,NY,New York,Tompkins
+13054,43.17083,-75.67213000000001,Durhamville,NY,New York,Oneida
+13124,42.64605,-75.81796,North Pitcher,NY,New York,Chenango
+13143,43.233259999999994,-76.71529,Red Creek,NY,New York,Wayne
+13148,42.914640000000006,-76.7847,Seneca Falls,NY,New York,Seneca
+13305,43.89223,-75.42124,Beaver Falls,NY,New York,Lewis
+13324,43.326209999999996,-74.95408,Cold Brook,NY,New York,Herkimer
+13601,43.968379999999996,-75.90673000000001,Watertown,NY,New York,Jefferson
+13732,42.044129999999996,-76.168,Apalachin,NY,New York,Tioga
+13744,42.23865,-75.90912,Castle Creek,NY,New York,Broome
+14001,43.032959999999996,-78.51205,Akron,NY,New York,Erie
+14005,42.916940000000004,-78.2503,Alexander,NY,New York,Genesee
+14008,43.31174,-78.62669,Appleton,NY,New York,Niagara
+14009,42.57462,-78.39319,Arcade,NY,New York,Wyoming
+14041,42.40358,-78.97358,Dayton,NY,New York,Cattaraugus
+14048,42.48052,-79.31161,Dunkirk,NY,New York,Chautauqua
+14414,42.89349,-77.73514,Avon,NY,New York,Livingston
+14415,42.75548,-77.01708,Bellona,NY,New York,Yates
+14420,43.211999999999996,-77.93455,Brockport,NY,New York,Monroe
+14424,42.84815,-77.30818000000001,Canandaigua,NY,New York,Ontario
+14529,42.539970000000004,-77.63825,Perkinsville,NY,New York,Steuben
+14707,42.07738,-78.0605,Allentown,NY,New York,Allegany
+14805,42.35884,-76.72417,Alpine,NY,New York,Schuyler
+14814,42.15003,-76.95274,Big Flats,NY,New York,Chemung
+15001,40.59209,-80.31976,Aliquippa,PA,Pennsylvania,Beaver
+15006,40.63357,-79.87680999999999,Bairdford,PA,Pennsylvania,Allegheny
+15012,40.15883,-79.81218,Belle Vernon,PA,Pennsylvania,Westmoreland
+15401,39.90108,-79.74724,Uniontown,PA,Pennsylvania,Fayette
+15521,40.19912,-78.635,Alum Bank,PA,Pennsylvania,Bedford
+15673,40.5938,-79.5563,North Apollo,PA,Pennsylvania,Armstrong
+15681,40.50095,-79.43852,Saltsburg,PA,Pennsylvania,Indiana
+15714,40.64535,-78.82308,Northern Cambria,PA,Pennsylvania,Cambria
+15721,40.81462,-78.79247,Burnside,PA,Pennsylvania,Clearfield
+15821,41.35537,-78.36769,Benezett,PA,Pennsylvania,Elk
+15832,41.35637,-78.19169000000001,Driftwood,PA,Pennsylvania,Cameron
+16001,40.9095,-79.9438,Butler,PA,Pennsylvania,Butler
+16028,40.95792,-79.63701999999999,East Brady,PA,Pennsylvania,Clarion
+16101,40.98532,-80.28716,New Castle,PA,Pennsylvania,Lawrence
+16110,41.50609,-80.3849,Adamsville,PA,Pennsylvania,Crawford
+16217,41.33655,-79.18477,Cooksburg,PA,Pennsylvania,Forest
+16301,41.45555,-79.6353,Oil City,PA,Pennsylvania,Venango
+16333,41.70345,-78.92856,Ludlow,PA,Pennsylvania,McKean
+16601,40.555659999999996,-78.37018,Altoona,PA,Pennsylvania,Blair
+16611,40.5674,-78.10768,Alexandria,PA,Pennsylvania,Huntingdon
+16677,40.811809999999994,-78.24365999999999,Sandy Ridge,PA,Pennsylvania,Centre
+16720,41.5841,-78.03707,Austin,PA,Pennsylvania,Potter
+16914,41.86377,-76.78241,Columbia Cross Roads,PA,Pennsylvania,Bradford
+17002,40.50755,-77.83922,Allensville,PA,Pennsylvania,Mifflin
+17003,40.36394,-76.5649,Annville,PA,Pennsylvania,Lebanon
+17005,40.60285,-76.80968,Berrysburg,PA,Pennsylvania,Dauphin
+17006,40.28559,-77.54373000000001,Blain,PA,Pennsylvania,Perry
+17017,40.64332,-76.88259000000001,Dalmatia,PA,Pennsylvania,Northumberland
+17021,40.33957,-77.65933000000001,East Waterford,PA,Pennsylvania,Juniata
+17022,40.16632,-76.60866999999999,Elizabethtown,PA,Pennsylvania,Lancaster
+17301,39.89062,-76.9803,Abbottstown,PA,Pennsylvania,Adams
+17701,41.33749,-76.90231999999999,Williamsport,PA,Pennsylvania,Lycoming
+17812,40.74069,-77.22815,Beaver Springs,PA,Pennsylvania,Snyder
+17821,40.98871,-76.63927,Danville,PA,Pennsylvania,Montour
+17901,40.69364,-76.25520999999999,Pottsville,PA,Pennsylvania,Schuylkill
+18011,40.47124,-75.64643000000001,Alburtis,PA,Pennsylvania,Lehigh
+18013,40.85301,-75.17174,Bangor,PA,Pennsylvania,Northampton
+18030,40.80223,-75.66404,Bowmanstown,PA,Pennsylvania,Carbon
+18056,40.4491,-75.54912,Hereford,PA,Pennsylvania,Berks
+18077,40.56687,-75.2435,Riegelsville,PA,Pennsylvania,Bucks
+18201,40.948879999999996,-75.95625,Hazleton,PA,Pennsylvania,Luzerne
+18324,41.15197,-75.00303000000001,Bushkill,PA,Pennsylvania,Pike
+18403,41.50042,-75.52959,Archbald,PA,Pennsylvania,Lackawanna
+18413,41.64816,-75.58949,Clifford,PA,Pennsylvania,Susquehanna
+19087,40.06116,-75.39986999999999,Wayne,PA,Pennsylvania,Chester
+19102,39.952870000000004,-75.16549,Philadelphia,PA,Pennsylvania,Philadelphia
+19701,39.58435,-75.69939000000001,Bear,DE,Delaware,New Castle
+20105,38.96273,-77.61001999999999,Aldie,VA,Virginia,Loudoun
+20106,38.68699,-78.01175,Amissville,VA,Virginia,Culpeper
+20109,38.79282,-77.52658000000001,Manassas,VA,Virginia,Prince William
+20110,38.74711,-77.48591,Manassas,VA,Virginia,Manassas
+20115,38.82155,-77.9001,Marshall,VA,Virginia,Fauquier
+20120,38.85433,-77.47715,Centreville,VA,Virginia,Fairfax
+20130,39.02747,-77.9491,Paris,VA,Virginia,Clarke
+20601,38.6137,-76.85088,Waldorf,MD,Maryland,Charles
+20606,38.25952,-76.73699,Abell,MD,Maryland,St. Mary's
+20607,38.672270000000005,-77.02018000000001,Accokeek,MD,Maryland,Prince George's
+20615,38.42013,-76.54786,Broomes Island,MD,Maryland,Calvert
+20701,39.12627,-76.78423000000001,Annapolis Junction,MD,Maryland,Howard
+20711,38.80509,-76.65199,Lothian,MD,Maryland,Anne Arundel
+21001,39.51073,-76.2006,Aberdeen,MD,Maryland,Harford
+21013,39.50906,-76.48647,Baldwin,MD,Maryland,Baltimore
+21520,39.62474,-79.3015,Accident,MD,Maryland,Garrett
+21601,38.79377,-76.08178000000001,Easton,MD,Maryland,Talbot
+21607,39.13272,-75.85418,Barclay,MD,Maryland,Queen Anne's
+21613,38.49315,-76.07341,Cambridge,MD,Maryland,Dorchester
+21629,38.86273,-75.82791999999999,Denton,MD,Maryland,Caroline
+21701,39.44605,-77.33495,Frederick,MD,Maryland,Frederick
+21801,38.38055,-75.64148,Salisbury,MD,Maryland,Wicomico
+21901,39.58572,-75.95843,North East,MD,Maryland,Cecil
+22046,38.88711,-77.18075999999999,Falls Church,VA,Virginia,Falls Church
+22201,38.88665,-77.09518,Arlington,VA,Virginia,Arlington
+22301,38.82002,-77.05960999999999,Alexandria,VA,Virginia,Alexandria
+22401,38.29918,-77.48713000000001,Fredericksburg,VA,Virginia,Fredericksburg
+22405,38.31521,-77.40371,Fredericksburg,VA,Virginia,Stafford
+22407,38.2834,-77.57529,Fredericksburg,VA,Virginia,Spotsylvania
+22448,38.3405,-77.03217,Dahlgren,VA,Virginia,King George
+22601,39.17472,-78.17353,Winchester,VA,Virginia,Winchester
+22623,38.85156,-78.13736999999999,Chester Gap,VA,Virginia,Rappahannock
+22641,39.08061,-78.39151,Strasburg,VA,Virginia,Shenandoah
+22650,38.759570000000004,-78.35993,Rileyville,VA,Virginia,Page
+22801,38.40459,-78.87716,Harrisonburg,VA,Virginia,Harrisonburg
+22843,38.368520000000004,-79.16038,Mount Solon,VA,Virginia,Augusta
+22901,38.088440000000006,-78.55617,Charlottesville,VA,Virginia,Albemarle
+22902,37.95389,-78.46996999999999,Charlottesville,VA,Virginia,Charlottesville
+22920,37.97724,-78.81071,Afton,VA,Virginia,Nelson
+22942,38.10968,-78.19864,Gordonsville,VA,Virginia,Louisa
+22963,37.84921,-78.28843,Palmyra,VA,Virginia,Fluvanna
+22980,38.09565,-78.88513,Waynesboro,VA,Virginia,Waynesboro
+23002,37.35065,-77.96876999999999,Amelia Court House,VA,Virginia,Amelia
+23004,37.68225,-78.40866,Arvonia,VA,Virginia,Buckingham
+23005,37.75956,-77.48221,Ashland,VA,Virginia,Hanover
+23009,37.81386,-77.18737,Aylett,VA,Virginia,King William
+23011,37.47681,-76.80954,Barhamsville,VA,Virginia,New Kent
+23021,37.39782,-76.37016,Bohannon,VA,Virginia,Mathews
+23023,37.778659999999995,-76.95957,Bruington,VA,Virginia,King and Queen
+23030,37.346270000000004,-77.05928,Charles City,VA,Virginia,Charles City
+23038,37.75544,-78.14779,Columbia,VA,Virginia,Goochland
+23059,37.704879999999996,-77.56251,Glen Allen,VA,Virginia,Henrico
+23112,37.434979999999996,-77.66207,Midlothian,VA,Virginia,Chesterfield
+23139,37.54972,-77.93374,Powhatan,VA,Virginia,Powhatan
+23168,37.39997,-76.82728,Toano,VA,Virginia,James City
+23187,37.26743,-76.72078,Williamsburg,VA,Virginia,Williamsburg
+23301,37.68333,-75.63618000000001,Accomac,VA,Virginia,Accomack
+23304,36.9961,-76.57063000000001,Battery Park,VA,Virginia,Isle of Wight
+23320,36.75193,-76.2183,Chesapeake,VA,Virginia,Chesapeake
+23451,36.86739,-76.00587,Virginia Beach,VA,Virginia,Virginia Beach
+23601,37.05863,-76.46392,Newport News,VA,Virginia,Newport News
+23651,37.009170000000005,-76.30503,Fort Monroe,VA,Virginia,Hampton
+23662,37.131809999999994,-76.35673,Poquoson,VA,Virginia,Poquoson
+23701,36.811809999999994,-76.37078000000001,Portsmouth,VA,Virginia,Portsmouth
+23801,37.23535,-77.3353,Fort Lee,VA,Virginia,Prince George
+23803,37.21232,-77.48143,Petersburg,VA,Virginia,Petersburg
+23821,36.88067,-77.92043000000001,Alberta,VA,Virginia,Brunswick
+23824,37.089620000000004,-77.96734000000001,Blackstone,VA,Virginia,Nottoway
+23827,36.61059,-77.2012,Boykins,VA,Virginia,Southampton
+23833,37.2077,-77.6727,Church Road,VA,Virginia,Dinwiddie
+23834,37.28974,-77.40366,Colonial Heights,VA,Virginia,Colonial Heights
+23839,37.07982,-76.91887,Dendron,VA,Virginia,Surry
+23847,36.670429999999996,-77.55067,Emporia,VA,Virginia,Greensville
+23860,37.27984,-77.21731,Hopewell,VA,Virginia,Hopewell
+23901,37.31622,-78.41609,Farmville,VA,Virginia,Prince Edward
+23915,36.70149,-78.28676999999999,Baskerville,VA,Virginia,Mecklenburg
+23923,37.09234,-78.64394,Charlotte Court House,VA,Virginia,Charlotte
+23944,36.90668,-78.13427,Kenbridge,VA,Virginia,Lunenburg
+23958,37.26651,-78.65975,Pamplin,VA,Virginia,Appomattox
+24011,37.27044,-79.94126999999999,Roanoke,VA,Virginia,Roanoke
+24053,36.608579999999996,-80.53375,Ararat,VA,Virginia,Patrick
+24054,36.67394,-79.70510999999999,Axton,VA,Virginia,Henry
+24058,37.18414,-80.6157,Belspring,VA,Virginia,Pulaski
+24064,37.37194,-79.77645,Blue Ridge,VA,Virginia,Botetourt
+24069,36.58325,-79.63481,Cascade,VA,Virginia,Pittsylvania
+24072,37.03633,-80.2329,Check,VA,Virginia,Floyd
+24086,37.27426,-80.6343,Eggleston,VA,Virginia,Giles
+24127,37.486309999999996,-80.19046,New Castle,VA,Virginia,Craig
+24141,37.09487,-80.56832,Radford,VA,Virginia,Radford
+24216,36.9437,-82.79763,Appalachia,VA,Virginia,Wise
+24217,37.08415,-82.17205,Bee,VA,Virginia,Dickenson
+24221,36.63361,-82.99548,Blackwater,VA,Virginia,Lee
+24224,36.862320000000004,-82.28197,Castlewood,VA,Virginia,Russell
+24239,37.113479999999996,-82.15014000000001,Davenport,VA,Virginia,Buchanan
+24244,36.71568,-82.78923,Duffield,VA,Virginia,Scott
+24273,36.96167,-82.65647,Norton,VA,Virginia,Norton
+24292,36.61457,-81.57778,Whitetop,VA,Virginia,Grayson
+24311,36.88173,-81.40915,Atkins,VA,Virginia,Smyth
+24313,36.90827,-80.80658000000001,Barren Springs,VA,Virginia,Wythe
+24314,37.16731,-81.21383,Bastian,VA,Virginia,Bland
+24316,36.95465,-81.67291,Broadford,VA,Virginia,Tazewell
+24333,36.63834,-80.92883,Galax,VA,Virginia,Galax
+24401,38.13353,-79.08591,Staunton,VA,Virginia,Staunton
+24412,38.05505,-79.82804,Bacova,VA,Virginia,Bath
+24413,38.52851,-79.59324000000001,Blue Grass,VA,Virginia,Highland
+24415,37.925059999999995,-79.31711,Brownsburg,VA,Virginia,Rockbridge
+24416,37.7223,-79.3607,Buena Vista,VA,Virginia,Buena Vista
+24422,37.82994,-79.75643000000001,Clifton Forge,VA,Virginia,Alleghany
+24501,37.353,-79.15576,Lynchburg,VA,Virginia,Lynchburg
+24517,37.149370000000005,-79.22977,Altavista,VA,Virginia,Campbell
+24520,36.58395,-79.03673,Alton,VA,Virginia,Halifax
+24521,37.63442,-79.09689,Amherst,VA,Virginia,Amherst
+24540,36.64309,-79.4234,Danville,VA,Virginia,Danville
+24801,37.442609999999995,-81.5776,Welch,WV,West Virginia,McDowell
+24846,37.53033,-81.90864,Isaban,WV,West Virginia,Mingo
+24901,37.84062,-80.46534,Lewisburg,WV,West Virginia,Greenbrier
+24915,38.46521,-79.77636,Arbovale,WV,West Virginia,Pocahontas
+24935,37.56075,-80.81113,Forest Hill,WV,West Virginia,Summers
+25005,38.58088,-81.26921,Amma,WV,West Virginia,Roane
+25007,37.825359999999996,-81.42866,Arnett,WV,West Virginia,Raleigh
+25009,38.191990000000004,-81.71202,Ashford,WV,West Virginia,Boone
+25015,38.24257,-81.50234,Belle,WV,West Virginia,Kanawha
+25019,38.37293,-81.08679000000001,Bickmore,WV,West Virginia,Clay
+25022,37.85869,-81.8117,Blair,WV,West Virginia,Logan
+25063,38.58235,-80.93417,Duck,WV,West Virginia,Braxton
+25106,38.78321,-82.08843,Henderson,WV,West Virginia,Mason
+25234,38.8106,-81.12968000000001,Arnoldsburg,WV,West Virginia,Calhoun
+25239,38.84049,-81.8431,Cottageville,WV,West Virginia,Jackson
+25267,38.84773,-80.94138000000001,Normantown,WV,West Virginia,Gilmer
+25401,39.45683,-77.97265,Martinsburg,WV,West Virginia,Berkeley
+25411,39.55551,-78.21892,Berkeley Springs,WV,West Virginia,Morgan
+25504,38.373290000000004,-82.26409,Barboursville,WV,West Virginia,Cabell
+26003,40.07399,-80.64996,Wheeling,WV,West Virginia,Ohio
+26030,40.22631,-80.65581,Beech Bottom,WV,West Virginia,Brooke
+26031,40.008379999999995,-80.72245,Benwood,WV,West Virginia,Marshall
+26101,39.23903,-81.5762,Parkersburg,WV,West Virginia,Wood
+26134,39.367979999999996,-81.2876,Belmont,WV,West Virginia,Pleasants
+26138,39.028690000000005,-81.20432,Brohard,WV,West Virginia,Wirt
+26146,39.45283,-81.04397,Friendly,WV,West Virginia,Tyler
+26148,39.06903,-81.18634,Macfarlan,WV,West Virginia,Ritchie
+26155,39.63218,-80.76541,New Martinsville,WV,West Virginia,Wetzel
+26201,39.00049,-80.20388,Buckhannon,WV,West Virginia,Upshur
+26202,38.21812,-80.61906,Fenwick,WV,West Virginia,Nicholas
+26203,38.54088,-80.58269,Erbacon,WV,West Virginia,Webster
+26224,38.740320000000004,-80.18293,Helvetia,WV,West Virginia,Randolph
+26238,39.10308,-80.15939,Volga,WV,West Virginia,Barbour
+26260,39.07893,-79.41767,Davis,WV,West Virginia,Tucker
+26301,39.28976,-80.37938,Clarksburg,WV,West Virginia,Harrison
+26339,39.41965,-80.61062,Center Point,WV,West Virginia,Doddridge
+26347,39.25656,-80.12613,Flemington,WV,West Virginia,Taylor
+26374,39.45058,-79.87894,Independence,WV,West Virginia,Preston
+26501,39.630140000000004,-80.04138,Morgantown,WV,West Virginia,Monongalia
+26554,39.4668,-80.11485,Fairmont,WV,West Virginia,Marion
+26707,39.22442,-79.39584,Bayard,WV,West Virginia,Grant
+26710,39.307190000000006,-78.94228000000001,Burlington,WV,West Virginia,Mineral
+26801,39.05028,-78.80364,Baker,WV,West Virginia,Hardy
+26802,38.627520000000004,-79.19655,Brandywine,WV,West Virginia,Pendleton
+27006,35.94454,-80.43766,Advance,NC,North Carolina,Davie
+27009,36.233059999999995,-80.07611999999999,Belews Creek,NC,North Carolina,Forsyth
+27011,36.2156,-80.69667,Boonville,NC,North Carolina,Yadkin
+27013,35.75594,-80.70351,Cleveland,NC,North Carolina,Rowan
+27016,36.451679999999996,-80.21452,Danbury,NC,North Carolina,Stokes
+27201,36.034240000000004,-79.48485,Alamance,NC,North Carolina,Alamance
+27207,35.60548,-79.39299,Bear Creek,NC,North Carolina,Chatham
+27212,36.46058,-79.28064,Blanch,NC,North Carolina,Caswell
+27214,36.21252,-79.67859,Browns Summit,NC,North Carolina,Guilford
+27239,35.60758,-80.08959,Denton,NC,North Carolina,Davidson
+27242,35.33052,-79.63977,Eagle Springs,NC,North Carolina,Moore
+27343,36.50309,-79.09172,Semora,NC,North Carolina,Person
+27501,35.48576,-78.68494,Angier,NC,North Carolina,Harnett
+27502,35.7201,-78.91507,Apex,NC,North Carolina,Wake
+27503,36.159259999999996,-78.8778,Bahama,NC,North Carolina,Durham
+27504,35.39897,-78.51901,Benson,NC,North Carolina,Johnston
+27507,36.51271,-78.56306,Bullock,NC,North Carolina,Granville
+27536,36.32669,-78.40883000000001,Henderson,NC,North Carolina,Vance
+27557,35.77609,-78.19922,Middlesex,NC,North Carolina,Nash
+27801,35.9155,-77.7361,Rocky Mount,NC,North Carolina,Edgecombe
+27805,36.20783,-77.08434,Aulander,NC,North Carolina,Hertford
+27806,35.297270000000005,-76.76526,Aurora,NC,North Carolina,Beaufort
+27812,35.81566,-77.36924,Bethel,NC,North Carolina,Pitt
+27813,35.63089,-77.93603,Black Creek,NC,North Carolina,Wilson
+27824,35.52145,-76.03258000000001,Engelhard,NC,North Carolina,Hyde
+27825,35.832809999999995,-77.17446,Everetts,NC,North Carolina,Martin
+27847,36.1846,-77.18907,Kelford,NC,North Carolina,Bertie
+27909,36.29548,-76.28394,Elizabeth City,NC,North Carolina,Pasquotank
+27915,35.403209999999994,-75.4953,Avon,NC,North Carolina,Dare
+27916,36.32212,-75.91509,Aydlett,NC,North Carolina,Currituck
+27919,36.31187,-76.50347,Belvidere,NC,North Carolina,Perquimans
+27925,35.84819,-76.19669,Columbia,NC,North Carolina,Tyrrell
+27926,36.51685,-76.6078,Corapeake,NC,North Carolina,Gates
+27932,36.1007,-76.60011999999999,Edenton,NC,North Carolina,Chowan
+28001,35.33623,-80.20477,Albemarle,NC,North Carolina,Stanly
+28006,35.4069,-81.09465,Alexis,NC,North Carolina,Gaston
+28007,35.10451,-80.10989000000001,Ansonville,NC,North Carolina,Anson
+28017,35.24709,-81.67063,Boiling Springs,NC,North Carolina,Cleveland
+28018,35.483779999999996,-81.79521,Bostic,NC,North Carolina,Rutherford
+28025,35.38042,-80.5279,Concord,NC,North Carolina,Cabarrus
+28115,35.57956,-80.77328,Mooresville,NC,North Carolina,Iredell
+28318,35.01788,-78.61414,Autryville,NC,North Carolina,Sampson
+28320,34.5518,-78.77337,Bladenboro,NC,North Carolina,Bladen
+28325,35.15392,-78.1042,Calypso,NC,North Carolina,Duplin
+28340,34.471990000000005,-79.14074000000001,Fairmont,NC,North Carolina,Robeson
+28343,34.7635,-79.58189,Gibson,NC,North Carolina,Scotland
+28376,34.9919,-79.24262,Raeford,NC,North Carolina,Hoke
+28401,34.27257,-77.96332,Wilmington,NC,North Carolina,New Hanover
+28421,34.52082,-78.17817,Atkinson,NC,North Carolina,Pender
+28423,34.31178,-78.39381,Bolton,NC,North Carolina,Columbus
+28445,34.51045,-77.54669,Holly Ridge,NC,North Carolina,Onslow
+28501,35.24439,-77.5219,Kinston,NC,North Carolina,Lenoir
+28510,35.00388,-76.80688,Arapahoe,NC,North Carolina,Pamlico
+28511,34.8996,-76.35195,Atlantic,NC,North Carolina,Carteret
+28519,35.123740000000005,-77.02169,Bridgeton,NC,North Carolina,Craven
+28573,34.9965,-77.19904,Pollocksville,NC,North Carolina,Jones
+28601,35.772529999999996,-81.32634,Hickory,NC,North Carolina,Catawba
+28604,36.1772,-81.8479,Banner Elk,NC,North Carolina,Watauga
+28606,36.05343,-81.31883,Boomer,NC,North Carolina,Wilkes
+28611,36.01102,-81.73527,Collettsville,NC,North Carolina,Caldwell
+28612,35.66086,-81.54008,Connelly Springs,NC,North Carolina,Burke
+28615,36.46267,-81.65856,Creston,NC,North Carolina,Ashe
+28616,36.02313,-81.92013,Crossnore,NC,North Carolina,Avery
+28636,35.94324,-81.06397,Hiddenite,NC,North Carolina,Alexander
+28701,35.70239,-82.64105,Alexander,NC,North Carolina,Buncombe
+28702,35.39966,-83.62051,Almond,NC,North Carolina,Graham
+28705,36.04365,-82.15888000000001,Bakersville,NC,North Carolina,Mitchell
+28708,35.2714,-82.86267,Balsam Grove,NC,North Carolina,Transylvania
+28713,35.36935,-83.50254,Bryson City,NC,North Carolina,Swain
+28714,35.89376,-82.31145,Burnsville,NC,North Carolina,Yancey
+28716,35.43589,-82.86109,Canton,NC,North Carolina,Haywood
+28722,35.23413,-82.1247,Columbus,NC,North Carolina,Polk
+28726,35.28118,-82.4182,East Flat Rock,NC,North Carolina,Henderson
+28734,35.1828,-83.42108,Franklin,NC,North Carolina,Macon
+28901,35.19808,-83.81034,Andrews,NC,North Carolina,Cherokee
+29001,33.7835,-80.17251999999999,Alcolu,SC,South Carolina,Clarendon
+29003,33.240559999999995,-81.01545,Bamberg,SC,South Carolina,Bamberg
+29006,33.870290000000004,-81.55054,Batesburg,SC,South Carolina,Lexington
+29009,34.43983,-80.37879000000001,Bethune,SC,South Carolina,Kershaw
+29016,34.20244,-80.99575,Blythewood,SC,South Carolina,Richland
+29018,33.345240000000004,-80.64534,Bowman,SC,South Carolina,Orangeburg
+29037,34.18558,-81.86437,Chappells,SC,South Carolina,Newberry
+29040,34.0593,-80.43427,Dalzell,SC,South Carolina,Sumter
+29069,34.1862,-80.09626999999999,Lamar,SC,South Carolina,Darlington
+29082,33.037729999999996,-80.94174,Lodge,SC,South Carolina,Colleton
+29105,33.80843,-81.59564,Monetta,SC,South Carolina,Aiken
+29114,33.9537,-79.93236999999999,Olanta,SC,South Carolina,Florence
+29138,34.044540000000005,-81.77280999999999,Saluda,SC,South Carolina,Saluda
+29301,34.93486,-82.01161,Spartanburg,SC,South Carolina,Spartanburg
+29325,34.47227,-81.84268,Clinton,SC,South Carolina,Laurens
+29401,32.778690000000005,-79.93494,Charleston,SC,South Carolina,Charleston
+29440,33.37712,-79.329,Georgetown,SC,South Carolina,Georgetown
+29511,33.97729,-79.11497,Aynor,SC,South Carolina,Horry
+29512,34.62635,-79.70984,Bennettsville,SC,South Carolina,Marlboro
+29536,34.41899,-79.37304,Dillon,SC,South Carolina,Dillon
+29601,34.847770000000004,-82.4027,Greenville,SC,South Carolina,Greenville
+29620,34.17875,-82.42872,Abbeville,SC,South Carolina,Abbeville
+29621,34.50703,-82.60538000000001,Anderson,SC,South Carolina,Anderson
+29630,34.74024,-82.79867,Central,SC,South Carolina,Pickens
+29643,34.51182,-83.00057,Fair Play,SC,South Carolina,Oconee
+29646,34.13472,-82.15202,Greenwood,SC,South Carolina,Greenwood
+29810,32.995329999999996,-81.37633000000001,Allendale,SC,South Carolina,Allendale
+29812,33.22683,-81.44135,Barnwell,SC,South Carolina,Barnwell
+29821,33.643809999999995,-82.11184,Clarks Hill,SC,South Carolina,McCormick
+29824,33.819390000000006,-81.99726,Edgefield,SC,South Carolina,Edgefield
+29912,32.58262,-80.93074,Coosawhatchie,SC,South Carolina,Jasper
+30002,33.77366,-84.26051,Avondale Estates,GA,Georgia,DeKalb
+30008,33.89629,-84.58926,Marietta,GA,Georgia,Cobb
+30011,34.02235,-83.83769000000001,Auburn,GA,Georgia,Barrow
+30012,33.71884,-83.99866,Conyers,GA,Georgia,Rockdale
+30014,33.57828,-83.82048,Covington,GA,Georgia,Newton
+30017,33.89012,-83.96318000000001,Grayson,GA,Georgia,Gwinnett
+30025,33.65591,-83.69573000000001,Social Circle,GA,Georgia,Walton
+30103,34.366609999999994,-84.92071,Adairsville,GA,Georgia,Bartow
+30110,33.742,-85.13332,Bremen,GA,Georgia,Haralson
+30122,33.76298,-84.63819000000001,Lithia Springs,GA,Georgia,Douglas
+30132,33.98839,-84.85866999999999,Dallas,GA,Georgia,Paulding
+30139,34.43329,-84.70868,Fairmount,GA,Georgia,Gordon
+30204,33.05729,-84.12512,Barnesville,GA,Georgia,Lamar
+30216,33.23701,-83.88471,Flovilla,GA,Georgia,Butts
+30217,33.28598,-85.1303,Franklin,GA,Georgia,Heard
+30218,33.12743,-84.58358,Gay,GA,Georgia,Meriwether
+30220,33.22505,-84.82432,Grantville,GA,Georgia,Coweta
+30223,33.28629,-84.27968,Griffin,GA,Georgia,Spalding
+30230,33.1642,-84.92214,Hogansville,GA,Georgia,Troup
+30236,33.52244,-84.32426,Jonesboro,GA,Georgia,Clayton
+30285,32.98852,-84.24909,The Rock,GA,Georgia,Upson
+30401,32.6005,-82.35204,Swainsboro,GA,Georgia,Emanuel
+30411,32.12818,-82.79817,Alamo,GA,Georgia,Wheeler
+30415,32.32629,-81.60191,Brooklet,GA,Georgia,Bulloch
+30417,32.17323,-81.9202,Claxton,GA,Georgia,Evans
+30420,32.28838,-82.15678,Cobbtown,GA,Georgia,Tattnall
+30436,32.1519,-82.28907,Lyons,GA,Georgia,Toombs
+30439,32.40569,-82.07648,Metter,GA,Georgia,Candler
+30442,32.801790000000004,-81.98904,Millen,GA,Georgia,Jenkins
+30446,32.56752,-81.46858,Newington,GA,Georgia,Screven
+30457,32.40041,-82.5676,Soperton,GA,Georgia,Treutlen
+30501,34.31855,-83.81615,Gainesville,GA,Georgia,Hall
+30510,34.44178,-83.58277,Alto,GA,Georgia,Habersham
+30511,34.457409999999996,-83.476,Baldwin,GA,Georgia,Banks
+30513,34.824259999999995,-84.31999,Blue Ridge,GA,Georgia,Fannin
+30516,34.37562,-83.03707,Bowersville,GA,Georgia,Hart
+30525,34.9087,-83.37164,Clayton,GA,Georgia,Rabun
+30528,34.61549,-83.79491999999999,Cleveland,GA,Georgia,White
+30533,34.5641,-84.01541,Dahlonega,GA,Georgia,Lumpkin
+30534,34.43887,-84.15074,Dawsonville,GA,Georgia,Dawson
+30538,34.504059999999996,-83.26611,Eastanollee,GA,Georgia,Stephens
+30546,34.9088,-83.70729,Hiawassee,GA,Georgia,Towns
+30619,33.85751,-83.24105,Arnoldsville,GA,Georgia,Oglethorpe
+30624,34.18721,-83.04685,Bowman,GA,Georgia,Elbert
+30631,33.5678,-82.87594,Crawfordville,GA,Georgia,Taliaferro
+30705,34.750170000000004,-84.74898,Chatsworth,GA,Georgia,Murray
+30707,34.776379999999996,-85.36036999999999,Chickamauga,GA,Georgia,Walker
+30710,34.950590000000005,-84.91745999999999,Cohutta,GA,Georgia,Whitfield
+30726,34.97625,-85.13959,Graysville,GA,Georgia,Catoosa
+30730,34.35946,-85.42125,Lyerly,GA,Georgia,Chattooga
+30738,34.79667,-85.47851999999999,Rising Fawn,GA,Georgia,Dade
+30808,33.38342,-82.39349,Dearing,GA,Georgia,McDuffie
+30810,33.23621,-82.58915,Gibson,GA,Georgia,Glascock
+31001,31.97547,-83.34065,Abbeville,GA,Georgia,Wilcox
+31003,32.60626,-83.21248,Allentown,GA,Georgia,Wilkinson
+31005,32.5444,-83.59733,Bonaire,GA,Georgia,Houston
+31007,32.18894,-83.93315,Byromville,GA,Georgia,Dooly
+31008,32.65603,-83.78253000000001,Byron,GA,Georgia,Peach
+31011,32.12692,-83.06217,Chauncey,GA,Georgia,Dodge
+31014,32.41366,-83.34473,Cochran,GA,Georgia,Bleckley
+31015,31.93552,-83.7753,Cordele,GA,Georgia,Crisp
+31017,32.61857,-83.23188,Danville,GA,Georgia,Twiggs
+31037,32.11228,-82.92721,McRae Helena,GA,Georgia,Telfair
+31049,32.68759,-82.52365999999999,Kite,GA,Georgia,Johnson
+31052,32.77312,-83.84470999999999,Lizella,GA,Georgia,Bibb
+31061,33.076159999999994,-83.24655,Milledgeville,GA,Georgia,Baldwin
+31301,31.75285,-81.60849,Allenhurst,GA,Georgia,Liberty
+31302,32.12245,-81.34075,Bloomingdale,GA,Georgia,Effingham
+31304,31.509059999999998,-81.35236,Crescent,GA,Georgia,McIntosh
+31308,32.17485,-81.48045,Ellabell,GA,Georgia,Bryan
+31316,31.71717,-81.72851,Ludowici,GA,Georgia,Long
+31501,31.22438,-82.35061,Waycross,GA,Georgia,Ware
+31510,31.545820000000003,-82.44053000000001,Alma,GA,Georgia,Bacon
+31512,31.54332,-83.01451,Ambrose,GA,Georgia,Coffee
+31513,31.77745,-82.34738,Baxley,GA,Georgia,Appling
+31516,31.30995,-82.25525,Blackshear,GA,Georgia,Pierce
+31520,31.180709999999998,-81.49481999999999,Brunswick,GA,Georgia,Glynn
+31532,31.72255,-82.75263000000001,Denton,GA,Georgia,Jeff Davis
+31537,30.89309,-82.00974000000001,Folkston,GA,Georgia,Charlton
+31542,31.14309,-82.12071,Hoboken,GA,Georgia,Brantley
+31601,30.751590000000004,-83.34206999999999,Valdosta,GA,Georgia,Lowndes
+31620,31.118409999999997,-83.43765,Adel,GA,Georgia,Cook
+31622,31.379590000000004,-83.20569,Alapaha,GA,Georgia,Berrien
+31623,31.07443,-82.64407,Argyle,GA,Georgia,Clinch
+31624,31.29846,-82.72140999999999,Axson,GA,Georgia,Atkinson
+31625,30.9931,-83.52844,Barney,GA,Georgia,Brooks
+31626,30.775579999999998,-83.80105999999999,Boston,GA,Georgia,Thomas
+31635,31.10395,-83.05415,Lakeland,GA,Georgia,Lanier
+31648,30.706490000000002,-83.01903,Statenville,GA,Georgia,Echols
+31701,31.55299,-84.15824,Albany,GA,Georgia,Dougherty
+31714,31.71538,-83.68522,Ashburn,GA,Georgia,Turner
+31722,31.06731,-83.62254,Berlin,GA,Georgia,Colquitt
+31733,31.59177,-83.48964000000001,Chula,GA,Georgia,Tift
+31750,31.73354,-83.21609000000001,Fitzgerald,GA,Georgia,Ben Hill
+31772,31.72508,-83.95683000000001,Oakfield,GA,Georgia,Worth
+31774,31.558759999999996,-83.2738,Ocilla,GA,Georgia,Irwin
+31804,32.66248,-84.88516,Cataula,GA,Georgia,Harris
+31805,32.26851,-84.74498,Cusseta,GA,Georgia,Chattahoochee
+31806,32.26545,-84.30895,Ellaville,GA,Georgia,Schley
+31814,32.196940000000005,-84.85512,Louvale,GA,Georgia,Stewart
+31820,32.57942,-84.82601,Midland,GA,Georgia,Muscogee
+32008,29.91651,-82.91313000000001,Branford,FL,Florida,Suwannee
+32033,29.788990000000002,-81.44175,Elkton,FL,Florida,St. Johns
+32040,30.243470000000002,-82.23885,Glen Saint Mary,FL,Florida,Baker
+32066,30.03677,-83.23398,Mayo,FL,Florida,Lafayette
+32102,29.1468,-81.56166,Astor,FL,Florida,Lake
+32110,29.42166,-81.33933,Bunnell,FL,Florida,Flagler
+32114,29.193929999999998,-81.05145,Daytona Beach,FL,Florida,Volusia
+32202,30.325029999999998,-81.64801999999999,Jacksonville,FL,Florida,Duval
+32301,30.425629999999998,-84.25823000000001,Tallahassee,FL,Florida,Leon
+32324,30.6525,-84.79151999999999,Chattahoochee,FL,Florida,Gadsden
+32327,30.18667,-84.30565,Crawfordville,FL,Florida,Wakulla
+32401,30.159779999999998,-85.6608,Panama City,FL,Florida,Bay
+32425,30.855179999999997,-85.72081999999999,Bonifay,FL,Florida,Holmes
+32456,29.807129999999997,-85.30265,Port Saint Joe,FL,Florida,Gulf
+32501,30.4284,-87.22238,Pensacola,FL,Florida,Escambia
+32530,30.598229999999997,-87.03036999999999,Bagdad,FL,Florida,Santa Rosa
+32531,30.87685,-86.69100999999999,Baker,FL,Florida,Okaloosa
+32601,29.64888,-82.32498000000001,Gainesville,FL,Florida,Alachua
+32619,29.76169,-82.86261999999999,Bell,FL,Florida,Gilchrist
+32621,29.42527,-82.62331,Bronson,FL,Florida,Levy
+32628,29.63725,-83.20312,Cross City,FL,Florida,Dixie
+32701,28.665340000000004,-81.36943000000001,Altamonte Springs,FL,Florida,Seminole
+32754,28.689159999999998,-80.9262,Mims,FL,Florida,Brevard
+32948,27.889459999999996,-80.73348,Fellsmere,FL,Florida,Indian River
+33004,26.0579,-80.13852,Dania,FL,Florida,Broward
+33010,25.833000000000002,-80.27868000000001,Hialeah,FL,Florida,Miami-Dade
+33401,26.71645,-80.06779,West Palm Beach,FL,Florida,Palm Beach
+33440,26.54379,-81.03645,Clewiston,FL,Florida,Hendry
+33471,26.884240000000002,-81.19281,Moore Haven,FL,Florida,Glades
+33523,28.4247,-82.2184,Dade City,FL,Florida,Pasco
+33701,27.77041,-82.6357,Saint Petersburg,FL,Florida,Pinellas
+33825,27.6243,-81.46502,Avon Park,FL,Florida,Highlands
+33834,27.60298,-81.99235999999999,Bowling Green,FL,Florida,Hardee
+33848,28.2774,-81.50688000000001,Intercession City,FL,Florida,Osceola
+34101,26.04632,-81.76799,Naples,FL,Florida,Collier
+34201,27.4028,-82.4678,Bradenton,FL,Florida,Manatee
+34223,26.98035,-82.35198000000001,Englewood,FL,Florida,Sarasota
+34266,27.19002,-81.8263,Arcadia,FL,Florida,DeSoto
+34428,28.96087,-82.63391999999999,Crystal River,FL,Florida,Citrus
+34601,28.590259999999997,-82.36482,Brooksville,FL,Florida,Hernando
+34945,27.43798,-80.55733000000001,Fort Pierce,FL,Florida,St. Lucie
+34972,27.506529999999998,-80.92711,Okeechobee,FL,Florida,Okeechobee
+35004,33.60281,-86.49611999999999,Moody,AL,Alabama,St. Clair
+35007,33.21591,-86.79717,Alabaster,AL,Alabama,Shelby
+35010,32.91644,-85.9368,Alexander City,AL,Alabama,Tallapoosa
+35013,33.90164,-86.51785,Allgood,AL,Alabama,Blount
+35014,33.35989,-86.26918,Alpine,AL,Alabama,Talladega
+35019,34.29852,-86.63523,Baileyton,AL,Alabama,Cullman
+35045,32.80704,-86.67285,Clanton,AL,Alabama,Chilton
+35072,33.08977,-86.06138,Goodwater,AL,Alabama,Coosa
+35111,33.284240000000004,-87.09455,McCalla,AL,Alabama,Tuscaloosa
+35441,32.85373,-87.73859,Akron,AL,Alabama,Hale
+35540,34.23388,-87.18817,Addison,AL,Alabama,Winston
+35610,34.95098,-87.24209,Anderson,AL,Alabama,Lauderdale
+35611,34.7671,-87.08566,Athens,AL,Alabama,Limestone
+35616,34.73885,-88.01897,Cherokee,AL,Alabama,Colbert
+35901,34.047990000000006,-85.9246,Gadsden,AL,Alabama,Etowah
+36003,32.45323,-86.72386999999999,Autaugaville,AL,Alabama,Autauga
+36009,31.58356,-86.29694,Brantley,AL,Alabama,Crenshaw
+36020,32.48818,-86.3193,Coosada,AL,Alabama,Elmore
+36028,31.499159999999996,-86.38884,Dozier,AL,Alabama,Covington
+36029,32.1779,-85.93363000000001,Fitzpatrick,AL,Alabama,Bullock
+36262,33.78757,-85.46555,Fruithurst,AL,Alabama,Cleburne
+36311,31.602459999999997,-85.68151,Ariton,AL,Alabama,Dale
+36313,31.1786,-85.79394,Bellwood,AL,Alabama,Geneva
+36401,31.47366,-86.9493,Evergreen,AL,Alabama,Conecuh
+36505,30.94264,-88.01644,Axis,AL,Alabama,Mobile
+36701,32.47679,-87.05709,Selma,AL,Alabama,Dallas
+36732,32.42337,-87.9152,Demopolis,AL,Alabama,Marengo
+36854,32.75379,-85.18444000000001,Valley,AL,Alabama,Chambers
+36904,32.10202,-88.25861,Butler,AL,Alabama,Choctaw
+37014,35.86957,-86.65754,Arrington,TN,Tennessee,Williamson
+37015,36.28416,-87.07721,Ashland City,TN,Tennessee,Cheatham
+37016,35.95746,-86.10025,Auburntown,TN,Tennessee,Cannon
+37022,36.50014,-86.31075,Bethpage,TN,Tennessee,Sumner
+37025,35.9487,-87.30774,Bon Aqua,TN,Tennessee,Hickman
+37029,36.04186,-87.26451999999999,Burns,TN,Tennessee,Dickson
+37030,36.274390000000004,-85.94758,Carthage,TN,Tennessee,Smith
+37032,36.52424,-87.01714,Cedar Hill,TN,Tennessee,Robertson
+37074,36.41897,-86.14428000000001,Hartsville,TN,Tennessee,Trousdale
+37078,35.92275,-87.76786,Hurricane Mills,TN,Tennessee,Humphreys
+37301,35.419709999999995,-85.79526,Altamont,TN,Tennessee,Grundy
+37303,35.4407,-84.64319,Athens,TN,Tennessee,McMinn
+37310,35.263870000000004,-84.78005,Charleston,TN,Tennessee,Bradley
+37321,35.50222,-85.00766999999999,Dayton,TN,Tennessee,Rhea
+37322,35.495670000000004,-84.81600999999999,Decatur,TN,Tennessee,Meigs
+37327,35.42277,-85.40585,Dunlap,TN,Tennessee,Sequatchie
+37367,35.63171,-85.2266,Pikeville,TN,Tennessee,Bledsoe
+37642,36.52903,-82.72991,Church Hill,TN,Tennessee,Hawkins
+37643,36.377340000000004,-82.13641,Elizabethton,TN,Tennessee,Carter
+37650,36.104459999999996,-82.45622,Erwin,TN,Tennessee,Unicoi
+37708,36.32525,-83.33404,Bean Station,TN,Tennessee,Grainger
+37713,36.09017,-83.13206,Bybee,TN,Tennessee,Cocke
+37715,36.55424,-83.96049000000001,Clairfield,TN,Tennessee,Claiborne
+37738,35.6702,-83.47480999999999,Gatlinburg,TN,Tennessee,Sevier
+37742,35.6754,-84.18028000000001,Greenback,TN,Tennessee,Loudon
+37813,36.176,-83.26505999999999,Morristown,TN,Tennessee,Hamblen
+38001,35.81094,-89.15658,Alamo,TN,Tennessee,Crockett
+38004,35.41885,-89.76739,Atoka,TN,Tennessee,Tipton
+38007,36.15948,-89.4271,Bogota,TN,Tennessee,Dyer
+38008,35.24682,-88.99499,Bolivar,TN,Tennessee,Hardeman
+38221,36.24504,-88.03583,Big Sandy,TN,Tennessee,Benton
+38225,36.32087,-88.67904,Dresden,TN,Tennessee,Weakley
+38232,36.34943,-89.32268,Hornbeak,TN,Tennessee,Obion
+38233,36.20283,-89.04853,Kenton,TN,Tennessee,Gibson
+38310,35.25849,-88.39883,Adamsville,TN,Tennessee,McNairy
+38311,35.43642,-88.10553,Bath Springs,TN,Tennessee,Decatur
+38326,35.05788,-88.28787,Counce,TN,Tennessee,Hardin
+38401,35.629020000000004,-87.02062,Columbia,TN,Tennessee,Maury
+38504,36.395579999999995,-84.72439,Allardt,TN,Tennessee,Fentress
+38541,36.52956,-85.33738000000001,Allons,TN,Tennessee,Overton
+38549,36.56081,-85.1516,Byrdstown,TN,Tennessee,Pickett
+38585,35.69355,-85.42668,Spencer,TN,Tennessee,Van Buren
+38606,34.30467,-89.95591999999999,Batesville,MS,Mississippi,Panola
+38610,34.65293,-89.02614,Blue Mountain,MS,Mississippi,Tippah
+38614,34.155770000000004,-90.60406,Clarksdale,MS,Mississippi,Coahoma
+38618,34.701240000000006,-89.93036,Coldwater,MS,Mississippi,Tate
+38622,34.1719,-90.1385,Crowder,MS,Mississippi,Quitman
+38626,34.51367,-90.41775,Dundee,MS,Mississippi,Tunica
+38702,33.5361,-91.1795,Greenville,MS,Mississippi,Bolivar
+38704,33.00716,-91.02129000000001,Greenville,MS,Mississippi,Issaquena
+38721,32.98404,-90.7504,Anguilla,MS,Mississippi,Sharkey
+38736,33.645379999999996,-90.53814,Doddsville,MS,Mississippi,Sunflower
+38824,34.520379999999996,-88.64307,Baldwyn,MS,Mississippi,Prentiss
+38827,34.53265,-88.20043000000001,Belmont,MS,Mississippi,Tishomingo
+38834,34.91545,-88.5635,Corinth,MS,Mississippi,Alcorn
+38841,34.35127,-89.01666999999999,Ecru,MS,Mississippi,Pontotoc
+38843,34.264959999999995,-88.37564,Fulton,MS,Mississippi,Itawamba
+38850,34.04896,-89.05309,Houlka,MS,Mississippi,Chickasaw
+38901,33.76161,-89.80425,Grenada,MS,Mississippi,Grenada
+38920,33.87636,-90.06536,Cascilla,MS,Mississippi,Tallahatchie
+38922,33.9312,-89.64492,Coffeeville,MS,Mississippi,Yalobusha
+38930,33.54541,-90.14511999999999,Greenwood,MS,Mississippi,Leflore
+39039,32.81969,-90.22506,Benton,MS,Mississippi,Yazoo
+39041,32.413759999999996,-90.47335,Bolton,MS,Mississippi,Hinds
+39042,32.21203,-89.88861999999999,Brandon,MS,Mississippi,Rankin
+39044,32.02921,-89.97299,Braxton,MS,Mississippi,Simpson
+39051,32.78825,-89.50044,Carthage,MS,Mississippi,Leake
+39059,31.98234,-90.35549,Crystal Springs,MS,Mississippi,Copiah
+39067,33.11031,-89.4467,Ethel,MS,Mississippi,Attala
+39328,32.74432,-88.70075,De Kalb,MS,Mississippi,Kemper
+39341,33.10052,-88.56203000000001,Macon,MS,Mississippi,Noxubee
+39350,32.79578,-89.12848000000001,Philadelphia,MS,Mississippi,Neshoba
+39401,31.23265,-89.26717,Hattiesburg,MS,Mississippi,Forrest
+39421,31.484759999999998,-89.712,Bassfield,MS,Mississippi,Jefferson Davis
+39426,30.653709999999997,-89.66105999999999,Carriere,MS,Mississippi,Pearl River
+39452,30.878709999999998,-88.5996,Lucedale,MS,Mississippi,George
+39561,30.704990000000002,-89.15505,McHenry,MS,Mississippi,Stone
+39638,31.226020000000002,-90.9935,Gloster,MS,Mississippi,Amite
+39641,31.3567,-90.16983,Jayess,MS,Mississippi,Walthall
+39759,33.43662,-88.82643,Starkville,MS,Mississippi,Oktibbeha
+39823,31.3321,-84.94157,Blakely,GA,Georgia,Early
+39826,31.81995,-84.33814,Bronwood,GA,Georgia,Terrell
+39827,30.95275,-84.20685999999999,Cairo,GA,Georgia,Grady
+39837,31.15273,-84.67304,Colquitt,GA,Georgia,Miller
+40006,38.591609999999996,-85.32669,Bedford,KY,Kentucky,Trimble
+40010,38.373509999999996,-85.45073000000001,Buckner,KY,Kentucky,Oldham
+40046,38.02262,-85.17421999999999,Mount Eden,KY,Kentucky,Spencer
+40047,38.03973,-85.55479,Mount Washington,KY,Kentucky,Bullitt
+40104,38.09162,-86.34151999999999,Battletown,KY,Kentucky,Meade
+40111,37.77313,-86.62819,Cloverport,KY,Kentucky,Breckinridge
+40312,37.85237,-83.93091,Clay City,KY,Kentucky,Powell
+40316,37.93128,-83.52924,Denniston,KY,Kentucky,Menifee
+40336,37.68573,-83.98616,Irvine,KY,Kentucky,Estill
+40339,37.94188,-84.6443,Keene,KY,Kentucky,Jessamine
+40347,38.158429999999996,-84.7156,Midway,KY,Kentucky,Woodford
+40348,38.28739,-84.1321,Millersburg,KY,Kentucky,Bourbon
+40359,38.48924,-84.81944,Owenton,KY,Kentucky,Owen
+40391,37.96942,-84.14518000000001,Winchester,KY,Kentucky,Clark
+40409,37.377590000000005,-84.43294,Brodhead,KY,Kentucky,Rockcastle
+40422,37.637859999999996,-84.80074,Danville,KY,Kentucky,Boyle
+40444,37.6792,-84.58843,Lancaster,KY,Kentucky,Garrard
+40701,36.91957,-84.16358000000001,Corbin,KY,Kentucky,Whitley
+40729,37.24779,-84.13499,East Bernstadt,KY,Kentucky,Laurel
+40801,36.860640000000004,-83.24816,Ages Brookside,KY,Kentucky,Harlan
+40813,36.72773,-83.59300999999999,Calvin,KY,Kentucky,Bell
+40816,37.00448,-83.29736,Chappell,KY,Kentucky,Leslie
+40826,37.053909999999995,-82.78090999999999,Eolia,KY,Kentucky,Letcher
+41002,38.73062,-83.98266,Augusta,KY,Kentucky,Bracken
+41011,39.06795,-84.52955,Covington,KY,Kentucky,Kenton
+41039,38.41149,-83.88076,Ewing,KY,Kentucky,Fleming
+41046,38.71962,-84.80179,Glencoe,KY,Kentucky,Gallatin
+41101,38.47222,-82.64601,Ashland,KY,Kentucky,Boyd
+41121,38.44573,-82.83391999999999,Argillite,KY,Kentucky,Greenup
+41149,38.06423,-83.03927,Isonville,KY,Kentucky,Elliott
+41301,37.719390000000004,-83.50059,Campton,KY,Kentucky,Wolfe
+41314,37.42586,-83.6404,Booneville,KY,Kentucky,Owsley
+41317,37.44763,-83.18915,Clayhole,KY,Kentucky,Breathitt
+41464,37.66765,-82.97331,Royalton,KY,Kentucky,Magoffin
+41643,37.46001,-82.8326,Lackey,KY,Kentucky,Knott
+42001,37.037620000000004,-88.71089,Paducah,KY,Kentucky,McCracken
+42020,36.69232,-88.29296,Almo,KY,Kentucky,Calloway
+42021,36.804809999999996,-89.02655,Arlington,KY,Kentucky,Carlisle
+42022,37.1459,-88.94554000000001,Bandana,KY,Kentucky,Ballard
+42027,36.916309999999996,-88.62850999999999,Boaz,KY,Kentucky,Graves
+42037,37.17273,-88.18779,Dycusburg,KY,Kentucky,Crittenden
+42038,37.04143,-88.02225,Eddyville,KY,Kentucky,Lyon
+42120,36.6711,-86.2697,Adolphus,KY,Kentucky,Allen
+42123,36.82162,-85.98925,Austin,KY,Kentucky,Barren
+42124,36.87052,-85.64393000000001,Beaumont,KY,Kentucky,Metcalfe
+42163,37.0791,-86.13414,Rocky Hill,KY,Kentucky,Edmonson
+42204,36.6958,-87.07358,Allensville,KY,Kentucky,Todd
+42211,36.821459999999995,-87.83899,Cadiz,KY,Kentucky,Trigg
+42215,36.99698,-87.66707,Cerulean,KY,Kentucky,Christian
+42301,37.74038,-87.24615,Owensboro,KY,Kentucky,Daviess
+42321,37.17156,-87.05596,Beech Creek,KY,Kentucky,Muhlenberg
+42322,37.613690000000005,-87.39532,Beech Grove,KY,Kentucky,McLean
+42408,37.180640000000004,-87.6943,Dawson Springs,KY,Kentucky,Hopkins
+42516,37.22715,-84.7786,Bethelridge,KY,Kentucky,Casey
+42631,36.73965,-84.48031999999999,Marshes Siding,KY,Kentucky,McCreary
+42715,36.952940000000005,-85.39256,Breeding,KY,Kentucky,Adair
+42716,37.47647,-85.60847,Buffalo,KY,Kentucky,Larue
+42743,37.22893,-85.53081999999999,Greensburg,KY,Kentucky,Green
+43001,40.08865,-82.61366,Alexandria,OH,Ohio,Licking
+43009,40.17253,-83.64152,Cable,OH,Ohio,Champaign
+43101,39.46464,-82.74563,Adelphi,OH,Ohio,Ross
+43103,39.7257,-82.93543000000001,Ashville,OH,Ohio,Pickaway
+43111,39.50207,-82.24238000000001,Carbon Hill,OH,Ohio,Hocking
+43315,40.48322,-82.87768,Cardington,OH,Ohio,Morrow
+43316,40.954159999999995,-83.3808,Carey,OH,Ohio,Wyandot
+43407,41.27787,-83.2494,Burgoon,OH,Ohio,Sandusky
+43408,41.57185,-83.36346,Clay Center,OH,Ohio,Ottawa
+43412,41.626999999999995,-83.32311,Curtice,OH,Ohio,Lucas
+43501,41.6725,-84.45725999999999,Alvordton,OH,Ohio,Williams
+43512,41.30271,-84.35806,Defiance,OH,Ohio,Defiance
+43701,39.96008,-81.99398000000001,Zanesville,OH,Ohio,Muskingum
+43711,39.84213,-81.57748000000001,Ava,OH,Ohio,Noble
+43713,39.98808,-81.17407,Barnesville,OH,Ohio,Belmont
+43722,39.9192,-81.51756,Buffalo,OH,Ohio,Guernsey
+43805,40.393370000000004,-81.97258000000001,Blissfield,OH,Ohio,Coshocton
+43832,40.27482,-81.58244,Newcomerstown,OH,Ohio,Tuscarawas
+43920,40.678509999999996,-80.5832,East Liverpool,OH,Ohio,Columbiana
+44001,41.36493,-82.26176,Amherst,OH,Ohio,Lorain
+44003,41.62142,-80.58599,Andover,OH,Ohio,Ashtabula
+44017,41.36865,-81.86317,Berea,OH,Ohio,Cuyahoga
+44021,41.44167,-81.14743,Burton,OH,Ohio,Geauga
+44056,41.31492,-81.49831999999999,Macedonia,OH,Ohio,Summit
+44201,41.02682,-81.17928,Atwater,OH,Ohio,Portage
+44212,41.24342,-81.82951,Brunswick,OH,Ohio,Medina
+44401,41.02259,-80.94521,Berlin Center,OH,Ohio,Mahoning
+44402,41.38663,-80.85424,Bristolville,OH,Ohio,Trumbull
+44601,40.91936,-81.13023000000001,Alliance,OH,Ohio,Stark
+44805,40.87291,-82.31688,Ashland,OH,Ohio,Ashland
+44826,41.2408,-82.48009,Collins,OH,Ohio,Huron
+45003,39.58696,-84.78787,College Corner,OH,Ohio,Preble
+45101,38.69055,-83.74129,Aberdeen,OH,Ohio,Brown
+45102,39.01712,-84.20427,Amelia,OH,Ohio,Clermont
+45303,40.21593,-84.65781,Ansonia,OH,Ohio,Darke
+45312,40.06026,-84.08027,Casstown,OH,Ohio,Miami
+45614,38.92975,-82.27709,Bidwell,OH,Ohio,Gallia
+45622,39.37557,-82.49937,Creola,OH,Ohio,Vinton
+45629,38.64971,-82.81286,Franklin Furnace,OH,Ohio,Scioto
+45701,39.31358,-82.08214,Athens,OH,Ohio,Athens
+45819,40.62408,-84.26038,Buckland,OH,Ohio,Auglaize
+45832,40.92657,-84.73285,Convoy,OH,Ohio,Van Wert
+46103,39.68837,-86.61333,Amo,IN,Indiana,Hendricks
+46104,39.66102,-85.59541,Arlington,IN,Indiana,Rush
+46301,41.68404,-86.98106,Beverly Shores,IN,Indiana,Porter
+46340,41.38418,-86.76905,Hanna,IN,Indiana,LaPorte
+46366,41.21533,-86.76793,North Judson,IN,Indiana,Starke
+46502,41.25938,-85.97627,Atwood,IN,Indiana,Kosciusko
+46507,41.72057,-85.81751,Bristol,IN,Indiana,Elkhart
+46530,41.73988,-86.12742,Granger,IN,Indiana,St. Joseph
+46565,41.69266,-85.58044,Shipshewana,IN,Indiana,LaGrange
+46702,40.828140000000005,-85.61610999999999,Andrews,IN,Indiana,Huntington
+46714,40.71846,-85.17148,Bluffton,IN,Indiana,Wells
+46932,40.59751,-86.25757,Galveston,IN,Indiana,Cass
+46940,40.687290000000004,-85.69767,La Fontaine,IN,Indiana,Wabash
+47001,39.06666,-84.96833000000001,Aurora,IN,Indiana,Dearborn
+47006,39.292,-85.21583000000001,Batesville,IN,Indiana,Ripley
+47011,38.87547,-85.07526999999999,Bennington,IN,Indiana,Switzerland
+47201,39.15768,-85.9907,Columbus,IN,Indiana,Bartholomew
+47223,39.04911,-85.47891,Butlerville,IN,Indiana,Jennings
+47326,40.54567,-84.96605,Bryant,IN,Indiana,Jay
+47348,40.45668,-85.34818,Hartford City,IN,Indiana,Blackford
+47513,38.30612,-86.70315,Birdseye,IN,Indiana,Dubois
+47601,38.05209,-87.2553,Boonville,IN,Indiana,Warrick
+47612,38.19303,-87.69924,Cynthiana,IN,Indiana,Posey
+47708,37.97445,-87.57379,Evansville,IN,Indiana,Vanderburgh
+47802,39.3511,-87.40744000000001,Terre Haute,IN,Indiana,Vigo
+47832,39.8779,-87.25424,Bloomingdale,IN,Indiana,Parke
+47842,39.67855,-87.4636,Clinton,IN,Indiana,Vermillion
+47901,40.41785,-86.88991999999999,Lafayette,IN,Indiana,Tippecanoe
+47918,40.304790000000004,-87.20376,Attica,IN,Indiana,Fountain
+48003,42.932590000000005,-83.04065,Almont,MI,Michigan,Lapeer
+48005,42.85024,-82.9231,Armada,MI,Michigan,Macomb
+48009,42.54421,-83.21766,Birmingham,MI,Michigan,Oakland
+48103,42.25991,-83.84325,Ann Arbor,MI,Michigan,Washtenaw
+48401,43.3527,-82.66725,Applegate,MI,Michigan,Sanilac
+48414,42.861779999999996,-84.07879,Bancroft,MI,Michigan,Shiawassee
+48415,43.27114,-83.80094,Birch Run,MI,Michigan,Saginaw
+48435,43.24828,-83.35811,Fostoria,MI,Michigan,Tuscola
+48610,44.12834,-84.17435,Alger,MI,Michigan,Arenac
+48612,43.88113,-84.43196,Beaverton,MI,Michigan,Gladwin
+48615,43.42948,-84.47145,Breckenridge,MI,Michigan,Gratiot
+48617,43.84684,-84.71585,Clare,MI,Michigan,Clare
+48618,43.73725,-84.56022,Coleman,MI,Michigan,Midland
+48619,44.82455,-84.03134,Comins,MI,Michigan,Oscoda
+48627,44.46165,-84.74959,Higgins Lake,MI,Michigan,Roscommon
+48635,44.39543,-84.00128000000001,Lupton,MI,Michigan,Ogemaw
+48705,44.70086,-83.65359000000001,Barton City,MI,Michigan,Alcona
+48730,44.34876,-83.47091,East Tawas,MI,Michigan,Iosco
+48809,43.06537,-85.25823000000001,Belding,MI,Michigan,Ionia
+48811,43.1811,-84.855,Carson City,MI,Michigan,Montcalm
+48813,42.58015,-84.8454,Charlotte,MI,Michigan,Eaton
+48819,42.54638,-84.28531,Dansville,MI,Michigan,Ingham
+48858,43.615190000000005,-84.79615,Mount Pleasant,MI,Michigan,Isabella
+48897,42.7068,-85.13214,Woodland,MI,Michigan,Barry
+49001,42.264720000000004,-85.56245,Kalamazoo,MI,Michigan,Kalamazoo
+49010,42.53463,-85.87431,Allegan,MI,Michigan,Allegan
+49028,41.848240000000004,-85.18658,Bronson,MI,Michigan,Branch
+49220,41.994609999999994,-84.34243000000001,Addison,MI,Michigan,Lenawee
+49227,41.95194,-84.77118,Allen,MI,Michigan,Hillsdale
+49303,43.27729,-85.85483,Bailey,MI,Michigan,Muskegon
+49305,43.75075,-85.1497,Barryton,MI,Michigan,Mecosta
+49309,43.7595,-85.88093,Bitely,MI,Michigan,Newaygo
+49420,43.71823,-86.28308,Hart,MI,Michigan,Oceana
+49601,44.24978,-85.50741,Cadillac,MI,Michigan,Wexford
+49611,44.97368,-84.97443,Alba,MI,Michigan,Antrim
+49613,44.50271,-86.20548000000001,Arcadia,MI,Michigan,Manistee
+49616,44.57439,-86.08099,Benzonia,MI,Michigan,Benzie
+49621,44.8634,-85.77556,Cedar,MI,Michigan,Leelanau
+49632,44.23892,-84.96935,Falmouth,MI,Michigan,Missaukee
+49633,44.55957,-85.20286,Fife Lake,MI,Michigan,Kalkaska
+49637,44.6264,-85.7059,Grawn,MI,Michigan,Grand Traverse
+49701,45.75566,-84.72915,Mackinaw City,MI,Michigan,Emmet
+49705,45.355779999999996,-84.46131,Afton,MI,Michigan,Cheboygan
+49707,45.0916,-83.49648,Alpena,MI,Michigan,Alpena
+49709,45.01522,-84.15841999999999,Atlanta,MI,Michigan,Montmorency
+49710,46.283429999999996,-84.18836999999999,Barbeau,MI,Michigan,Chippewa
+49712,45.21009,-85.00995999999999,Boyne City,MI,Michigan,Charlevoix
+49719,46.0093,-84.32334,Cedarville,MI,Michigan,Mackinac
+49743,45.27349,-83.89646,Hawks,MI,Michigan,Presque Isle
+49801,45.96733,-87.98216,Iron Mountain,MI,Michigan,Dickinson
+49805,47.35563,-88.36961,Allouez,MI,Michigan,Keweenaw
+49806,46.44251,-86.89667,Au Train,MI,Michigan,Alger
+49807,45.78476,-87.37235,Bark River,MI,Michigan,Delta
+49808,46.8126,-87.88242,Big Bay,MI,Michigan,Marquette
+49812,45.59335,-87.49817,Carney,MI,Michigan,Menominee
+49817,45.96723,-86.4632,Cooks,MI,Michigan,Schoolcraft
+49853,46.35941,-85.74505,McMillan,MI,Michigan,Luce
+49902,46.04303,-88.37986,Alpha,MI,Michigan,Iron
+49905,47.12377,-88.71648,Atlantic Mine,MI,Michigan,Houghton
+49908,46.76547,-88.5679,Baraga,MI,Michigan,Baraga
+49910,46.59851,-89.61275,Bergland,MI,Michigan,Ontonagon
+49911,46.48999,-90.04988,Bessemer,MI,Michigan,Gogebic
+50010,42.0336,-93.58825999999999,Ames,IA,Iowa,Story
+50025,41.757909999999995,-94.92352,Audubon,IA,Iowa,Audubon
+50026,41.85852,-94.44962,Bagley,IA,Iowa,Guthrie
+50027,41.47497,-92.47316,Barnes City,IA,Iowa,Mahaska
+50071,42.649440000000006,-93.50305,Dows,IA,Iowa,Wright
+50074,40.856790000000004,-94.07581,Ellston,IA,Iowa,Ringgold
+50104,41.48679,-92.38665,Gibson,IA,Iowa,Keokuk
+50112,41.7313,-92.71481,Grinnell,IA,Iowa,Poweshiek
+50173,41.97299,-92.71422,Montour,IA,Iowa,Tama
+50401,43.15371,-93.20016,Mason City,IA,Iowa,Cerro Gordo
+50424,43.39441,-93.93381,Buffalo Center,IA,Iowa,Winnebago
+50451,43.37865,-94.08844,Lakota,IA,Iowa,Kossuth
+50515,43.02086,-94.87102,Ayrshire,IA,Iowa,Palo Alto
+50519,42.901720000000005,-94.26289,Bode,IA,Iowa,Humboldt
+50535,42.452529999999996,-95.16234,Early,IA,Iowa,Sac
+50613,42.53309,-92.48895,Cedar Falls,IA,Iowa,Black Hawk
+50622,42.67305,-92.3352,Denver,IA,Iowa,Bremer
+51003,42.98503,-95.98664000000001,Alton,IA,Iowa,Sioux
+51004,42.3761,-95.9147,Anthon,IA,Iowa,Woodbury
+51006,42.31588,-95.6156,Battle Creek,IA,Iowa,Ida
+51009,42.944309999999994,-95.55152,Calumet,IA,Iowa,O'Brien
+51010,42.089620000000004,-95.90926999999999,Castana,IA,Iowa,Monona
+51501,41.22798,-95.87858,Council Bluffs,IA,Iowa,Pottawattamie
+51533,41.03613,-95.38042,Emerson,IA,Iowa,Mills
+51639,40.71982,-95.47485,Farragut,IA,Iowa,Fremont
+52001,42.544979999999995,-90.6938,Dubuque,IA,Iowa,Dubuque
+52101,43.35368,-91.76474,Decorah,IA,Iowa,Winneshiek
+52140,43.44338,-91.53666,Dorchester,IA,Iowa,Allamakee
+52202,42.15775,-91.63781,Alburnett,IA,Iowa,Linn
+52203,41.81227,-91.88651999999999,Amana,IA,Iowa,Iowa
+52216,41.88701,-91.04235,Clarence,IA,Iowa,Cedar
+52501,41.035740000000004,-92.4315,Ottumwa,IA,Iowa,Wapello
+52537,40.736270000000005,-92.41215,Bloomfield,IA,Iowa,Davis
+52544,40.71758,-92.91073,Centerville,IA,Iowa,Appanoose
+52601,40.85501,-91.11200000000001,Burlington,IA,Iowa,Des Moines
+52720,41.59255,-91.16601,Atalissa,IA,Iowa,Muscatine
+53001,43.60613,-88.05516,Adell,WI,Wisconsin,Sheboygan
+53004,43.499970000000005,-87.88005,Belgium,WI,Wisconsin,Ozaukee
+53005,43.06261,-88.09925,Brookfield,WI,Wisconsin,Waukesha
+53010,43.60987,-88.27705999999999,Campbellsport,WI,Wisconsin,Fond du Lac
+53014,44.024359999999994,-88.175,Chilton,WI,Wisconsin,Calumet
+53015,43.90617,-87.7918,Cleveland,WI,Wisconsin,Manitowoc
+53104,42.55728,-88.03498,Bristol,WI,Wisconsin,Kenosha
+53105,42.664159999999995,-88.27988,Burlington,WI,Wisconsin,Racine
+53110,42.94672,-87.86398,Cudahy,WI,Wisconsin,Milwaukee
+53114,42.597359999999995,-88.75083000000001,Darien,WI,Wisconsin,Walworth
+53501,42.60606,-89.06536,Afton,WI,Wisconsin,Rock
+53508,42.868840000000006,-89.56429,Belleville,WI,Wisconsin,Dane
+53561,43.39963,-89.64159000000001,Merrimac,WI,Wisconsin,Sauk
+53926,43.67075,-89.21169,Dalton,WI,Wisconsin,Green Lake
+53929,43.7509,-90.28434,Elroy,WI,Wisconsin,Juneau
+54002,44.9625,-92.37135,Baldwin,WI,Wisconsin,St. Croix
+54101,44.789590000000004,-88.06277,Abrams,WI,Wisconsin,Oconto
+54102,45.50014,-87.98358,Amberg,WI,Wisconsin,Marinette
+54106,44.484759999999994,-88.45863,Black Creek,WI,Wisconsin,Outagamie
+54107,44.698190000000004,-88.44736999999999,Bonduel,WI,Wisconsin,Shawano
+54201,44.62082,-87.49347,Algoma,WI,Wisconsin,Kewaunee
+54202,45.07718,-87.13809,Baileys Harbor,WI,Wisconsin,Door
+54401,44.96559,-89.70676,Wausau,WI,Wisconsin,Marathon
+54409,45.11913,-89.16996999999999,Antigo,WI,Wisconsin,Langlade
+54459,45.42581,-90.27358000000001,Ogema,WI,Wisconsin,Price
+54512,46.095279999999995,-89.67093,Boulder Junction,WI,Wisconsin,Vilas
+54526,45.50554,-90.85908,Glen Flora,WI,Wisconsin,Rusk
+54601,43.804390000000005,-91.1425,La Crosse,WI,Wisconsin,La Crosse
+54610,44.3717,-91.83453,Alma,WI,Wisconsin,Buffalo
+54612,44.24805,-91.50053,Arcadia,WI,Wisconsin,Trempealeau
+54621,43.65801,-91.08282,Chaseburg,WI,Wisconsin,Vernon
+54701,44.74438,-91.51058,Eau Claire,WI,Wisconsin,Eau Claire
+54721,44.62932,-92.06966,Arkansaw,WI,Wisconsin,Pepin
+54725,45.07012,-92.01216,Boyceville,WI,Wisconsin,Dunn
+54728,45.30833,-91.63943,Chetek,WI,Wisconsin,Barron
+54801,45.87254,-91.93445,Spooner,WI,Wisconsin,Washburn
+54814,46.86052,-90.91781,Bayfield,WI,Wisconsin,Bayfield
+54828,45.840720000000005,-91.28358,Couderay,WI,Wisconsin,Sawyer
+54830,46.10807,-92.21857,Danbury,WI,Wisconsin,Burnett
+54929,44.63661,-88.74009000000001,Clintonville,WI,Wisconsin,Waupaca
+54930,44.028040000000004,-89.5561,Coloma,WI,Wisconsin,Waushara
+55005,45.392340000000004,-93.21887,Bethel,MN,Minnesota,Anoka
+55006,45.73819,-93.20864,Braham,MN,Minnesota,Isanti
+55007,45.97515,-93.12285,Brook Park,MN,Minnesota,Kanabec
+55009,44.48303,-92.86484,Cannon Falls,MN,Minnesota,Goodhue
+55012,45.4379,-92.79168,Center City,MN,Minnesota,Chisago
+55019,44.41445,-93.24799999999999,Dundas,MN,Minnesota,Rice
+55024,44.629940000000005,-93.13428,Farmington,MN,Minnesota,Dakota
+55030,45.8395,-93.11393000000001,Grasston,MN,Minnesota,Pine
+55041,44.394020000000005,-92.32021999999999,Lake City,MN,Minnesota,Wabasha
+55049,44.176590000000004,-93.22797,Medford,MN,Minnesota,Steele
+55101,44.9513,-93.09023,Saint Paul,MN,Minnesota,Ramsey
+55111,44.87899,-93.19854000000001,Saint Paul,MN,Minnesota,Hennepin
+55307,44.60335,-94.10240999999999,Arlington,MN,Minnesota,Sibley
+55308,45.43026,-93.83604,Becker,MN,Minnesota,Sherburne
+55310,44.75918,-94.88069,Bird Island,MN,Minnesota,Renville
+55312,44.704679999999996,-94.34221,Brownton,MN,Minnesota,McLeod
+55315,44.71842,-93.68698,Carver,MN,Minnesota,Carver
+55324,45.05595,-94.42354,Darwin,MN,Minnesota,Meeker
+55329,45.3092,-94.57191999999999,Eden Valley,MN,Minnesota,Stearns
+55371,45.5801,-93.59085999999999,Princeton,MN,Minnesota,Mille Lacs
+55602,47.34149,-91.87954,Brimson,MN,Minnesota,St. Louis
+55707,46.54618,-92.64828,Barnum,MN,Minnesota,Carlton
+55709,47.42657,-93.37103,Bovey,MN,Minnesota,Itasca
+55748,47.00801,-93.62389,Hill City,MN,Minnesota,Aitkin
+55772,48.09474,-93.15553,Nett Lake,MN,Minnesota,Koochiching
+55901,44.06977,-92.50688000000001,Rochester,MN,Minnesota,Olmsted
+55909,43.56201,-92.73378000000001,Adams,MN,Minnesota,Mower
+55910,44.13295,-91.97332,Altura,MN,Minnesota,Winona
+55922,43.5589,-91.90098,Canton,MN,Minnesota,Fillmore
+56001,44.13203,-93.97704,Mankato,MN,Minnesota,Blue Earth
+56003,44.212740000000004,-94.0886,Mankato,MN,Minnesota,Nicollet
+56007,43.66036,-93.32526999999999,Albert Lea,MN,Minnesota,Freeborn
+56013,43.62265,-94.1056,Blue Earth,MN,Minnesota,Faribault
+56017,44.30705,-93.82016,Cleveland,MN,Minnesota,Le Sueur
+56022,44.053540000000005,-94.83936,Darfur,MN,Minnesota,Watonwan
+56048,44.092890000000004,-93.71891,Janesville,MN,Minnesota,Waseca
+56083,44.20556,-95.13521999999999,Sanborn,MN,Minnesota,Redwood
+56101,43.883140000000004,-95.13734000000001,Windom,MN,Minnesota,Cottonwood
+56110,43.62068,-95.94208,Adrian,MN,Minnesota,Nobles
+56128,43.88151,-96.1156,Edgerton,MN,Minnesota,Pipestone
+56201,45.10152,-95.0419,Willmar,MN,Minnesota,Kandiyohi
+56207,45.49685,-96.06945,Alberta,MN,Minnesota,Stevens
+56208,45.2425,-96.0043,Appleton,MN,Minnesota,Swift
+56210,45.55988,-96.56527,Barry,MN,Minnesota,Big Stone
+56212,45.136959999999995,-96.33196,Bellingham,MN,Minnesota,Lac qui Parle
+56219,45.599779999999996,-96.81994,Browns Valley,MN,Minnesota,Traverse
+56220,44.73183,-96.29415999999999,Canby,MN,Minnesota,Yellow Medicine
+56314,45.81167,-94.43311,Bowlus,MN,Minnesota,Morrison
+56323,45.6322,-95.72516999999999,Cyrus,MN,Minnesota,Pope
+56324,46.16608,-95.90514,Dalton,MN,Minnesota,Otter Tail
+56401,46.32011,-94.11503,Brainerd,MN,Minnesota,Crow Wing
+56433,46.97333,-94.69686999999999,Akeley,MN,Minnesota,Hubbard
+56464,46.7633,-95.10477,Menahga,MN,Minnesota,Wadena
+56501,46.84061,-95.80915,Detroit Lakes,MN,Minnesota,Becker
+56510,47.36034,-96.5254,Ada,MN,Minnesota,Norman
+56516,47.44188,-95.97604,Bejou,MN,Minnesota,Mahnomen
+56520,46.28543,-96.50478000000001,Breckenridge,MN,Minnesota,Wilkin
+56601,47.51242,-94.85696999999999,Bemidji,MN,Minnesota,Beltrami
+56621,47.41863,-95.4075,Bagley,MN,Minnesota,Clearwater
+56623,48.600570000000005,-94.56999,Baudette,MN,Minnesota,Lake of the Woods
+56673,48.82786,-95.1119,Roosevelt,MN,Minnesota,Roseau
+56701,48.12209,-96.19247,Thief River Falls,MN,Minnesota,Pennington
+56715,47.808890000000005,-95.94138000000001,Brooks,MN,Minnesota,Red Lake
+56720,48.57202,-96.89294,Donaldson,MN,Minnesota,Kittson
+57002,44.2965,-96.67695,Aurora,SD,South Dakota,Brookings
+57003,43.73545,-96.75995,Baltic,SD,South Dakota,Minnehaha
+57012,43.595659999999995,-97.27311999999999,Canistota,SD,South Dakota,McCook
+57017,44.01208,-96.82924,Colman,SD,South Dakota,Moody
+57029,43.337540000000004,-97.48028000000001,Freeman,SD,South Dakota,Hutchinson
+57031,42.87453,-97.18347,Gayville,SD,South Dakota,Yankton
+57051,44.229420000000005,-97.33511999999999,Oldham,SD,South Dakota,Kingsbury
+57059,43.125640000000004,-97.75782,Scotland,SD,South Dakota,Bon Homme
+57201,44.93786,-97.09464,Watertown,SD,South Dakota,Codington
+57213,44.548629999999996,-96.52265,Astoria,SD,South Dakota,Deuel
+57219,45.28801,-97.80865,Bristol,SD,South Dakota,Day
+57221,44.59541,-97.45309,Bryant,SD,South Dakota,Hamlin
+57224,45.86237,-97.13701999999999,Claire City,SD,South Dakota,Roberts
+57301,43.71376,-98.04724,Mitchell,SD,South Dakota,Davison
+57311,43.65292,-97.76171,Alexandria,SD,South Dakota,Hanson
+57312,44.20046,-98.37634,Alpena,SD,South Dakota,Jerauld
+57314,44.050290000000004,-97.98514,Artesian,SD,South Dakota,Sanborn
+57317,43.12625,-98.98066,Bonesteel,SD,South Dakota,Gregory
+57321,43.87233,-97.55062,Canova,SD,South Dakota,Miner
+57322,44.63068,-97.97403,Carpenter,SD,South Dakota,Beadle
+57325,43.7561,-99.29633000000001,Chamberlain,SD,South Dakota,Brule
+57329,42.979490000000006,-98.15395,Dante,SD,South Dakota,Charles Mix
+57362,44.4916,-99.07088,Miller,SD,South Dakota,Hand
+57365,43.81175,-99.41645,Oacoma,SD,South Dakota,Lyman
+57368,43.75128,-98.47749,Plankinton,SD,South Dakota,Aurora
+57424,45.01655,-98.53829,Ashton,SD,South Dakota,Spink
+57428,45.45234,-99.67794,Bowdle,SD,South Dakota,Edmunds
+57435,45.17654,-98.91268000000001,Cresbard,SD,South Dakota,Faulk
+57437,45.79144,-99.59805,Eureka,SD,South Dakota,McPherson
+57501,44.52935,-100.30251,Pierre,SD,South Dakota,Hughes
+57520,44.8448,-100.16428,Agar,SD,South Dakota,Sully
+57528,43.19158,-99.76538000000001,Colome,SD,South Dakota,Tripp
+57532,44.38995,-100.61774,Fort Pierre,SD,South Dakota,Stanley
+57551,43.178909999999995,-101.6976,Martin,SD,South Dakota,Bennett
+57552,44.27155,-101.19563000000001,Midland,SD,South Dakota,Haakon
+57560,43.43957,-101.19703,Norris,SD,South Dakota,Mellette
+57620,45.38241,-102.54875,Bison,SD,South Dakota,Perkins
+57621,45.7492,-101.07488000000001,Bullhead,SD,South Dakota,Corson
+57622,44.66411,-101.54094,Cherry Creek,SD,South Dakota,Ziebach
+57625,44.95167,-100.99521999999999,Eagle Butte,SD,South Dakota,Dewey
+57650,45.8385,-103.02244,Ralph,SD,South Dakota,Harding
+57716,43.1085,-102.20056,Batesland,SD,South Dakota,Oglala Lakota
+57717,44.9518,-103.88835999999999,Belle Fourche,SD,South Dakota,Butte
+57730,43.71951,-103.6317,Custer,SD,South Dakota,Custer
+57735,43.30066,-103.85448000000001,Edgemont,SD,South Dakota,Fall River
+58009,47.32765,-97.24662,Blanchard,ND,North Dakota,Traill
+58013,46.06134,-97.36279,Cayuga,ND,North Dakota,Sargent
+58027,46.63342,-97.61152,Enderlin,ND,North Dakota,Ransom
+58031,46.763020000000004,-97.68077,Fingal,ND,North Dakota,Barnes
+58201,47.87121,-97.14106,Grand Forks,ND,North Dakota,Grand Forks
+58210,48.408970000000004,-98.10710999999999,Adams,ND,North Dakota,Walsh
+58216,48.881879999999995,-97.43451,Bathgate,ND,North Dakota,Pembina
+58239,48.94042,-98.70665,Hannah,ND,North Dakota,Cavalier
+58316,48.82808,-99.77376,Belcourt,ND,North Dakota,Rolette
+58317,48.61861,-99.38178,Bisbee,ND,North Dakota,Towner
+58318,48.85463,-100.41887,Bottineau,ND,North Dakota,Bottineau
+58332,48.04184,-99.76173,Esmond,ND,North Dakota,Benson
+58356,47.6733,-99.07125,New Rockford,ND,North Dakota,Eddy
+58401,46.8825,-98.76392,Jamestown,ND,North Dakota,Stutsman
+58415,46.371190000000006,-98.49155999999999,Berlin,ND,North Dakota,LaMoure
+58416,47.54152,-98.35019,Binford,ND,North Dakota,Griggs
+58421,47.441990000000004,-99.06885,Carrington,ND,North Dakota,Foster
+58428,46.848459999999996,-99.7515,Dawson,ND,North Dakota,Kidder
+58430,47.51464,-100.2612,Denhoff,ND,North Dakota,Sheridan
+58436,46.08765,-98.57873000000001,Ellendale,ND,North Dakota,Dickey
+58477,47.21577,-100.50904,Regan,ND,North Dakota,Burleigh
+58520,46.681740000000005,-101.54687,Almont,ND,North Dakota,Morton
+58524,46.59187,-100.0808,Braddock,ND,North Dakota,Emmons
+58530,47.12919,-101.15012,Center,ND,North Dakota,Oliver
+58620,46.50431,-103.33089,Amidon,ND,North Dakota,Slope
+58621,47.08318,-103.92808000000001,Beach,ND,North Dakota,Golden Valley
+58623,46.189009999999996,-103.42567,Bowman,ND,North Dakota,Bowman
+58627,47.23294,-103.30559000000001,Fairfield,ND,North Dakota,Billings
+58634,47.4342,-103.34243000000001,Grassy Butte,ND,North Dakota,McKenzie
+58646,46.393879999999996,-102.28253000000001,Mott,ND,North Dakota,Hettinger
+58701,48.142590000000006,-101.32131,Minot,ND,North Dakota,Ward
+58710,47.87229,-100.22952,Anamoose,ND,North Dakota,McHenry
+58730,48.86469,-103.31427,Crosby,ND,North Dakota,Divide
+58763,47.9929,-102.57574,New Town,ND,North Dakota,Mountrail
+59001,45.52642,-109.5245,Absarokee,MT,Montana,Stillwater
+59002,45.98428,-108.67398,Acton,MT,Montana,Yellowstone
+59003,45.46675,-106.19541000000001,Ashland,MT,Montana,Rosebud
+59010,45.996970000000005,-107.30996999999999,Bighorn,MT,Montana,Treasure
+59011,45.9299,-109.97895,Big Timber,MT,Montana,Sweet Grass
+59016,45.41077,-106.96221000000001,Busby,MT,Montana,Big Horn
+59018,45.86107,-110.56342,Clyde Park,MT,Montana,Park
+59032,47.0227,-108.74436000000001,Grass Range,MT,Montana,Fergus
+59036,46.48592,-109.93495,Harlowton,MT,Montana,Wheatland
+59053,46.445009999999996,-110.4549,Martinsdale,MT,Montana,Meagher
+59054,46.64222,-107.73319,Melstone,MT,Montana,Musselshell
+59058,47.08099,-107.78958,Mosby,MT,Montana,Garfield
+59062,45.0903,-106.14997,Otter,MT,Montana,Powder River
+59087,47.13236,-108.21161000000001,Winnett,MT,Montana,Petroleum
+59201,48.1729,-105.66875,Wolf Point,MT,Montana,Roosevelt
+59214,47.30032,-106.01361000000001,Brockway,MT,Montana,McCone
+59222,48.7042,-105.14527,Flaxville,MT,Montana,Daniels
+59223,47.891659999999995,-106.2098,Fort Peck,MT,Montana,Valley
+59261,48.5825,-107.38538999999999,Saco,MT,Montana,Phillips
+59313,46.30559,-104.24971,Baker,MT,Montana,Fallon
+59326,46.76265,-104.84331,Fallon,MT,Montana,Prairie
+59353,46.96525,-104.24901,Wibaux,MT,Montana,Wibaux
+59401,47.51103,-111.27552,Great Falls,MT,Montana,Cascade
+59410,47.48417,-112.65292,Augusta,MT,Montana,Lewis and Clark
+59411,48.872690000000006,-113.40785,Babb,MT,Montana,Glacier
+59416,48.04197,-111.49611000000002,Brady,MT,Montana,Pondera
+59418,46.79849,-109.91236,Buffalo,MT,Montana,Judith Basin
+59419,47.9863,-112.40858,Bynum,MT,Montana,Teton
+59420,47.88107,-111.03348999999999,Carter,MT,Montana,Chouteau
+59454,48.71695,-112.02463,Kevin,MT,Montana,Toole
+59501,48.68878,-109.79898999999999,Havre,MT,Montana,Hill
+59523,48.54585,-109.22978,Chinook,MT,Montana,Blaine
+59643,46.17096,-111.58998999999999,Toston,MT,Montana,Broadwater
+59701,46.03422,-112.46687,Butte,MT,Montana,Silver Bow
+59711,46.10629,-113.0659,Anaconda,MT,Montana,Deer Lodge
+59724,44.70971,-112.7468,Dell,MT,Montana,Beaverhead
+59801,46.85627,-114.01491000000001,Missoula,MT,Montana,Missoula
+59827,45.894859999999994,-114.04548,Conner,MT,Montana,Ravalli
+59831,47.27752,-114.35275,Dixon,MT,Montana,Sanders
+59832,46.68119,-113.23879,Drummond,MT,Montana,Granite
+59901,48.228159999999995,-114.38225,Kalispell,MT,Montana,Flathead
+60101,41.930640000000004,-88.01186,Addison,IL,Illinois,DuPage
+60109,42.049820000000004,-88.54598,Burlington,IL,Illinois,Kane
+60113,41.93221,-88.96583000000001,Creston,IL,Illinois,Ogle
+60401,41.34397,-87.61375,Beecher,IL,Illinois,Will
+60470,41.16897,-88.64107,Ransom,IL,Illinois,LaSalle
+60512,41.70162,-88.43968000000001,Bristol,IL,Illinois,Kendall
+60901,41.11084,-87.89814,Kankakee,IL,Illinois,Kankakee
+60911,40.87802,-87.98018,Ashkum,IL,Illinois,Iroquois
+60919,40.98745,-88.23835,Cabery,IL,Illinois,Ford
+60932,40.46333,-87.80563000000001,East Lynn,IL,Illinois,Vermilion
+61001,42.46094,-90.12455,Apple River,IL,Illinois,Jo Daviess
+61013,42.3745,-89.63708000000001,Cedarville,IL,Illinois,Stephenson
+61037,41.78938,-89.76032,Galt,IL,Illinois,Whiteside
+61201,41.4778,-90.57675,Rock Island,IL,Illinois,Rock Island
+61312,41.43577,-89.23295,Arlington,IL,Illinois,Bureau
+61411,40.40016,-90.50509,Adair,IL,Illinois,McDonough
+61451,40.94576,-89.93875,Laura,IL,Illinois,Peoria
+61727,40.14248,-88.96083,Clinton,IL,Illinois,De Witt
+61813,39.91155,-88.55960999999999,Bement,IL,Illinois,Piatt
+61912,39.52729,-88.03511,Ashmore,IL,Illinois,Coles
+61914,39.63542,-88.76476,Bethany,IL,Illinois,Moultrie
+61917,39.7142,-87.89766999999999,Brocton,IL,Illinois,Edgar
+62009,39.09108,-89.7984,Benld,IL,Illinois,Macoupin
+62022,39.00376,-90.33164000000001,Dow,IL,Illinois,Jersey
+62086,38.9825,-89.58099,Sorento,IL,Illinois,Bond
+62476,38.534,-88.00928,West Salem,IL,Illinois,Edwards
+62515,39.85839,-89.3765,Buffalo,IL,Illinois,Sangamon
+62613,39.99177,-89.66835999999999,Athens,IL,Illinois,Menard
+62908,37.308479999999996,-88.86578,Belknap,IL,Illinois,Massac
+62917,37.69811,-88.64883,Carrier Mills,IL,Illinois,Saline
+63036,37.98041,-90.37608,French Village,MO,Missouri,St. Francois
+63091,38.36803,-91.39035,Rosebud,MO,Missouri,Gasconade
+63301,38.86333,-90.46736,Saint Charles,MO,Missouri,St. Charles
+63345,39.27807,-91.57134,Farber,MO,Missouri,Audrain
+63388,38.88769,-91.74286,Williamsburg,MO,Missouri,Callaway
+63436,39.50658,-91.54663000000001,Center,MO,Missouri,Ralls
+63625,37.57042,-90.97794,Black,MO,Missouri,Reynolds
+63627,38.044709999999995,-90.25724,Bloomsdale,MO,Missouri,Ste. Genevieve
+63662,37.53116,-90.05128,Patton,MO,Missouri,Bollinger
+63701,37.33785,-89.57681,Cape Girardeau,MO,Missouri,Cape Girardeau
+63730,37.09789,-89.91708,Advance,MO,Missouri,Stoddard
+63820,36.82421,-89.32559,Anniston,MO,Missouri,Mississippi
+63821,36.04869,-90.23924,Arbyrd,MO,Missouri,Dunklin
+63826,36.17481,-89.85056,Braggadocio,MO,Missouri,Pemiscot
+63828,36.750370000000004,-89.69183000000001,Canalou,MO,Missouri,New Madrid
+64017,39.19551,-94.02403000000001,Camden,MO,Missouri,Ray
+64018,39.452490000000004,-94.72685,Camden Point,MO,Missouri,Platte
+64402,40.25757,-94.32789,Albany,MO,Missouri,Gentry
+64421,39.91297,-94.93341,Amazonia,MO,Missouri,Andrew
+64423,40.19007,-94.85584,Barnard,MO,Missouri,Nodaway
+64437,40.12858,-95.34692,Craig,MO,Missouri,Holt
+64446,40.3201,-95.42108,Fairfax,MO,Missouri,Atchison
+64660,39.5709,-93.09382,Mendon,MO,Missouri,Chariton
+64720,38.40491,-94.34314,Adrian,MO,Missouri,Bates
+64748,37.35698,-94.09565,Golden City,MO,Missouri,Barton
+64831,36.65661,-94.4565,Anderson,MO,Missouri,McDonald
+65001,38.29067,-92.01086,Argyle,MO,Missouri,Osage
+65013,38.27532,-91.74974,Belle,MO,Missouri,Maries
+65018,38.62052,-92.5632,California,MO,Missouri,Moniteau
+65023,38.6525,-92.39909,Centertown,MO,Missouri,Cole
+65068,38.821740000000005,-92.61111,Prairie Home,MO,Missouri,Cooper
+65301,38.69843,-93.22615,Sedalia,MO,Missouri,Pettis
+65401,37.90464,-91.76534000000001,Rolla,MO,Missouri,Phelps
+65438,36.92524,-91.50253000000001,Birch Tree,MO,Missouri,Shannon
+65440,37.61185,-91.17846,Boss,MO,Missouri,Dent
+65444,37.38089,-92.05625,Bucyrus,MO,Missouri,Texas
+65463,37.84624,-92.77837,Eldridge,MO,Missouri,Laclede
+65548,37.01443,-91.71491999999999,Mountain View,MO,Missouri,Howell
+65606,36.6994,-91.3623,Alton,MO,Missouri,Oregon
+65609,36.52738,-92.15774,Bakersfield,MO,Missouri,Ozark
+65614,36.73949,-92.91606999999999,Bradleyville,MO,Missouri,Taney
+65634,38.02347,-93.19243,Cross Timbers,MO,Missouri,Hickory
+66007,39.15518,-94.94125,Basehor,KS,Kansas,Leavenworth
+66008,39.7122,-95.17243,Bendena,KS,Kansas,Doniphan
+66012,39.0672,-94.92260999999999,Bonner Springs,KS,Kansas,Wyandotte
+66401,38.97012,-96.3105,Alma,KS,Kansas,Wabaunsee
+66402,38.91898,-95.84633000000001,Auburn,KS,Kansas,Shawnee
+66404,39.879690000000004,-96.17713,Baileyville,KS,Kansas,Nemaha
+66407,39.23008,-96.19408,Belvue,KS,Kansas,Pottawatomie
+66441,38.9851,-96.80306,Junction City,KS,Kansas,Geary
+66442,39.09328,-96.78981,Fort Riley,KS,Kansas,Riley
+66720,37.64837,-95.4598,Chanute,KS,Kansas,Neosho
+66758,38.01363,-95.59374,Neosho Falls,KS,Kansas,Woodson
+66839,38.21416,-95.75078,Burlington,KS,Kansas,Coffey
+66843,38.22306,-96.73852,Cedar Point,KS,Kansas,Chase
+66901,39.55446,-97.6458,Concordia,KS,Kansas,Cloud
+66930,39.70368,-97.48045,Agenda,KS,Kansas,Republic
+66936,39.91883,-98.30664,Burr Oak,KS,Kansas,Jewell
+67001,37.75974,-97.62979,Andale,KS,Kansas,Sedgwick
+67003,37.103840000000005,-98.07254,Anthony,KS,Kansas,Harper
+67005,37.0651,-96.99179000000001,Arkansas City,KS,Kansas,Cowley
+67020,38.00553,-97.66875,Burrton,KS,Kansas,Harvey
+67021,37.7785,-98.91530999999999,Byers,KS,Kansas,Pratt
+67029,37.17086,-99.27483000000001,Coldwater,KS,Kansas,Comanche
+67035,37.64861,-98.39197,Cunningham,KS,Kansas,Kingman
+67054,37.575559999999996,-99.31558000000001,Greensburg,KS,Kansas,Kiowa
+67057,37.06475,-98.77815,Hardtner,KS,Kansas,Barber
+67330,37.16148,-95.31531,Altamont,KS,Kansas,Labette
+67437,39.5112,-98.55543,Downs,KS,Kansas,Osborne
+67439,38.7545,-98.21984,Ellsworth,KS,Kansas,Ellsworth
+67501,37.98307,-97.92973,Hutchinson,KS,Kansas,Reno
+67515,38.6247,-100.06846,Arnold,KS,Kansas,Ness
+67523,38.1975,-99.5493,Burdett,KS,Kansas,Pawnee
+67601,38.8776,-99.34833,Hays,KS,Kansas,Ellis
+67631,39.003859999999996,-100.08622,Collyer,KS,Kansas,Trego
+67632,39.3398,-99.58165,Damar,KS,Kansas,Rooks
+67730,39.80575,-101.10589,Atwood,KS,Kansas,Rawlins
+67731,39.762679999999996,-101.53621,Bird City,KS,Kansas,Cheyenne
+67733,39.319559999999996,-101.51274000000001,Edson,KS,Kansas,Sherman
+67736,38.846090000000004,-100.4704,Gove,KS,Kansas,Gove
+67758,38.8842,-101.76404000000001,Sharon Springs,KS,Kansas,Wallace
+67835,37.97104,-100.32684,Cimarron,KS,Kansas,Gray
+67838,38.0779,-101.13399,Deerfield,KS,Kansas,Kearny
+67839,38.47189,-100.43143,Dighton,KS,Kansas,Lane
+67846,38.03484,-100.76704000000001,Garden City,KS,Kansas,Finney
+67849,38.149029999999996,-99.71484,Hanston,KS,Kansas,Hodgeman
+67855,37.552890000000005,-101.68845999999999,Johnson,KS,Kansas,Stanton
+67859,37.23914,-100.77919,Kismet,KS,Kansas,Seward
+67861,38.47221,-101.38519000000001,Leoti,KS,Kansas,Wichita
+67870,37.522220000000004,-101.00144,Satanta,KS,Kansas,Haskell
+67879,38.48065,-101.80605,Tribune,KS,Kansas,Greeley
+68003,41.07768,-96.38545,Ashland,NE,Nebraska,Saunders
+68004,42.01242,-96.6321,Bancroft,NE,Nebraska,Cuming
+68005,41.14193,-95.89228,Bellevue,NE,Nebraska,Sarpy
+68019,41.784240000000004,-96.37371,Craig,NE,Nebraska,Burt
+68039,42.11408,-96.34461,Macy,NE,Nebraska,Thurston
+68301,40.46516,-96.52387,Adams,NE,Nebraska,Gage
+68303,40.26603,-97.42200000000001,Alexandria,NE,Nebraska,Thayer
+68324,40.56002,-96.29215,Burr,NE,Nebraska,Otoe
+68337,40.09667,-95.83811,Dawson,NE,Nebraska,Richardson
+68623,41.44401,-98.15026,Belgrade,NE,Nebraska,Nance
+68628,41.220729999999996,-97.83968,Clarks,NE,Nebraska,Merrick
+68629,41.71607,-97.12874000000001,Clarkson,NE,Nebraska,Colfax
+68636,42.00875,-98.15375,Elgin,NE,Nebraska,Antelope
+68710,42.43882,-96.85468,Allen,NE,Nebraska,Dixon
+68753,42.88469,-99.44943,Mills,NE,Nebraska,Keya Paha
+68879,41.90208,-99.54467,Taylor,NE,Nebraska,Loup
+68922,40.33395,-99.89664,Arapahoe,NE,Nebraska,Furnas
+68924,40.49565,-99.11905,Axtell,NE,Nebraska,Kearney
+68937,40.59087,-99.88136,Elwood,NE,Nebraska,Gosper
+68943,40.04888,-97.89868,Hardy,NE,Nebraska,Nuckolls
+69001,40.24977,-100.64166,McCook,NE,Nebraska,Red Willow
+69021,40.13758,-101.54253,Benkelman,NE,Nebraska,Dundy
+69024,40.23235,-100.85151,Culbertson,NE,Nebraska,Hitchcock
+69025,40.62265,-100.51307,Curtis,NE,Nebraska,Frontier
+69032,40.55803,-101.02051999999999,Hayes Center,NE,Nebraska,Hayes
+69121,41.5665,-101.69469000000001,Arthur,NE,Nebraska,Arthur
+69125,41.616479999999996,-102.83343,Broadwater,NE,Nebraska,Morrill
+69127,41.12368,-101.91067,Brule,NE,Nebraska,Keith
+69128,41.221990000000005,-103.92135,Bushnell,NE,Nebraska,Kimball
+69135,42.240190000000005,-100.25949,Elsmere,NE,Nebraska,Cherry
+69147,41.50657,-102.10098,Lewellen,NE,Nebraska,Garden
+69152,42.10926,-101.13245,Mullen,NE,Nebraska,Hooker
+69301,42.120509999999996,-102.88314,Alliance,NE,Nebraska,Box Butte
+69337,42.82654,-103.01091,Chadron,NE,Nebraska,Dawes
+69341,41.73123,-103.67304,Gering,NE,Nebraska,Scotts Bluff
+69345,41.5752,-103.74548,Harrisburg,NE,Nebraska,Banner
+70032,29.95808,-89.99784,Arabi,LA,Louisiana,St. Bernard
+70037,29.7482,-90.00820999999999,Belle Chasse,LA,Louisiana,Plaquemines
+70049,30.028890000000004,-90.57025,Edgard,LA,Louisiana,St. John the Baptist
+70052,30.082390000000004,-90.6994,Gramercy,LA,Louisiana,St. James
+70301,29.81411,-90.74082,Thibodaux,LA,Louisiana,Lafourche
+70339,29.923659999999998,-91.18158000000001,Pierre Part,LA,Louisiana,Assumption
+70340,29.66974,-91.1043,Amelia,LA,Louisiana,St. Mary
+70343,29.54813,-90.55717,Bourg,LA,Louisiana,Terrebonne
+70346,30.12207,-91.02757,Donaldsonville,LA,Louisiana,Ascension
+70401,30.52828,-90.45675,Hammond,LA,Louisiana,Tangipahoa
+70420,30.4872,-89.96749,Abita Springs,LA,Louisiana,St. Tammany
+70441,30.85865,-90.75279,Greensburg,LA,Louisiana,St. Helena
+70512,30.414070000000002,-91.92303000000001,Arnaudville,LA,Louisiana,St. Landry
+70513,29.903540000000003,-91.90288000000001,Avery Island,LA,Louisiana,Iberia
+70515,30.45212,-92.56949,Basile,LA,Louisiana,Evangeline
+70516,30.36575,-92.30371,Branch,LA,Louisiana,Acadia
+70517,30.29484,-91.82954000000001,Breaux Bridge,LA,Louisiana,St. Martin
+70601,30.22622,-93.21575,Lake Charles,LA,Louisiana,Calcasieu
+70634,30.793879999999998,-93.23973000000001,Deridder,LA,Louisiana,Beauregard
+70710,30.353109999999997,-91.25939,Addis,LA,Louisiana,West Baton Rouge
+70712,30.969440000000002,-91.59642,Angola,LA,Louisiana,West Feliciana
+70714,30.58646,-91.1277,Baker,LA,Louisiana,East Baton Rouge
+70715,30.757990000000003,-91.67792,Batchelor,LA,Louisiana,Pointe Coupee
+70721,30.2182,-91.08694,Carville,LA,Louisiana,Iberville
+70722,30.8425,-90.93158000000001,Clinton,LA,Louisiana,East Feliciana
+71001,32.594609999999996,-92.89716999999999,Arcadia,LA,Louisiana,Bienville
+71004,32.74841,-93.86309,Belcher,LA,Louisiana,Caddo
+71006,32.72761,-93.63354,Benton,LA,Louisiana,Bossier
+71019,32.0481,-93.31013,Coushatta,LA,Louisiana,Red River
+71027,32.24518,-93.67305999999999,Frierson,LA,Louisiana,De Soto
+71031,32.00822,-92.90586,Goldonna,LA,Louisiana,Natchitoches
+71065,31.80766,-93.50564,Pleasant Hill,LA,Louisiana,Sabine
+71201,32.53298,-92.10528000000001,Monroe,LA,Louisiana,Ouachita
+71220,32.86485,-91.9114,Bastrop,LA,Louisiana,Morehouse
+71237,32.592490000000005,-91.49189,Epps,LA,Louisiana,West Carroll
+71254,32.79696,-91.25569,Lake Providence,LA,Louisiana,East Carroll
+71301,31.274240000000002,-92.46876,Alexandria,LA,Louisiana,Rapides
+71316,31.262529999999998,-91.75986,Acme,LA,Louisiana,Concordia
+71322,30.86405,-92.14654,Bunkie,LA,Louisiana,Avoyelles
+71340,31.76918,-91.81069000000001,Harrisonburg,LA,Louisiana,Catahoula
+71357,32.111059999999995,-91.29853,Newellton,LA,Louisiana,Tensas
+71404,31.748240000000003,-92.74906999999999,Atlanta,LA,Louisiana,Winn
+71630,33.623459999999994,-91.20873,Arkansas City,AR,Arkansas,Desha
+71635,33.13015,-92.00055,Crossett,AR,Arkansas,Ashley
+71638,33.51931,-91.48055,Dermott,AR,Arkansas,Chicot
+71655,33.63089,-91.7465,Monticello,AR,Arkansas,Drew
+71722,33.71539,-93.1537,Bluff City,AR,Arkansas,Nevada
+71801,33.64418,-93.59444,Hope,AR,Arkansas,Hempstead
+71820,33.79444,-94.26818,Alleene,AR,Arkansas,Little River
+71901,34.52698,-92.97157,Hot Springs National Park,AR,Arkansas,Garland
+71929,34.30584,-93.16261999999999,Bismarck,AR,Arkansas,Hot Spring
+72003,34.38592,-91.39779,Almyra,AR,Arkansas,Arkansas
+72006,35.24538,-91.35119,Augusta,AR,Arkansas,Woodruff
+72007,35.00244,-91.98189,Austin,AR,Arkansas,Lonoke
+72027,35.37104,-92.57652,Center Ridge,AR,Arkansas,Conway
+72032,35.07331,-92.36154,Conway,AR,Arkansas,Faulkner
+72165,35.57544,-91.45793,Thida,AR,Arkansas,Independence
+72322,35.06487,-90.82211,Caldwell,AR,Arkansas,St. Francis
+72324,35.38816,-90.78199000000001,Cherry Valley,AR,Arkansas,Cross
+72354,35.61566,-90.31656,Lepanto,AR,Arkansas,Poinsett
+72401,35.87895,-90.66060999999999,Jonesboro,AR,Arkansas,Craighead
+72482,36.275,-91.36554,Williford,AR,Arkansas,Sharp
+72512,36.220490000000005,-91.7465,Horseshoe Bend,AR,Arkansas,Izard
+72537,36.45017,-92.23374,Gamaliel,AR,Arkansas,Baxter
+72636,35.990120000000005,-92.71595,Gilbert,AR,Arkansas,Searcy
+72824,35.135220000000004,-93.41369,Belleville,AR,Arkansas,Yell
+72901,35.3664,-94.41575999999999,Fort Smith,AR,Arkansas,Sebastian
+73003,35.668929999999996,-97.49716,Edmond,OK,Oklahoma,Oklahoma
+73010,35.10622,-97.67844000000001,Blanchard,OK,Oklahoma,McClain
+73014,35.58109,-98.14626,Calumet,OK,Oklahoma,Canadian
+73016,35.79895,-97.6871,Cashion,OK,Oklahoma,Kingfisher
+73021,35.342490000000005,-98.6622,Colony,OK,Oklahoma,Washita
+73052,34.831520000000005,-97.59585,Lindsay,OK,Oklahoma,Garvin
+73430,33.905190000000005,-97.36686,Burneyville,OK,Oklahoma,Love
+73530,34.247240000000005,-99.02039,Davidson,OK,Oklahoma,Tillman
+73531,34.19635,-98.53354,Devol,OK,Oklahoma,Cotton
+73544,34.69497,-99.76501999999999,Gould,OK,Oklahoma,Harmon
+73547,34.9871,-99.40795,Granite,OK,Oklahoma,Greer
+73627,35.20292,-99.45349,Carter,OK,Oklahoma,Beckham
+73628,35.62471,-99.68448000000001,Cheyenne,OK,Oklahoma,Roger Mills
+73716,36.499790000000004,-98.51720999999999,Aline,OK,Oklahoma,Alfalfa
+73717,36.84324,-98.77287,Alva,OK,Oklahoma,Woods
+73718,36.22232,-98.17033,Ames,OK,Oklahoma,Major
+73801,36.47878,-99.43646,Woodward,OK,Oklahoma,Woodward
+73933,36.74596,-102.57361999999999,Boise City,OK,Oklahoma,Cimarron
+74008,35.92456,-95.87253,Bixby,OK,Oklahoma,Tulsa
+74010,35.81446,-96.36493,Bristow,OK,Oklahoma,Creek
+74014,36.059979999999996,-95.67515,Broken Arrow,OK,Oklahoma,Wagoner
+74015,36.18229,-95.70744,Catoosa,OK,Oklahoma,Rogers
+74023,35.95803,-96.7497,Cushing,OK,Oklahoma,Payne
+74027,36.79882,-95.58707,Delaware,OK,Oklahoma,Nowata
+74047,35.85505,-96.01406999999999,Mounds,OK,Oklahoma,Okmulgee
+74330,36.43708,-95.27256,Adair,OK,Oklahoma,Mayes
+74401,35.72181,-95.46533000000001,Muskogee,OK,Oklahoma,Muskogee
+74425,35.17235,-95.64189,Canadian,OK,Oklahoma,Pittsburg
+74435,35.577329999999996,-95.09355,Gore,OK,Oklahoma,Sequoyah
+74521,34.65767,-95.09368,Albion,OK,Oklahoma,Pushmataha
+74525,34.33507,-96.06885,Atoka,OK,Oklahoma,Atoka
+74534,34.61213,-96.36845,Centrahoma,OK,Oklahoma,Coal
+74563,34.97376,-95.06671999999999,Red Oak,OK,Oklahoma,Latimer
+74571,34.71847,-94.98841,Talihina,OK,Oklahoma,Le Flore
+74601,36.70063,-97.14621,Ponca City,OK,Oklahoma,Kay
+74722,34.387840000000004,-94.91665,Battiest,OK,Oklahoma,McCurtain
+74829,35.51735,-96.47046,Boley,OK,Oklahoma,Okfuskee
+75002,33.08965,-96.60752,Allen,TX,Texas,Collin
+75007,33.00462,-96.89715,Carrollton,TX,Texas,Denton
+75032,32.85505,-96.42772,Rockwall,TX,Texas,Rockwall
+75054,32.59059,-97.04051,Grand Prairie,TX,Texas,Tarrant
+75102,32.06629,-96.64223,Barry,TX,Texas,Navarro
+75103,32.51192,-95.88235,Canton,TX,Texas,Van Zandt
+75114,32.61016,-96.44553,Crandall,TX,Texas,Kaufman
+75135,33.06521,-96.22289,Caddo Mills,TX,Texas,Hunt
+75440,32.87828,-95.75556999999999,Emory,TX,Texas,Rains
+75451,32.96634,-95.1212,Leesburg,TX,Texas,Camp
+75455,33.21697,-94.97819,Mount Pleasant,TX,Texas,Titus
+75501,33.37366,-94.13141999999999,Texarkana,TX,Texas,Bowie
+75601,32.508559999999996,-94.72383,Longview,TX,Texas,Gregg
+75760,31.8041,-94.8556,Cushing,TX,Texas,Nacogdoches
+75838,31.47745,-96.22824,Donie,TX,Texas,Freestone
+75845,31.10075,-95.08954,Groveton,TX,Texas,Trinity
+75901,31.301340000000003,-94.65552,Lufkin,TX,Texas,Angelina
+75929,31.245490000000004,-94.19464,Broaddus,TX,Texas,San Augustine
+76008,32.69291,-97.62376,Aledo,TX,Texas,Parker
+76043,32.20528,-97.79709,Glen Rose,TX,Texas,Somervell
+76048,32.42318,-97.80877,Granbury,TX,Texas,Hood
+76067,32.80005,-98.12756,Mineral Wells,TX,Texas,Palo Pinto
+76230,33.51993,-97.95469,Bowie,TX,Texas,Montague
+76238,33.48818,-97.35069,Era,TX,Texas,Cooke
+76351,33.56892,-98.67455,Archer City,TX,Texas,Archer
+76364,34.11368,-99.01675999999999,Harrold,TX,Texas,Wilbarger
+76372,33.25292,-98.91903,Newcastle,TX,Texas,Young
+76380,33.61862,-99.24239,Seymour,TX,Texas,Baylor
+76401,32.282579999999996,-98.19881,Stephenville,TX,Texas,Erath
+76427,33.15546,-98.37755,Bryson,TX,Texas,Jack
+76430,32.785,-99.2474,Albany,TX,Texas,Shackelford
+76435,32.25177,-98.85661,Carbon,TX,Texas,Eastland
+76443,32.13341,-99.21059,Cross Plains,TX,Texas,Callahan
+76483,33.18878,-99.27224,Throckmorton,TX,Texas,Throckmorton
+76518,30.84974,-97.15418000000001,Buckholts,TX,Texas,Milam
+76522,31.216040000000003,-97.97338,Copperas Cove,TX,Texas,Coryell
+76524,31.26693,-97.20313,Eddy,TX,Texas,McLennan
+76539,31.08867,-98.00990999999999,Kempner,TX,Texas,Lampasas
+76570,31.08166,-96.93867,Rosebud,TX,Texas,Falls
+76634,31.80782,-97.56146,Clifton,TX,Texas,Bosque
+76821,31.738690000000002,-99.93625,Ballinger,TX,Texas,Runnels
+76824,31.0036,-98.47069,Bend,TX,Texas,San Saba
+76825,31.104709999999997,-99.39545,Brady,TX,Texas,McCulloch
+76828,32.00902,-99.29396,Burkett,TX,Texas,Coleman
+76831,30.63979,-98.91958000000001,Castell,TX,Texas,Llano
+76837,31.2208,-99.89593,Eden,TX,Texas,Concho
+76849,30.48896,-99.79705,Junction,TX,Texas,Kimble
+76901,31.540940000000003,-100.62876999999999,San Angelo,TX,Texas,Tom Green
+76930,31.272779999999997,-101.17275,Barnhart,TX,Texas,Irion
+76932,31.26949,-101.54094,Big Lake,TX,Texas,Reagan
+76933,31.86341,-100.28783,Bronte,TX,Texas,Coke
+76936,30.885659999999998,-100.58752,Eldorado,TX,Texas,Schleicher
+76950,30.437340000000003,-100.56036,Sonora,TX,Texas,Sutton
+76951,31.81488,-101.04641,Sterling City,TX,Texas,Sterling
+77053,29.58305,-95.46032,Houston,TX,Texas,Fort Bend
+77328,30.396279999999997,-95.19391,Cleveland,TX,Texas,San Jacinto
+77363,30.32935,-95.85388,Plantersville,TX,Texas,Grimes
+77412,29.555,-96.42815999999999,Altair,TX,Texas,Colorado
+77414,28.89958,-95.88091,Bay City,TX,Texas,Matagorda
+77418,29.978790000000004,-96.25055,Bellville,TX,Texas,Austin
+77420,29.2581,-95.93008,Boling,TX,Texas,Wharton
+77422,28.96092,-95.56105,Brazoria,TX,Texas,Brazoria
+77423,29.838929999999998,-95.98250999999999,Brookshire,TX,Texas,Waller
+77510,29.36107,-95.08555,Santa Fe,TX,Texas,Galveston
+77801,30.63888,-96.36343000000001,Bryan,TX,Texas,Brazos
+77836,30.5375,-96.68003,Caldwell,TX,Texas,Burleson
+77901,28.80495,-96.98474,Victoria,TX,Texas,Victoria
+77950,28.301409999999997,-96.87481,Austwell,TX,Texas,Refugio
+77954,29.09675,-97.28269,Cuero,TX,Texas,DeWitt
+77960,28.6691,-97.20818,Fannin,TX,Texas,Goliad
+77964,29.37701,-96.84376999999999,Hallettsville,TX,Texas,Lavaca
+78001,28.294929999999997,-99.21954000000001,Artesia Wells,TX,Texas,La Salle
+78002,29.28295,-98.73826,Atascosa,TX,Texas,Bexar
+78003,29.709590000000002,-99.09413,Bandera,TX,Texas,Bandera
+78005,28.94844,-98.85243,Bigfoot,TX,Texas,Frio
+78007,28.49506,-98.37836,Calliham,TX,Texas,McMullen
+78008,28.724109999999996,-98.27925,Campbellton,TX,Texas,Atascosa
+78010,29.9123,-99.04482,Center Point,TX,Texas,Kerr
+78022,28.25927,-98.14445,George West,TX,Texas,Live Oak
+78040,27.51345,-99.50228,Laredo,TX,Texas,Webb
+78067,27.13267,-99.33646,San Ygnacio,TX,Texas,Zapata
+78070,29.898259999999997,-98.4063,Spring Branch,TX,Texas,Comal
+78102,28.402479999999997,-97.71084,Beeville,TX,Texas,Bee
+78108,29.57435,-98.21878000000001,Cibolo,TX,Texas,Guadalupe
+78113,28.953359999999996,-98.12689,Falls City,TX,Texas,Karnes
+78122,29.4366,-97.73588000000001,Leesville,TX,Texas,Gonzales
+78330,27.74268,-97.91564,Agua Dulce,TX,Texas,Nueces
+78332,27.718429999999998,-98.14285,Alice,TX,Texas,Jim Wells
+78336,27.942809999999998,-97.18347,Aransas Pass,TX,Texas,San Patricio
+78338,26.89255,-97.76255,Armstrong,TX,Texas,Kenedy
+78358,28.068240000000003,-97.04427,Fulton,TX,Texas,Aransas
+78361,27.104340000000004,-98.78675,Hebbronville,TX,Texas,Jim Hogg
+78363,27.44953,-97.86267,Kingsville,TX,Texas,Kleberg
+78501,26.21583,-98.23917,Mcallen,TX,Texas,Hidalgo
+78536,26.649259999999998,-98.4511,Delmita,TX,Texas,Starr
+78561,26.47803,-97.91813,Lasara,TX,Texas,Willacy
+78602,30.123829999999998,-97.32840999999999,Bastrop,TX,Texas,Bastrop
+78605,30.7822,-98.04563,Bertram,TX,Texas,Burnet
+78606,30.0926,-98.46682,Blanco,TX,Texas,Blanco
+78610,30.07722,-97.83740999999999,Buda,TX,Texas,Hays
+78617,30.147190000000002,-97.59614,Del Valle,TX,Texas,Travis
+78618,30.477729999999998,-99.16514000000001,Doss,TX,Texas,Gillespie
+78801,29.356640000000002,-99.87148,Uvalde,TX,Texas,Uvalde
+78827,28.42466,-99.73536999999999,Asherton,TX,Texas,Dimmit
+78829,28.88992,-99.5591,Batesville,TX,Texas,Zavala
+78832,29.39072,-100.41624,Brackettville,TX,Texas,Kinney
+78833,29.693620000000003,-100.05887,Camp Wood,TX,Texas,Real
+78837,29.833959999999998,-101.21495999999999,Comstock,TX,Texas,Val Verde
+78852,28.752059999999997,-100.31076,Eagle Pass,TX,Texas,Maverick
+79005,36.38545,-100.50397,Booker,TX,Texas,Lipscomb
+79009,34.53322,-102.88568000000001,Bovina,TX,Texas,Parmer
+79014,35.91222,-100.29813,Canadian,TX,Texas,Hemphill
+79015,34.94032,-101.91646999999999,Canyon,TX,Texas,Randall
+79018,35.69549,-102.38629,Channing,TX,Texas,Hartley
+79022,36.106609999999996,-102.61107,Dalhart,TX,Texas,Dallam
+79025,34.940979999999996,-102.2059,Dawn,TX,Texas,Deaf Smith
+79027,34.486909999999995,-102.33088000000001,Dimmitt,TX,Texas,Castro
+79031,34.26917,-102.45283,Earth,TX,Texas,Lamb
+79033,36.33008,-100.98394,Farnsworth,TX,Texas,Ochiltree
+79039,35.26038,-101.09519,Groom,TX,Texas,Carson
+79040,36.29869,-101.5571,Gruver,TX,Texas,Hansford
+79042,34.74685,-101.90313,Happy,TX,Texas,Swisher
+79095,34.896159999999995,-100.2061,Wellington,TX,Texas,Collingsworth
+79201,34.43715,-100.28085,Childress,TX,Texas,Childress
+79220,33.75776,-100.78641999999999,Afton,TX,Texas,Dickens
+79226,34.90323,-100.99525,Clarendon,TX,Texas,Donley
+79227,33.899570000000004,-99.77068,Crowell,TX,Texas,Foard
+79234,34.22681,-100.92952,Flomot,TX,Texas,Motley
+79236,33.64183,-100.22815,Guthrie,TX,Texas,King
+79248,34.00045,-100.29274000000001,Paducah,TX,Texas,Cottle
+79255,34.34612,-101.05839,Quitaque,TX,Texas,Briscoe
+79313,33.8049,-102.16223000000001,Anton,TX,Texas,Hockley
+79314,33.58498,-103.01455,Bledsoe,TX,Texas,Cochran
+79316,33.14437,-102.31614,Brownfield,TX,Texas,Terry
+79322,33.65766,-101.18732,Crosbyton,TX,Texas,Crosby
+79323,32.946979999999996,-102.87231,Denver City,TX,Texas,Yoakum
+79324,33.897940000000006,-102.68244,Enochs,TX,Texas,Bailey
+79329,33.7248,-101.68202,Idalou,TX,Texas,Lubbock
+79330,33.03669,-101.20991,Justiceburg,TX,Texas,Garza
+79342,32.9082,-102.33661,Loop,TX,Texas,Gaines
+79351,32.923429999999996,-101.76915,Odonnell,TX,Texas,Lynn
+79502,33.17852,-100.24898,Aspermont,TX,Texas,Stonewall
+79506,32.117979999999996,-100.32345,Blackwell,TX,Texas,Nolan
+79517,32.876709999999996,-101.24268000000001,Fluvanna,TX,Texas,Scurry
+79534,32.75673,-100.21828000000001,McCaulley,TX,Texas,Fisher
+79714,32.32943,-102.69918,Andrews,TX,Texas,Andrews
+79718,31.00535,-103.76186,Balmorhea,TX,Texas,Reeves
+79730,31.16955,-103.0851,Coyanosa,TX,Texas,Pecos
+79731,31.41808,-102.48336,Crane,TX,Texas,Crane
+79738,32.75712,-101.47555,Gail,TX,Texas,Borden
+79739,31.76367,-101.51601,Garden City,TX,Texas,Glasscock
+79741,31.97,-102.62753000000001,Goldsmith,TX,Texas,Ector
+79745,31.82638,-103.05179,Kermit,TX,Texas,Winkler
+79752,31.21544,-102.15319000000001,McCamey,TX,Texas,Upton
+79754,31.80166,-103.59994,Mentone,TX,Texas,Loving
+79821,31.97696,-106.59781000000001,Anthony,TX,Texas,El Paso
+79830,29.800079999999998,-103.22468,Alpine,TX,Texas,Brewster
+79837,32.190259999999995,-105.26698,Dell City,TX,Texas,Hudspeth
+79843,30.126959999999997,-104.22341999999999,Marfa,TX,Texas,Presidio
+79855,31.092370000000003,-104.63688,Van Horn,TX,Texas,Culberson
+80010,39.73868,-104.86256000000002,Aurora,CO,Colorado,Arapahoe
+80020,39.93182,-105.07453000000001,Broomfield,CO,Colorado,Broomfield
+80025,39.94509,-105.29066,Eldorado Springs,CO,Colorado,Boulder
+80202,39.75193,-104.99776000000001,Denver,CO,Colorado,Denver
+80422,39.86909,-105.53237,Black Hawk,CO,Colorado,Gilpin
+80423,39.894459999999995,-106.59512,Bond,CO,Colorado,Eagle
+80428,40.86096,-106.96086000000001,Clark,CO,Colorado,Routt
+80436,39.78748,-105.64738,Dumont,CO,Colorado,Clear Creek
+80442,39.9348,-105.88144,Fraser,CO,Colorado,Grand
+80511,40.34002,-105.57226999999999,Estes Park,CO,Colorado,Larimer
+80514,40.06592,-104.95832,Dacono,CO,Colorado,Weld
+80727,40.06044,-102.5039,Eckley,CO,Colorado,Yuma
+80805,39.312290000000004,-102.44174,Bethune,CO,Colorado,Kit Carson
+80813,38.76765,-105.0998,Cripple Creek,CO,Colorado,Teller
+81001,38.29452,-104.53378000000001,Pueblo,CO,Colorado,Pueblo
+81020,37.53092,-104.52319,Aguilar,CO,Colorado,Las Animas
+81029,37.084959999999995,-102.48255,Campo,CO,Colorado,Baca
+81030,38.10257,-103.51925,Cheraw,CO,Colorado,Otero
+81033,38.19488,-103.86133000000001,Crowley,CO,Colorado,Crowley
+81038,38.07927,-103.14041999999999,Fort Lyon,CO,Colorado,Bent
+81040,37.78545,-105.2308,Gardner,CO,Colorado,Huerfano
+81041,37.875,-102.38286,Granada,CO,Colorado,Prowers
+81101,37.48372,-105.82998,Alamosa,CO,Colorado,Alamosa
+81120,37.16424,-106.27833000000001,Antonito,CO,Colorado,Conejos
+81121,37.10982,-107.43911000000001,Arboles,CO,Colorado,Archuleta
+81122,37.33995,-107.47856999999999,Bayfield,CO,Colorado,La Plata
+81123,37.398590000000006,-105.56976999999999,Blanca,CO,Colorado,Costilla
+81125,37.817040000000006,-106.06908999999999,Center,CO,Colorado,Saguache
+81132,37.70747,-106.42885,Del Norte,CO,Colorado,Rio Grande
+81201,38.56049,-106.06482,Salida,CO,Colorado,Chaffee
+81210,38.82131,-106.63113,Almont,CO,Colorado,Gunnison
+81235,38.01367,-107.29516000000001,Lake City,CO,Colorado,Hinsdale
+81320,37.72182,-108.73343,Cahone,CO,Colorado,Dolores
+81321,37.3184,-108.76218,Cortez,CO,Colorado,Montezuma
+81325,37.91688,-108.72802,Egnar,CO,Colorado,San Miguel
+81401,38.48717,-107.75846999999999,Montrose,CO,Colorado,Montrose
+81427,38.020109999999995,-107.63167,Ouray,CO,Colorado,Ouray
+81433,37.78202,-107.63083,Silverton,CO,Colorado,San Juan
+81501,39.072109999999995,-108.54758999999999,Grand Junction,CO,Colorado,Mesa
+81610,40.3027,-108.76948,Dinosaur,CO,Colorado,Moffat
+81611,39.15162,-106.77138000000001,Aspen,CO,Colorado,Pitkin
+81641,40.0804,-107.76297,Meeker,CO,Colorado,Rio Blanco
+82001,41.091429999999995,-104.93441999999999,Cheyenne,WY,Wyoming,Laramie
+82212,42.288470000000004,-104.52488000000001,Fort Laramie,WY,Wyoming,Goshen
+82222,43.20147,-104.67087,Lance Creek,WY,Wyoming,Niobrara
+82229,42.87669,-104.96791999999999,Shawnee,WY,Wyoming,Converse
+82322,42.23771,-107.56103,Bairoil,WY,Wyoming,Sweetwater
+82401,43.98603,-108.14599,Worland,WY,Wyoming,Washakie
+82430,43.820190000000004,-108.18855,Kirby,WY,Wyoming,Hot Springs
+82601,43.09718,-106.38743999999998,Casper,WY,Wyoming,Natrona
+82701,43.7037,-104.43779,Newcastle,WY,Wyoming,Weston
+82710,44.707679999999996,-104.27046999999999,Aladdin,WY,Wyoming,Crook
+82922,43.13997,-110.38958000000001,Bondurant,WY,Wyoming,Sublette
+82930,41.00812,-110.63715,Evanston,WY,Wyoming,Uinta
+83201,42.88941,-112.38463999999999,Pocatello,ID,Idaho,Bannock
+83203,43.04244,-112.49593999999999,Fort Hall,ID,Idaho,Bingham
+83211,42.7067,-113.01386000000001,American Falls,ID,Idaho,Power
+83217,42.77531,-111.93732,Bancroft,ID,Idaho,Caribou
+83220,42.36303,-111.3908,Bern,ID,Idaho,Bear Lake
+83253,44.31889,-113.69032,May,ID,Idaho,Lemhi
+83285,43.09836,-111.28728999999998,Wayan,ID,Idaho,Bonneville
+83301,42.393190000000004,-114.52218,Twin Falls,ID,Idaho,Twin Falls
+83311,42.3896,-113.55677,Albion,ID,Idaho,Cassia
+83314,42.97655,-114.93933,Bliss,ID,Idaho,Gooding
+83322,43.35579,-114.97493999999999,Corral,ID,Idaho,Camas
+83325,42.58782,-114.24207,Eden,ID,Idaho,Jerome
+83336,42.56346,-113.81929,Heyburn,ID,Idaho,Minidoka
+83501,46.206920000000004,-116.8963,Lewiston,ID,Idaho,Nez Perce
+83522,45.92288,-116.50575,Cottonwood,ID,Idaho,Idaho
+83535,46.537729999999996,-116.72263000000001,Juliaetta,ID,Idaho,Latah
+83602,44.07219,-116.11461000000001,Banks,ID,Idaho,Boise
+83604,42.50828,-115.8056,Bruneau,ID,Idaho,Owyhee
+83605,43.66239,-116.65642,Caldwell,ID,Idaho,Canyon
+83616,43.774159999999995,-116.39255,Eagle,ID,Idaho,Ada
+83617,43.92995,-116.50566,Emmett,ID,Idaho,Gem
+83619,43.9673,-116.91218,Fruitland,ID,Idaho,Payette
+83801,47.93827,-116.65887,Athol,ID,Idaho,Kootenai
+83802,47.08007,-115.52848,Avery,ID,Idaho,Shoshone
+83804,48.03617,-116.97368,Blanchard,ID,Idaho,Bonner
+83805,48.84391,-116.49055,Bonners Ferry,ID,Idaho,Boundary
+83824,47.1136,-116.91011999999999,Desmet,ID,Idaho,Benewah
+84001,40.3514,-110.27543999999999,Altamont,UT,Utah,Duchesne
+84003,40.46017,-111.71916,American Fork,UT,Utah,Utah
+84006,40.60131,-112.11715,Bingham Canyon,UT,Utah,Salt Lake
+84022,40.27878,-112.76586,Dugway,UT,Utah,Tooele
+84023,40.845,-109.20403999999999,Dutch John,UT,Utah,Daggett
+84026,40.281009999999995,-109.83948999999998,Fort Duchesne,UT,Utah,Uintah
+84028,41.93362,-111.4055,Garden City,UT,Utah,Rich
+84032,40.36183,-111.2011,Heber City,UT,Utah,Wasatch
+84067,41.17183,-112.04813999999999,Roy,UT,Utah,Weber
+84301,41.6082,-112.13016,Bear River City,UT,Utah,Box Elder
+84304,41.81658,-111.99687,Cache Junction,UT,Utah,Cache
+84513,39.24423,-111.00988000000001,Castle Dale,UT,Utah,Emery
+84621,39.051320000000004,-111.82568,Axtell,UT,Utah,Sanpete
+84624,39.40755,-112.83985,Delta,UT,Utah,Millard
+84628,39.97343,-112.20579,Eureka,UT,Utah,Juab
+84723,38.17953,-112.25043000000001,Circleville,UT,Utah,Piute
+85003,33.450759999999995,-112.07836,Phoenix,AZ,Arizona,Maricopa
+85118,33.3534,-111.35045,Gold Canyon,AZ,Arizona,Pinal
+85135,33.00418,-110.786,Hayden,AZ,Arizona,Gila
+85321,32.22945,-112.65431000000001,Ajo,AZ,Arizona,Pima
+85324,34.11916,-112.04426000000001,Black Canyon City,AZ,Arizona,Yavapai
+85325,33.99884,-113.90161,Bouse,AZ,Arizona,La Paz
+85360,34.709270000000004,-113.56826000000001,Wikieup,AZ,Arizona,Mohave
+85533,33.32098,-109.38563,Clifton,AZ,Arizona,Greenlee
+85602,32.17427,-110.37703,Benson,AZ,Arizona,Cochise
+85611,31.66145,-110.51208999999999,Elgin,AZ,Arizona,Santa Cruz
+85901,34.29987,-109.99994,Show Low,AZ,Arizona,Navajo
+85920,33.8602,-109.17652,Alpine,AZ,Arizona,Apache
+85931,34.45127,-110.86441,Forest Lakes,AZ,Arizona,Coconino
+87001,35.38884,-106.3516,Algodones,NM,New Mexico,Sandoval
+87002,34.60272,-106.6599,Belen,NM,New Mexico,Valencia
+87005,35.26424,-107.97681999999999,Bluewater,NM,New Mexico,Cibola
+87006,34.49195,-106.84311000000001,Bosque,NM,New Mexico,Socorro
+87008,35.145720000000004,-106.3918,Cedar Crest,NM,New Mexico,Bernalillo
+87010,35.39865,-106.12888000000001,Cerrillos,NM,New Mexico,Santa Fe
+87012,36.1018,-106.66923,Coyote,NM,New Mexico,Rio Arriba
+87016,34.77803,-105.92203,Estancia,NM,New Mexico,Torrance
+87045,35.39241,-108.02153999999999,Prewitt,NM,New Mexico,McKinley
+87512,36.90902,-105.37427,Amalia,NM,New Mexico,Taos
+87544,35.84233,-106.29078999999999,Los Alamos,NM,New Mexico,Los Alamos
+87712,35.86843,-105.17042,Buena Vista,NM,New Mexico,Mora
+87820,33.89521,-108.54735,Aragon,NM,New Mexico,Catron
+87901,33.19995,-107.14358999999999,Truth Or Consequences,NM,New Mexico,Sierra
+87936,32.7532,-107.26365,Garfield,NM,New Mexico,Doña Ana
+88029,31.8459,-107.69126999999999,Columbus,NM,New Mexico,Luna
+88101,34.4987,-103.2838,Clovis,NM,New Mexico,Curry
+88114,33.518440000000005,-103.28904,Crossroads,NM,New Mexico,Lea
+88119,34.323029999999996,-104.40796999999999,Fort Sumner,NM,New Mexico,De Baca
+88121,34.71464,-103.98069,House,NM,New Mexico,Quay
+88201,33.63974,-104.37491999999999,Roswell,NM,New Mexico,Chaves
+89003,36.95743,-116.7262,Beatty,NV,Nevada,Nye
+89010,37.777640000000005,-118.08391,Dyer,NV,Nevada,Esmeralda
+89301,39.54452,-114.77305,Ely,NV,Nevada,White Pine
+89310,39.413540000000005,-117.16463,Austin,NV,Nevada,Lander
+89316,39.63087,-116.17716000000001,Eureka,NV,Nevada,Eureka
+89402,39.22549,-120.00295,Crystal Bay,NV,Nevada,Washoe
+89406,39.52221,-118.31663,Fallon,NV,Nevada,Churchill
+89418,40.54841,-118.03436,Imlay,NV,Nevada,Pershing
+89440,39.296479999999995,-119.65873,Virginia City,NV,Nevada,Storey
+89701,39.13966,-119.71837,Carson City,NV,Nevada,Carson City
+89801,41.24905,-115.7589,Elko,NV,Nevada,Elko
+90001,33.97398,-118.24955,Los Angeles,CA,California,Los Angeles
+91320,34.175959999999996,-118.94506000000001,Newbury Park,CA,California,Ventura
+91701,34.13762,-117.59998,Rancho Cucamonga,CA,California,San Bernardino
+91752,33.99576,-117.53399999999999,Mira Loma,CA,California,Riverside
+91901,32.80639,-116.7123,Alpine,CA,California,San Diego
+92222,32.78577,-114.54552,Bard,CA,California,Imperial
+92328,36.529,-116.87036,Death Valley,CA,California,Inyo
+93013,34.44012,-119.49416000000001,Carpinteria,CA,California,Santa Barbara
+93201,35.85875,-119.48758000000001,Alpaugh,CA,California,Tulare
+93203,35.1119,-118.83079,Arvin,CA,California,Kern
+93210,36.19943,-120.4231,Coalinga,CA,California,Fresno
+93401,35.24175,-120.61711000000001,San Luis Obispo,CA,California,San Luis Obispo
+93426,35.84641,-120.94131999999999,Bradley,CA,California,Monterey
+93512,37.89263,-118.56464,Benton,CA,California,Mono
+93601,37.39375,-119.74444,Ahwahnee,CA,California,Madera
+93620,37.02486,-120.62881000000002,Dos Palos,CA,California,Merced
+93623,37.49377,-119.64268999999999,Fish Camp,CA,California,Mariposa
+94002,37.5135,-122.29905,Belmont,CA,California,San Mateo
+94022,37.35752,-122.14443999999999,Los Altos,CA,California,Santa Clara
+94102,37.7797,-122.41923999999999,San Francisco,CA,California,San Francisco
+94501,37.77516,-122.2748,Alameda,CA,California,Alameda
+94503,38.18419,-122.26293000000001,American Canyon,CA,California,Napa
+94505,37.86762,-121.58632,Discovery Bay,CA,California,Contra Costa
+94510,38.09404,-122.13197,Benicia,CA,California,Solano
+94901,37.97999,-122.50281000000001,San Rafael,CA,California,Marin
+94922,38.34186,-122.94951999999999,Bodega,CA,California,Sonoma
+95023,36.89993,-121.35126000000001,Hollister,CA,California,San Benito
+95202,37.95945,-121.28753999999999,Stockton,CA,California,San Joaquin
+95222,38.06467,-120.62048,Angels Camp,CA,California,Calaveras
+95305,37.80468,-120.27188999999998,Big Oak Flat,CA,California,Tuolumne
+95307,37.55435,-120.95138999999999,Ceres,CA,California,Stanislaus
+95410,39.208009999999994,-123.68668999999998,Albion,CA,California,Mendocino
+95531,41.79625,-124.00515,Crescent City,CA,California,Del Norte
+95568,41.45328,-123.46342,Somes Bar,CA,California,Siskiyou
+95601,38.42592,-120.82501,Amador City,CA,California,Amador
+95602,38.990590000000005,-121.11038,Auburn,CA,California,Placer
+95605,38.592940000000006,-121.5391,West Sacramento,CA,California,Yolo
+95608,38.62583,-121.32829,Carmichael,CA,California,Sacramento
+95614,38.883759999999995,-120.98286999999999,Cool,CA,California,El Dorado
+95646,38.69154,-120.06181000000001,Kirkwood,CA,California,Alpine
+95659,38.839929999999995,-121.57133999999999,Nicolaus,CA,California,Sutter
+95692,39.04589,-121.40381000000001,Wheatland,CA,California,Yuba
+95912,39.01635,-122.06195,Arbuckle,CA,California,Colusa
+95915,39.97548,-121.20866000000001,Belden,CA,California,Plumas
+95920,39.46072,-121.93701999999999,Butte City,CA,California,Glenn
+96001,40.59648,-122.46003999999999,Redding,CA,California,Shasta
+96006,41.17425,-120.85292,Adin,CA,California,Modoc
+96009,41.06347,-121.04101999999999,Bieber,CA,California,Lassen
+96021,39.92648,-122.26527,Corning,CA,California,Tehama
+97001,44.924409999999995,-120.65,Antelope,OR,Oregon,Wasco
+97004,45.251129999999996,-122.46006000000001,Beavercreek,OR,Oregon,Clackamas
+97014,45.584070000000004,-122.01834,Cascade Locks,OR,Oregon,Hood River
+97019,45.51019,-122.21108000000001,Corbett,OR,Oregon,Multnomah
+97101,45.09043,-123.21732,Amity,OR,Oregon,Yamhill
+97102,45.79203,-123.95464,Arch Cape,OR,Oregon,Clatsop
+97107,45.55435,-123.88077,Bay City,OR,Oregon,Tillamook
+97497,42.66677,-123.39218999999999,Wolf Creek,OR,Oregon,Josephine
+97601,42.44883,-122.07473,Klamath Falls,OR,Oregon,Klamath
+97701,44.014829999999996,-121.33105,Bend,OR,Oregon,Deschutes
+97710,42.186209999999996,-118.47568000000001,Fields,OR,Oregon,Harney
+97801,45.668209999999995,-118.81573,Pendleton,OR,Oregon,Umatilla
+97812,45.55943,-120.21621,Arlington,OR,Oregon,Gilliam
+97828,45.7068,-117.2286,Enterprise,OR,Oregon,Wallowa
+97901,43.62894,-117.09006000000001,Adrian,OR,Oregon,Malheur
+98012,47.84156,-122.19911,Bothell,WA,Washington,Snohomish
+98068,47.44072,-121.34966999999999,Snoqualmie Pass,WA,Washington,Kittitas
+98110,47.644690000000004,-122.54353,Bainbridge Island,WA,Washington,Kitsap
+98220,48.68497,-122.19691999999999,Acme,WA,Washington,Whatcom
+98221,48.503209999999996,-122.65491999999999,Anacortes,WA,Washington,Skagit
+98236,47.95814,-122.40473999999999,Clinton,WA,Washington,Island
+98305,48.06029,-124.43012,Beaver,WA,Washington,Clallam
+98520,47.043490000000006,-123.80637,Aberdeen,WA,Washington,Grays Harbor
+98527,46.586259999999996,-123.89747,Bay Center,WA,Washington,Pacific
+98581,46.35777,-123.06723000000001,Ryderwood,WA,Washington,Cowlitz
+98602,45.86716,-121.26553999999999,Appleton,WA,Washington,Klickitat
+98610,45.86735,-122.0707,Carson,WA,Washington,Skamania
+98612,46.21778,-123.32552,Cathlamet,WA,Washington,Wahkiakum
+98801,47.42334,-120.33781,Wenatchee,WA,Washington,Chelan
+98812,48.1445,-119.75283999999999,Brewster,WA,Washington,Okanogan
+98901,46.69319,-120.41528000000001,Yakima,WA,Washington,Yakima
+99001,47.636520000000004,-117.58632,Airway Heights,WA,Washington,Spokane
+99017,47.18881,-117.8756,Lamont,WA,Washington,Whitman
+99118,48.89659,-118.639,Curlew,WA,Washington,Ferry
+99119,48.5039,-117.28854,Cusick,WA,Washington,Pend Oreille
+99323,46.192370000000004,-118.84285,Burbank,WA,Washington,Walla Walla
+99401,46.08744,-117.25143,Anatone,WA,Washington,Asotin
