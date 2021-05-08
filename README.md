@@ -31,6 +31,10 @@ We're also using a Trello board to track our deliverables and outstanding questi
 - We found a low accuracy with linear regression, a higher accuracy with random forest, and even higher with the decision tree classifier at almost 70%.  
 - This model will work to take the ideal features (temperature, air pressure, precipitation, humidity) and determine if "Yes" the area meets ideal weather conditions for growing grapes for the purpose of wine production, or "No", the area does not meet this criteria.
 
+- Wine Mag top 8 Varieties
+- Winery weather data - add points and variety into winery weather df
+- classification - successful or not successful (91 is cutoff point)
+
 ### Project Database
 A mockup database has been created using Postgres via AWS.  A file has been pushed to demonstrate this connection named "wine_pyspark.ipynb".
 Small samples of our actual data were used to test this database. The datasets are included here on GitHub. 
@@ -51,7 +55,7 @@ Below is our v1 wireframe for our webpage.
 
 #### Tools
 - Heroku app 
-- Leaflet for a map of the US
+- Leaflet for a responsive map of the US
 
 #### Interactive Elements
 - Users can select the type of wine they're interested in from a drop down and the map will update to indicate areas where that wine grows well.
