@@ -4,12 +4,15 @@ from flask import Flask, render_template, redirect, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 
+# Import RDS password
+#from config import rds_pwd
+
 #Set up Flask
 app = Flask(__name__)
 
 # Use SQLALCHEMY to set up Postgres connection
 pg_user = "wineuser"
-pg_pwd = "w1n3Uvsv3r1"
+pg_pwd = "###########"
 app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://{username}:{password}@wine-final-project.czqkltznl3rl.us-east-2.rds.amazonaws.com/winedb".format(username=pg_user, password=pg_pwd)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
