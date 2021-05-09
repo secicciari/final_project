@@ -1,0 +1,41 @@
+wine
+-
+country text
+points int
+variety text
+winery text
+winery_country text
+
+weather
+-
+winery_search text fk - wine.winery_country
+avg_temp numeric
+avg_airp numeric
+avg_humid numeric
+avg_precip numeric
+
+machine
+-
+winery text
+country text
+points int
+variety text
+winery_search text
+avg_temp numeric
+avg_airp numeric
+avg_humid numeric
+avg_precip numeric
+
+uscounty
+-
+zip text,
+lat numeric,
+lng numeric,
+city text,
+state_id text,
+state_name text,
+county_name text,
+avg_temp numeric
+avg_airp numeric
+avg_humid numeric
+avg_precip numeric
