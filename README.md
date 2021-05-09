@@ -58,6 +58,7 @@ Our data exploration is documented in winesweeper.ipynb (Resources/cleaning_notb
 
 ### Project Database
 For our database we are using Postgres SQL hosted in AWS RDS. Our database will take in the output from our data exploration phase (cleaned up wine reviews file and winery weather data) and merge the data sets. The merged data will then be fed directly into our machine learning model. We will also use our database to hold the output from our model. The output will indicate whether each US county will or will not create great wine for each varietal, based on the average weather data. Our Heroku app will interact with this table in our database.
+![ERD](https://github.com/secicciari/final_project/blob/presentation/Images/ERD_v2.png)
 
 ### Data Analysis
 
