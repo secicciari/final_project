@@ -1,7 +1,6 @@
 # Green Team Final Project
 
 ## Project overview
-
 ### Topic
 Where are the best wines coming from - based on Wine Enthusiast reviews and weather data. 
 
@@ -12,11 +11,11 @@ We're sick of COVID data and wanted to analyze something a little more fun! We'r
 - What combination(s) of weather features (temperature, air pressure, precipitation, humidity) will lead to the best wines by variety (according to Wine Enthusiast ratings)?
 - Which areas are best for growing each type of wine?
 
-## Communication protocols
+### Communication protocols
 Our main communication tool is Slack. We also exchanged phone numbers and emails.
 We're using a [Trello board](https://trello.com/b/GN9969Z9/green-team-final-project) to track our deliverables and outstanding questions.
 
-## Draft Presentation
+### Draft Presentation
 [Google slides presentation](https://docs.google.com/presentation/d/1iJc0YSuN67khUssQ01zkHyiPY-Uq6k2cHVeM4RxGUvQ/edit?usp=sharing)
 
 ### Data sources
