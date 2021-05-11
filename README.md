@@ -45,7 +45,7 @@ Our data exploration is documented in winesweeper.ipynb (Resources/cleaning_note
 
 #### Feature Engineering & Selection
 - We selected average temperature, average air pressure, average humidity, and average precipitation as our features. We're intersted in exploring how weather impacts wine quality and after researching the grape growing process, we identified temperature, humidity, and precipitation as some of the most important factors. We are also interested in air pressure because grapes grow differently at different elevations. If we had additional time and resources, we would explore a wider variety of weather features and would pull more specific weather data for each location. For example, we would look at monthly or seasonal averages instead of yearly averages.
-- We are considering a score of 91 and above a "great" wine, in this case. Our target is whether the given combination of weather features will create a great wine or will not (binary classification).
+- We are considering a score of 90 and above a "great" wine, in this case. Our target is whether the given combination of weather features will create a great wine or will not (binary classification).
 
 #### Training & Testing Sets
 To create our training and testing data sets, we used SciKitLearn's train_test_split module on our starting dataset that includes wine review data for the top 8 varietals we identified as well as the weather (average temperature, average air pressure, average precipitation, and average humidity) for each winery. 
