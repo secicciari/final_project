@@ -1,16 +1,22 @@
 # Green Team Final Project
 
 ## Project overview
-
 ### Topic
 Where are the best wines coming from - based on Wine Enthusiast reviews and weather data. 
 
-### Reason for topic
+#### Reason for topic
 We're sick of COVID data and wanted to analyze something a little more fun! We're excited for individuals to use our app to determine whether they should start a winery in their area.
 
 ### Questions we hope to answer
 - What combination(s) of weather features (temperature, air pressure, precipitation, humidity) will lead to the best wines by variety (according to Wine Enthusiast ratings)?
 - Which areas are best for growing each type of wine?
+
+### Communication protocols
+Our main communication tool is Slack. We also exchanged phone numbers and emails.
+We're using a [Trello board](https://trello.com/b/GN9969Z9/green-team-final-project) to track our deliverables and outstanding questions.
+
+### Draft Presentation
+[Google slides presentation](https://docs.google.com/presentation/d/1iJc0YSuN67khUssQ01zkHyiPY-Uq6k2cHVeM4RxGUvQ/edit?usp=sharing)
 
 ### Data sources
 * Wine Enthusiast wine review data: https://www.kaggle.com/zynicide/wine-reviews
@@ -23,16 +29,9 @@ We're sick of COVID data and wanted to analyze something a little more fun! We'r
 - Machine learning: Random Forest Classifier via SciKitLearn
 - Dashboard: Heroku, Leaflet
 
-## Communication protocols
-Our main tool for communicating as a group will be Slack. To get in contact urgently we exchanged phone numbers and emails.
-We're also using a Trello board to track our deliverables and outstanding questions: https://trello.com/b/GN9969Z9/green-team-final-project
-
-## Presentation
-[Google slides presentation](https://docs.google.com/presentation/d/1iJc0YSuN67khUssQ01zkHyiPY-Uq6k2cHVeM4RxGUvQ/edit?usp=sharing)
-
 ## Project Outline
 ### Data Exploration
-Our data exploration is documented in winesweeper.ipynb (Resources/cleaning_notbeooks).
+Our data exploration is documented in winesweeper.ipynb (Resources/cleaning_notebooks).
 - We dropped all of the columns that will not be used in our analysis (such as wine description, taster name).
 - We checked the number of unique values in our most important columns - variety, points, and country.
 - We narrowed down the 12 wine varietals that have the most entries in our dataset. Of those 12, we chose to focus on the top 8 single-grape varietals (i.e., no “blends”) - Pinot Noir, Chardonnay, Cabernet Sauvignon, Riesling, Sauvignon Blanc, Syrah, Rosé, and Merlot.
@@ -45,29 +44,33 @@ Our data exploration is documented in winesweeper.ipynb (Resources/cleaning_notb
 - Confirmed the unique scores and unique varieties to ensure that this final dataset has all the information we need
 
 #### Feature Engineering & Selection
-- We selected average temperature, average air pressure, average humidity, and average precipitation as our features. We're intersted in exploring how weather impacts wine quality and after researching the grape growing process, we identified temperature, humidity, and precipitation as some of the most important factors. We are also interested in air pressure because grapes grow differently at different elevations. If we had additional time and resources, we would explore a wider variety of weather features and would pull more specific weather data for each location. For example, we would look at monthly, seasonal, and/or daily averages instead of yearly averages.
-- We are considering a score of 91 and above a "great" wine, in this case. Our target is whether the given combination of weather features will create a great wine or will not.
+- We selected average temperature, average air pressure, average humidity, and average precipitation as our features. We're intersted in exploring how weather impacts wine quality and after researching the grape growing process, we identified temperature, humidity, and precipitation as some of the most important factors. We are also interested in air pressure because grapes grow differently at different elevations. If we had additional time and resources, we would explore a wider variety of weather features and would pull more specific weather data for each location. For example, we would look at monthly or seasonal averages instead of yearly averages.
+- We are considering a score of 91 and above a "great" wine, in this case. Our target is whether the given combination of weather features will create a great wine or will not (binary classification).
 
 #### Training & Testing Sets
- - Our training data is our starting dataset that includes wine review datas for the top 8 varietals we identified as well as the weather (average temperature, average air pressure, average precipitation, and average humidity) for each winery. Our testing data is our weather data for all the counties in the United States.
+To create our training and testing data sets, we used SciKitLearn's train_test_split module on our starting dataset that includes wine review data for the top 8 varietals we identified as well as the weather (average temperature, average air pressure, average precipitation, and average humidity) for each winery. 
 
 #### Model Choice
-- We will be using Random Forest Classifier, and we will be creating separate models for each of our 8 main wine varietals.
+We will be using Random Forest Classifier, and we will be creating separate models for each of our 8 main wine varietals.
     - In our machine learning exploration phase, we chose to look at logistic regression as well as ensemble learning models including Random Forest Classifier and Decision Tree Classifier to determine how accurate these models are on our datasets. Ultimately, Random Forest Classifier resulted in the the best accuracy.
-- This model will take the ideal weather features (temperature, air pressure, precipitation, humidity) and determine if "Yes" the area meets ideal weather conditions for creating a great wine in this area, or "No", the area does not meet this criteria, for each varietal.
+    -  This model will take the ideal weather features (temperature, air pressure, precipitation, humidity) and determine if "Yes" the area meets ideal weather conditions for creating a great wine in this area, or "No", the area does not meet this criteria, for each varietal.
+    - All 8 of our models have an accuracy > 77%, and our mean accuracy is 82%.
+
+### Data Analysis
+We analyzed the weather data for all the counties in the United States by putting it through each of our machine learning models to determine whether that county would or would not be a recommended place to grow each wine varietal.
 
 ### Project Database
 For our database we are using Postgres SQL hosted in AWS RDS. Our database will take in the output from our data exploration phase (cleaned up wine reviews file and winery weather data) and merge the data sets. The merged data will then be fed directly into our machine learning model. We will also use our database to hold the output from our model. The output will indicate whether each US county will or will not create great wine for each varietal, based on the average weather data. Our Heroku app will interact with this table in our database.
-
-### Data Analysis
+![ERD](https://github.com/secicciari/final_project/blob/presentation/Images/ERD_v2.png)
 
 ### Dashboard
 Below is our v1 wireframe/storyboard for our webpage.
 ![Mock Dashboard](https://github.com/secicciari/final_project/blob/main/Images/wine-project-wireframe.png)
 
 #### Tools
-- Heroku
+- Heroku to build our app
 - Leaflet for a responsive map of the US
+- HTML to design and format our webpage
 
 #### Interactive Elements
 - Users can select the type of wine they're interested in from a drop down and the map will update to indicate areas where that wine grows well.
