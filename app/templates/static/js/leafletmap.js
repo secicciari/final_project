@@ -8,19 +8,12 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
 	accessToken: API_KEY
 });
 
-// Create the map object with center, zoom level and default layer.
-let map = L.map('mapid', {
-	center: [39.8, 98.6],
-	zoom: 3,
-	layers: [streets]
-});
-
 // Create a base layer that holds the map.
 let baseMaps = {
   "Streets": streets,
 };
 
-// Add 8 layer groups for the wine varieties.
+// Add layer group for each wine
 let pinotNoir = new L.LayerGroup();
 let chardonnay = new L.LayerGroup();
 let cabSauv = new L.LayerGroup();
@@ -30,52 +23,61 @@ let syrah = new L.LayerGroup();
 let rose = new L.LayerGroup();
 let merlot = new L.LayerGroup();
 
-// Add a reference to the tectonic plates group and major earthquakes group to the overlays object.
+// Add wine groups to the overlays object.
 let overlays = {
-  "Pinot Noir": pinotNoir,
-  "Chardonnay": chardonnay,
-  "Cabernet Sauvignon": cabSauv,
-  "Sauvignon Blanc": sauvBlanc,
-  "Riesling": riesling,
-  "Syrah": syrah,
-  "Rosé": rose,
-  "Merlot": merlot
+    "Cabernet Sauvignon": cabSauv,
+    "Chardonnay": chardonnay,
+    "Merlot": merlot,
+    "Pinot Noir": pinotNoir,
+    "Riesling": riesling,
+    "Rosé": rose,
+    "Sauvignon Blanc": sauvBlanc,
+    "Syrah": syrah  
 };
 
-// Then we add a control to the map that will allow the user to change which
-// layers are visible.
-L.control.layers(overlays).addTo(map);
+// Create the map object with center, zoom level and default layer.
+let map = L.map('mapid', {
+	center: [39.8, -90.6],
+	zoom: 4.25,
+	layers: [streets]
+});
+
+// Add a control to the map so users can change which overlay they see
+L.control.layers(null, overlays, {
+    collapsed: false
+    }).addTo(map);
 
 // Retrieve the GeoJSON data.
-d3.json("map.geojson").then(function(data) {
+d3.json("https://raw.githubusercontent.com/secicciari/final_project/feature/tables/app/templates/static/js/map.geojson").then(function(data) {
 
-  // create functions to filter geojson data
+  // create functions to filter geojson data for only successful areas for each wine
   function pinotSuccess(feature) {
-      if (feature.properties.pinot_success === 1) return True
+      if (feature.properties.pinot_success === 1) return true
     };
   function chardSuccess(feature) {
-    if (feature.properties.char_success === 1) return True
+    if (feature.properties.char_success === 1) return true
     };
   function cabSuccess(feature) {
-    if (feature.properties.cabsav_success === 1) return True
+    if (feature.properties.cabsav_success === 1) return true
     };
   function sauvSuccess(feature) {
-     if (feature.properties.savyb_success === 1) return True
+     if (feature.properties.savyb_success === 1) return true
     };
   function riesSuccess(feature) {
-    if (feature.properties.ries_success === 1) return True
+    if (feature.properties.ries_success === 1) return true
     };
   function syrSuccess(feature) {
-    if (feature.properties.syr_success === 1) return True
+    if (feature.properties.syr_success === 1) return true
     };
   function roseSuccess(feature) {
-    if (feature.properties.rose_success === 1) return True
+    if (feature.properties.rose_success === 1) return true
     };
   function merSuccess(feature) {
-    if (feature.properties.mer_success === 1) return True
+    if (feature.properties.mer_success === 1) return true
     };
-  
-  L.geoJson(data, {
+
+// Add the cabSuccess counties to the map with pop-up
+    L.geoJson(data, {
     filter: cabSuccess,
     
     pointToLayer: function(_feature, coordinates) {
@@ -83,13 +85,13 @@ d3.json("map.geojson").then(function(data) {
       return L.circleMarker(coordinates);
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("County:" + feature.properties.county_name);
+      layer.bindPopup(feature.properties.county_name + " County, " + feature.properties.state_name);
       }
   }).addTo(cabSauv);
 
-// Then we add the cab layer to our map.
 cabSauv.addTo(map);
 
+// Add the chardSuccess counties to the map with pop-up
 L.geoJson(data, {
     filter: chardSuccess,
     
@@ -98,13 +100,13 @@ L.geoJson(data, {
       return L.circleMarker(coordinates);
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("County:" + feature.properties.county_name);
+      layer.bindPopup(feature.properties.county_name + " County, " + feature.properties.state_name);
       }
   }).addTo(chardonnay);
 
-// Then we add the chardonnay layer to our map.
 chardonnay.addTo(map);
 
+// Add the merSuccess counties to the map with pop-up
 L.geoJson(data, {
     filter: merSuccess,
     
@@ -113,13 +115,13 @@ L.geoJson(data, {
       return L.circleMarker(coordinates);
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("County:" + feature.properties.county_name);
+      layer.bindPopup(feature.properties.county_name + " County, " + feature.properties.state_name);
       }
   }).addTo(merlot);
 
-// Then we add the merlot layer to our map.
 merlot.addTo(map);
 
+// Add the pinotSuccess counties to the map with pop-up
 L.geoJson(data, {
     filter: pinotSuccess,
     
@@ -128,13 +130,13 @@ L.geoJson(data, {
       return L.circleMarker(coordinates);
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("County:" + feature.properties.county_name);
+      layer.bindPopup(feature.properties.county_name + " County, " + feature.properties.state_name);
       }
   }).addTo(pinotNoir);
 
-// Then we add the pinot layer to our map.
 pinotNoir.addTo(map);
 
+// Add the riesSuccess counties to the map with pop-up
 L.geoJson(data, {
     filter: riesSuccess,
     
@@ -143,13 +145,13 @@ L.geoJson(data, {
       return L.circleMarker(coordinates);
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("County:" + feature.properties.county_name);
+      layer.bindPopup(feature.properties.county_name + " County, " + feature.properties.state_name);
       }
   }).addTo(riesling);
 
-// Then we add the riesling layer to our map.
 riesling.addTo(map);
 
+// Add the roseSuccess counties to the map with pop-up
 L.geoJson(data, {
     filter: roseSuccess,
     
@@ -158,13 +160,13 @@ L.geoJson(data, {
       return L.circleMarker(coordinates);
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("County:" + feature.properties.county_name);
+      layer.bindPopup(feature.properties.county_name + " County, " + feature.properties.state_name);
       }
   }).addTo(rose);
 
-// Then we add the rose layer to our map.
 rose.addTo(map);
 
+// Add the sauvSuccess counties to the map with pop-up
 L.geoJson(data, {
     filter: sauvSuccess,
     
@@ -173,13 +175,13 @@ L.geoJson(data, {
       return L.circleMarker(coordinates);
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("County:" + feature.properties.county_name);
+      layer.bindPopup(feature.properties.county_name + " County, " + feature.properties.state_name);
       }
   }).addTo(sauvBlanc);
 
-// Then we add the sauvignon blanc layer to our map.
 sauvBlanc.addTo(map);
 
+// Add the syrSuccess counties to the map with pop-up
 L.geoJson(data, {
     filter: syrSuccess,
     
@@ -188,11 +190,9 @@ L.geoJson(data, {
       return L.circleMarker(coordinates);
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("County:" + feature.properties.county_name);
+      layer.bindPopup(feature.properties.county_name + " County, " + feature.properties.state_name);
       }
   }).addTo(syrah);
 
-// Then we add the syrah layer to our map.
 syrah.addTo(map)
 });
-  
