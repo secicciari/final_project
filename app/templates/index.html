@@ -7,6 +7,11 @@
     <title>What is the best area to grow my favorite wine?</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
     <style type="text/css">body { background:whitesmoke !important; }</style>
+     <!-- Leaflet CSS -->
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+     crossorigin=""/>
+     <!-- d3 JavaScript -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
   </head>
   <body>
     <div class="row">
@@ -42,6 +47,7 @@
         </select>
       </div>
     </div>
+    <div id="mapid"></div>
     <div>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 jumbotron text-center">
@@ -75,6 +81,13 @@
         <h5><a href="https://www.freepik.com/photos/background">Background photo created by freepik - www.freepik.com</a></h5>
       </div>
     </div>
-  
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+    <!-- API key -->
+    <script type="text/javascript" src="static/js/config.js"></script>
+    <!-- Our JavaScript -->
+    <script type="text/javascript" src="static/js/leafletmap.js"></script>
   </body>
 </html>
