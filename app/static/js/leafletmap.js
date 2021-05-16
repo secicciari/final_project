@@ -46,7 +46,7 @@ L.control.layers(null, overlays, {
     }).addTo(map);
 
 // Retrieve the GeoJSON data.
-d3.json("https://raw.githubusercontent.com/secicciari/final_project/feature/tables/app/templates/static/js/map.geojson").then(function(data) {
+d3.json("https://raw.githubusercontent.com/secicciari/final_project/feature/map/app/static/js/map.geojson").then(function(data) {
 
   // create functions to filter geojson data for only successful areas for each wine
   function pinotSuccess(feature) {
