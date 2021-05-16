@@ -4,7 +4,7 @@ console.log("working");
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
-	maxZoom: 18,
+	maxZoom: 10,
 	accessToken: API_KEY
 });
 
@@ -20,7 +20,6 @@ let cabSauv = new L.LayerGroup();
 let riesling = new L.LayerGroup();
 let sauvBlanc = new L.LayerGroup();
 let syrah = new L.LayerGroup();
-let rose = new L.LayerGroup();
 let merlot = new L.LayerGroup();
 
 // Add wine groups to the overlays object.
@@ -30,7 +29,6 @@ let overlays = {
     "Merlot": merlot,
     "Pinot Noir": pinotNoir,
     "Riesling": riesling,
-    "Rosé": rose,
     "Sauvignon Blanc": sauvBlanc,
     "Syrah": syrah  
 };
@@ -68,9 +66,6 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/feature/tabl
     };
   function syrSuccess(feature) {
     if (feature.properties.syr_success === 1) return true
-    };
-  function roseSuccess(feature) {
-    if (feature.properties.rose_success === 1) return true
     };
   function merSuccess(feature) {
     if (feature.properties.mer_success === 1) return true
@@ -151,21 +146,6 @@ L.geoJson(data, {
 
 riesling.addTo(map);
 
-// Add the roseSuccess counties to the map with pop-up
-L.geoJson(data, {
-    filter: roseSuccess,
-    
-    pointToLayer: function(_feature, coordinates) {
-      console.log(data);
-      return L.circleMarker(coordinates);
-      },
-    onEachFeature: function(feature, layer) {
-      layer.bindPopup(feature.properties.county_name + " County, " + feature.properties.state_name);
-      }
-  }).addTo(rose);
-
-rose.addTo(map);
-
 // Add the sauvSuccess counties to the map with pop-up
 L.geoJson(data, {
     filter: sauvSuccess,
@@ -190,7 +170,12 @@ L.geoJson(data, {
       return L.circleMarker(coordinates);
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup(feature.properties.county_name + " County, " + feature.properties.state_name);
+      layer.bindPopup("<h1>" + feature.properties.county_name + " County, " + feature.properties.state_name + "</h1> <br> <h2>" + 
+        "Avg. Temperature: " + Math.round(feature.properties["Average Temperature (Kelvin)"]) +"K <br>" +
+        "Avg. Air Pressure:" + Math.round(feature.properties["Average Air Pressure (hPa)"]) +"hPa <br>" + 
+        "Avg. Humidity:" + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
+        "Avg. Precipitation:" + Math.round(feature.properties["Average Daily Precipitation (mm)"]) +"mm per day </h2>" 
+        );
       }
   }).addTo(syrah);
 
