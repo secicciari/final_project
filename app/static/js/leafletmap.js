@@ -80,11 +80,16 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/feature/tabl
       return L.circleMarker(coordinates);
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup(feature.properties.county_name + " County, " + feature.properties.state_name);
+      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "</b> <br>" + 
+      "Avg. Temperature: " + Math.round(feature.properties["Average Temperature (Kelvin)"]) +"K <br>" +
+      "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +"hPa <br>" + 
+      "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
+      "Avg. Precipitation: " + Math.round(feature.properties["Average Daily Precipitation (mm)"]) +"mm per day" 
+      );
       }
   }).addTo(cabSauv);
 
-cabSauv.addTo(map);
+//cabSauv.addTo(map);
 
 // Add the chardSuccess counties to the map with pop-up
 L.geoJson(data, {
@@ -95,11 +100,16 @@ L.geoJson(data, {
       return L.circleMarker(coordinates);
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup(feature.properties.county_name + " County, " + feature.properties.state_name);
+      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "</b> <br>" + 
+      "Avg. Temperature: " + Math.round(feature.properties["Average Temperature (Kelvin)"]) +"K <br>" +
+      "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +"hPa <br>" + 
+      "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
+      "Avg. Precipitation: " + Math.round(feature.properties["Average Daily Precipitation (mm)"]) +"mm per day" 
+      );
       }
   }).addTo(chardonnay);
 
-chardonnay.addTo(map);
+//chardonnay.addTo(map);
 
 // Add the merSuccess counties to the map with pop-up
 L.geoJson(data, {
@@ -110,11 +120,16 @@ L.geoJson(data, {
       return L.circleMarker(coordinates);
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup(feature.properties.county_name + " County, " + feature.properties.state_name);
+      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "</b> <br>" + 
+      "Avg. Temperature: " + Math.round(feature.properties["Average Temperature (Kelvin)"]) +"K <br>" +
+      "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +"hPa <br>" + 
+      "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
+      "Avg. Precipitation: " + Math.round(feature.properties["Average Daily Precipitation (mm)"]) +"mm per day" 
+      );
       }
   }).addTo(merlot);
 
-merlot.addTo(map);
+//merlot.addTo(map);
 
 // Add the pinotSuccess counties to the map with pop-up
 L.geoJson(data, {
@@ -125,11 +140,16 @@ L.geoJson(data, {
       return L.circleMarker(coordinates);
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup(feature.properties.county_name + " County, " + feature.properties.state_name);
+      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "</b> <br>" + 
+      "Avg. Temperature: " + Math.round(feature.properties["Average Temperature (Kelvin)"]) +"K <br>" +
+      "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +"hPa <br>" + 
+      "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
+      "Avg. Precipitation: " + Math.round(feature.properties["Average Daily Precipitation (mm)"]) +"mm per day" 
+      );
       }
   }).addTo(pinotNoir);
 
-pinotNoir.addTo(map);
+//pinotNoir.addTo(map);
 
 // Add the riesSuccess counties to the map with pop-up
 L.geoJson(data, {
@@ -140,11 +160,16 @@ L.geoJson(data, {
       return L.circleMarker(coordinates);
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup(feature.properties.county_name + " County, " + feature.properties.state_name);
+      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "</b> <br>" + 
+      "Avg. Temperature: " + Math.round(feature.properties["Average Temperature (Kelvin)"]) +"K <br>" +
+      "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +"hPa <br>" + 
+      "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
+      "Avg. Precipitation: " + Math.round(feature.properties["Average Daily Precipitation (mm)"]) +"mm per day" 
+      );
       }
   }).addTo(riesling);
 
-riesling.addTo(map);
+//riesling.addTo(map);
 
 // Add the sauvSuccess counties to the map with pop-up
 L.geoJson(data, {
@@ -155,11 +180,16 @@ L.geoJson(data, {
       return L.circleMarker(coordinates);
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup(feature.properties.county_name + " County, " + feature.properties.state_name);
+      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "</b> <br>" + 
+      "Avg. Temperature: " + Math.round(feature.properties["Average Temperature (Kelvin)"]) +"K <br>" +
+      "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +"hPa <br>" + 
+      "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
+      "Avg. Precipitation: " + Math.round(feature.properties["Average Daily Precipitation (mm)"]) +"mm per day" 
+      );
       }
   }).addTo(sauvBlanc);
 
-sauvBlanc.addTo(map);
+//sauvBlanc.addTo(map);
 
 // Add the syrSuccess counties to the map with pop-up
 L.geoJson(data, {
@@ -170,14 +200,14 @@ L.geoJson(data, {
       return L.circleMarker(coordinates);
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("<h1>" + feature.properties.county_name + " County, " + feature.properties.state_name + "</h1> <br> <h2>" + 
+      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "</b> <br>" + 
         "Avg. Temperature: " + Math.round(feature.properties["Average Temperature (Kelvin)"]) +"K <br>" +
-        "Avg. Air Pressure:" + Math.round(feature.properties["Average Air Pressure (hPa)"]) +"hPa <br>" + 
-        "Avg. Humidity:" + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
-        "Avg. Precipitation:" + Math.round(feature.properties["Average Daily Precipitation (mm)"]) +"mm per day </h2>" 
+        "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +"hPa <br>" + 
+        "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
+        "Avg. Precipitation: " + Math.round(feature.properties["Average Daily Precipitation (mm)"]) +"mm per day" 
         );
       }
   }).addTo(syrah);
 
-syrah.addTo(map)
+//syrah.addTo(map)
 });
