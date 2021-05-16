@@ -42,8 +42,8 @@ let map = L.map('mapid', {
 
 // Add a control to the map so users can change which overlay they see
 L.control.layers(null, overlays, {
-    collapsed: false
-    }).addTo(map);
+    //collapsed: false
+    })//.addTo(map);
 
 // Retrieve the GeoJSON data.
 d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/static/js/map.geojson").then(function(data) {
@@ -71,7 +71,7 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
     };
 
 // Add the cabSuccess counties to the map with pop-up
-    L.geoJson(data, {
+  L.geoJson(data, {
     filter: cabSuccess,
     
     pointToLayer: function(_feature, coordinates) {
@@ -91,7 +91,7 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
 //cabSauv.addTo(map);
 
 // Add the chardSuccess counties to the map with pop-up
-L.geoJson(data, {
+  L.geoJson(data, {
     filter: chardSuccess,
     
     pointToLayer: function(_feature, coordinates) {
@@ -111,7 +111,7 @@ L.geoJson(data, {
 //chardonnay.addTo(map);
 
 // Add the merSuccess counties to the map with pop-up
-L.geoJson(data, {
+  L.geoJson(data, {
     filter: merSuccess,
     
     pointToLayer: function(_feature, coordinates) {
@@ -131,7 +131,7 @@ L.geoJson(data, {
 //merlot.addTo(map);
 
 // Add the pinotSuccess counties to the map with pop-up
-L.geoJson(data, {
+  L.geoJson(data, {
     filter: pinotSuccess,
     
     pointToLayer: function(_feature, coordinates) {
@@ -151,7 +151,7 @@ L.geoJson(data, {
 //pinotNoir.addTo(map);
 
 // Add the riesSuccess counties to the map with pop-up
-L.geoJson(data, {
+  L.geoJson(data, {
     filter: riesSuccess,
     
     pointToLayer: function(_feature, coordinates) {
@@ -171,7 +171,7 @@ L.geoJson(data, {
 //riesling.addTo(map);
 
 // Add the sauvSuccess counties to the map with pop-up
-L.geoJson(data, {
+  L.geoJson(data, {
     filter: sauvSuccess,
     
     pointToLayer: function(_feature, coordinates) {
@@ -191,7 +191,7 @@ L.geoJson(data, {
 //sauvBlanc.addTo(map);
 
 // Add the syrSuccess counties to the map with pop-up
-L.geoJson(data, {
+  L.geoJson(data, {
     filter: syrSuccess,
     
     pointToLayer: function(_feature, coordinates) {
@@ -209,4 +209,33 @@ L.geoJson(data, {
   }).addTo(syrah);
 
 //syrah.addTo(map)
+
+  
 });
+
+function optionChanged(dropdown){
+  var wineName = dropdown.options[dropdown.selectedIndex].text;
+  L.control.layers(null, overlays)
+
+  if (wineName === "Syrah") {
+     syrah.addTo(map)
+   }
+     else if (wineName === "Sauvignon Blanc") {
+       sauvBlanc.addTo(map)
+     }
+     else if (wineName === "Riesling") {
+       riesling.addTo(map)
+     }
+     else if (wineName === "Pinot Noir") {
+       pinotNoir.addTo(map)
+     }
+     else if (wineName === "Merlot") {
+       merlot.addTo(map)
+     }
+     else if (wineName === "Chardonnay") {
+       chardonnay.addTo(map)
+     }
+     else if (wineName === "Cabernet Sauvignon") {
+       cabSauv.addTo(map)
+     }
+ };
