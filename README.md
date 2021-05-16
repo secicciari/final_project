@@ -35,6 +35,7 @@ Our data exploration is documented in winesweeper.ipynb (Resources/cleaning_note
 - We dropped all of the columns that will not be used in our analysis (such as wine description, taster name).
 - We checked the number of unique values in our most important columns - variety, points, and country.
 - We narrowed down the 12 wine varietals that have the most entries in our dataset. Of those 12, we chose to focus on the top 8 single-grape varietals (i.e., no “blends”) - Pinot Noir, Chardonnay, Cabernet Sauvignon, Riesling, Sauvignon Blanc, Syrah, Rosé, and Merlot.
+![8 Varietals](https://github.com/secicciari/final_project/blob/main/Images/wine_varietals_barchart.png)
 - In order to get the weather data we needed, we had to find a way to identify latitudes and longitudes for each winery. Using our narrowed down dataset, we created a "winery_search" column by combining the winery name, the word "winery", and the country. We confirmed the number of unique wineries in our list (8,701) and used the unique search terms to get the geocoordinates for each winery from the Google Maps Places API. 
 
 ### Machine Learning
