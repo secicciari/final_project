@@ -4,7 +4,7 @@ console.log("working");
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
-	maxZoom: 10,
+	maxZoom: 18,
 	accessToken: API_KEY
 });
 
@@ -21,6 +21,7 @@ let riesling = new L.LayerGroup();
 let sauvBlanc = new L.LayerGroup();
 let syrah = new L.LayerGroup();
 let merlot = new L.LayerGroup();
+let countyLines = new L.LayerGroup();
 
 // Add wine groups to the overlays object.
 let overlays = {
@@ -30,13 +31,16 @@ let overlays = {
     "Pinot Noir": pinotNoir,
     "Riesling": riesling,
     "Sauvignon Blanc": sauvBlanc,
-    "Syrah": syrah  
+    "Syrah": syrah,
+    "County Lines": countyLines  
 };
 
 // Create the map object with center, zoom level and default layer.
 let map = L.map('mapid', {
-	center: [39.8, -90.6],
-	zoom: 4.25,
+	center: [38.0, -95.6],
+  zoomSnap: 0.25,
+	zoom: 4.5,
+  scrollWheelZoom: 'center',
 	layers: [streets]
 });
 
@@ -70,16 +74,29 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
     if (feature.properties.mer_success === 1) return true
     };
 
-// Add the cabSuccess counties to the map with pop-up
+  //  add county lines
+  //d3.json("us-county-boundaries.json").then(function(data) {
+      //L.geoJson(data, {
+       // color: "darkorange",
+       // weight: 10
+   // }).addTo(countyLines);
+   // countyLines.addTo(map)
+   // });
+
+    // Add the cabSuccess counties to the map with pop-up
   L.geoJson(data, {
     filter: cabSuccess,
     
     pointToLayer: function(_feature, coordinates) {
       //console.log(data);
-      return L.circleMarker(coordinates);
+      return L.circleMarker(coordinates, {
+        radius: 3,
+        fillOpacity:0.85,
+        color: "#581845"
+      });
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "<b> <br>" + 
+      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "</b> <br>" + 
       "Avg. Temperature: " + Math.round(feature.properties["Average Temperature (Kelvin)"]) +"K <br>" +
       "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +"hPa <br>" + 
       "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
@@ -96,10 +113,14 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
     
     pointToLayer: function(_feature, coordinates) {
       //console.log(data);
-      return L.circleMarker(coordinates);
+      return L.circleMarker(coordinates, {
+        radius: 3,
+        fillOpacity:0.85,
+        color: "#581845"
+      });
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "<b> <br>" + 
+      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "</b> <br>" + 
       "Avg. Temperature: " + Math.round(feature.properties["Average Temperature (Kelvin)"]) +"K <br>" +
       "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +"hPa <br>" + 
       "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
@@ -116,10 +137,14 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
     
     pointToLayer: function(_feature, coordinates) {
       //console.log(data);
-      return L.circleMarker(coordinates);
+      return L.circleMarker(coordinates, {
+        radius: 3,
+        fillOpacity:0.85,
+        color: "#581845"
+      });
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "<b> <br>" + 
+      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "</b> <br>" + 
       "Avg. Temperature: " + Math.round(feature.properties["Average Temperature (Kelvin)"]) +"K <br>" +
       "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +"hPa <br>" + 
       "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
@@ -136,10 +161,14 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
     
     pointToLayer: function(_feature, coordinates) {
       //console.log(data);
-      return L.circleMarker(coordinates);
+      return L.circleMarker(coordinates, {
+        radius: 3,
+        fillOpacity:0.85,
+        color: "#581845"
+      });
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "<b> <br>" + 
+      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "</b> <br>" + 
       "Avg. Temperature: " + Math.round(feature.properties["Average Temperature (Kelvin)"]) +"K <br>" +
       "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +"hPa <br>" + 
       "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
@@ -156,10 +185,14 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
     
     pointToLayer: function(_feature, coordinates) {
       //console.log(data);
-      return L.circleMarker(coordinates);
+      return L.circleMarker(coordinates, {
+        radius: 3,
+        fillOpacity:0.85,
+        color: "#581845"
+      });
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "<b> <br>" + 
+      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "</b> <br>" + 
       "Avg. Temperature: " + Math.round(feature.properties["Average Temperature (Kelvin)"]) +"K <br>" +
       "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +"hPa <br>" + 
       "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
@@ -176,10 +209,14 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
     
     pointToLayer: function(_feature, coordinates) {
       //console.log(data);
-      return L.circleMarker(coordinates);
+      return L.circleMarker(coordinates, {
+        radius: 3,
+        fillOpacity:0.85,
+        color: "#581845"
+      });
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "<b> <br>" + 
+      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "</b> <br>" + 
       "Avg. Temperature: " + Math.round(feature.properties["Average Temperature (Kelvin)"]) +"K <br>" +
       "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +"hPa <br>" + 
       "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
@@ -196,10 +233,14 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
     
     pointToLayer: function(_feature, coordinates) {
       //console.log(data);
-      return L.circleMarker(coordinates);
+      return L.circleMarker(coordinates, {
+        radius: 3,
+        fillOpacity:0.85,
+        color: "#581845"
+      });
       },
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "<b> <br>" + 
+      layer.bindPopup("<b>" + feature.properties.county_name + " County, " + feature.properties.state_name + "</b> <br>" + 
         "Avg. Temperature: " + Math.round(feature.properties["Average Temperature (Kelvin)"]) +"K <br>" +
         "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +"hPa <br>" + 
         "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
@@ -213,13 +254,21 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
   
 });
 
+
 function optionChanged(dropdown){
   var wineName = dropdown.options[dropdown.selectedIndex].text;
-  L.control.layers(null, overlays)
+  var layerList = [syrah, sauvBlanc, riesling, pinotNoir, merlot, chardonnay, cabSauv];
+
+  for (i = 0; i < layerList.length; i++) { 
+
+    if(map.hasLayer(layerList[i])) {  
+      map.removeLayer(layerList[i]);
+    }
+  }
 
   if (wineName === "Syrah") {
-     syrah.addTo(map)
-   }
+    syrah.addTo(map)
+  }
      else if (wineName === "Sauvignon Blanc") {
        sauvBlanc.addTo(map)
      }
