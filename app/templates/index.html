@@ -7,10 +7,18 @@
     <title>What is the best area to grow my favorite wine?</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
     <style type="text/css">body { background:whitesmoke !important; }</style>
+     <!-- Leaflet CSS -->
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+     crossorigin=""/>
+     <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+     <!-- d3 JavaScript -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
   </head>
+
   <body>
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 jumbotron text-left" style="background-image: url(https://img.freepik.com/free-photo/top-view-wine-bottles-wooden-background_23-2148214867.jpg?size=626&ext=jpg); background-size: cover; background-position: center; color:black">
+      <div class="col-xs-12 col-sm-12 col-md-12 jumbotron text-center" style="background-image: url(../images/top-view-wine-bottles-wooden-background_updated.jpg); background-size: cover; background-position: center; color:black;">
         <h1>&nbspWhat is the best area to grow my favorite wine?</h1>
       </div>
     </div>
@@ -26,55 +34,71 @@
     </div>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 jumbotron text-center" style="border:1px solid #000000;">
-        <h4>Wine Variety:</h4>
-        <select id="selDataset" onchange="optionChanged(this.value)">
+        <h4>Wine Variety:</h4>       
+        <select onchange="optionChanged(this)">
           <option value="#">Select one</option>
           <option value="Cabernet Sauvignon">Cabernet Sauvignon</option>
           <option value="Chardonnay">Chardonnay</option>
           <option value="Merlot">Merlot</option>
-          <option value="Nebbiolo">Nebbiolo</option>
           <option value="Pinot Noir">Pinot Noir</option>
           <option value="Riesling">Riesling</option>
-          <option value="Sangiovese">Sangiovese</option>
           <option value="Sauvignon Blanc">Sauvignon Blanc</option>
           <option value="Syrah">Syrah</option>
-          <option value="Zinfandel">Zinfandel</option>
         </select>
       </div>
+      <!-- <div class="col-xs-12 col-sm-12 col-md-12 jumbotron text-center" style="border:1px solid #000000;">
+        <h4>Wine Variety:</h4>
+        <select id="selDataset" onchange="optionChanged(this.value)"></select>
+      </div> -->
     </div>
-    <div>
+    <!-- creating div container for panel -->
+    <!-- <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Wine Panel</h3>
+      </div>
+      <div id="sample-metadata" class="panel-body"></div>
+    </div> -->
+    <!-- creating div container for our map -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 jumbotron">
+        <div id="mapid"></div>
+      </div>
+    </div>
+    <!-- creating div container for our bar chart -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 jumbotron text-center">
+        <div id="bar"></div>
+      </div>
+    </div>
+    <!-- <div>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 jumbotron text-center">
         <p><a class="btn btn-primary btn-lg" href="/list_weather_db" role="button">Fetch all records from table weather</a></p>
       </div>
     </div>
-        <!-- <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-      </div> -->
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    </div> -->
     <br>
     <br>
     <br>
     <div class="container-fluid">
       <!-- Attribution required -->
       <div class="jumbotron text-center">
-        <h5><a href="https://www.freepik.com/photos/background">Background photo created by freepik - www.freepik.com</a></h5>
+        <h5>Attributions:<br>
+          <a href="https://www.freepik.com/photos/background">Background photo created by freepik - www.freepik.com</a><br>
+          <a href="https://openweathermap.org/">
+        OpenWeather</a>
+        </h5>
       </div>
-    </div>
-  
+      <!-- D3 JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+      <!-- Leaflet JavaScript -->
+      <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+      <!-- Plotly JavaScript -->
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      <!-- API key -->
+      <script type="text/javascript" src="../static/js/config.js"></script>
+      <!-- Our JavaScript -->
+      <script type="text/javascript" src="../static/js/leafletmap.js"></script>
+      <!--script src="{{url_for('static',filename='js/dropdown.js')}}"></script> -->
   </body>
 </html>
