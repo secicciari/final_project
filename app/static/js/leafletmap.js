@@ -11,7 +11,7 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
 	maxZoom: 18,
 	//accessToken: os.environ['API_KEY']
   //accessToken: API_KEY
-  accessToken: mapenv
+  accessToken: mapenvvar
   //accessToken: 'API_KEY'
 });
 
