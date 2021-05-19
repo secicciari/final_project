@@ -10,12 +10,12 @@ app = Flask(__name__)
 def index():
    greeting = "Hello"
    try:
-      excited = os.environ['API_KEY']
-      greeting = greeting + "!!!!!"
+      mapenv = os.environ['API_KEY']
+      greeting = greeting + "!!!!!" + mapenv
    except (RuntimeError, TypeError, NameError, ValueError, OSError, IOError):
       print("Oops!  That was no valid number.  Try again... greeting=" + greeting)
    
-   return render_template("index.html", greeting=greeting)
+   return render_template("index.html", mapenv=mapenv)
 
 if __name__ == "__main__":
    app.run(debug=True)
