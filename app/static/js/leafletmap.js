@@ -5,15 +5,15 @@ var webpageurl = window.location.href;
 //console.log("webpageurl");
 console.log(webpageurl);
 
+var mapenvvar = document.getElementById("mapenvid").getAttribute("name");
+//console.log("mapenvvar");
+//console.log(mapenvvar);
+
 if (webpageurl == "http://127.0.0.1:5000/") {
   var accessTokenvar = API_KEY
 } else if (webpageurl == "https://green-team-wine.herokuapp.com/") {
   var accessTokenvar = mapenvvar;
 }
-
-var mapenvvar = document.getElementById("mapenvid").getAttribute("name");
-//console.log("mapenvvar");
-//console.log(mapenvvar);
 
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
