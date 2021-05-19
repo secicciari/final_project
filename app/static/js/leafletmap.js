@@ -1,17 +1,25 @@
 // Add console.log to check to see if our code is working.
 console.log("working");
 
+var webpageurl = window.location.href;
+//console.log("webpageurl");
+//console.log(webpageurl);
+
+if (webpageurl == "http://127.0.0.1:5000/") {
+  accessTokenvar = API_KEY
+} else if (webpageurl == "https://green-team-wine.herokuapp.com/") {
+  accessTokenvar = mapenvvar;
+}
+
 var mapenvvar = document.getElementById("mapenvid").getAttribute("name");
+//console.log("mapenvvar");
 //console.log(mapenvvar);
 
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
 	maxZoom: 18,
-  //Uncomment the line below if you are testing it locally
-  //accessToken: API_KEY
-  //Uncomment the line below if you are deploying to Heroku
-  accessToken: mapenvvar
+  accessToken: accessTokenvar
 });
 
 // Create a base layer that holds the map.
