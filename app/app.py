@@ -11,7 +11,7 @@ def index():
    greeting = "Hello"
    try:
       mapenv = os.environ['API_KEY']
-      greeting = mapenv + "!!!!!"
+      greeting = greeting + mapenv + "!!!!!"
    except (RuntimeError, TypeError, NameError, ValueError, OSError, IOError):
       print("Oops!  That was no valid number.  Try again... greeting=" + greeting)
    
