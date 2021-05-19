@@ -12,7 +12,7 @@ def index():
    try:
       excited = os.environ['API_KEY']
       greeting = greeting + "!!!!!"
-   except ValueError:
+   except (RuntimeError, TypeError, NameError, ValueError, OSError, IOError):
       print("Oops!  That was no valid number.  Try again... greeting=" + greeting)
    
    return render_template("index.html", greeting=greeting)
