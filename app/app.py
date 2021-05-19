@@ -8,10 +8,8 @@ app = Flask(__name__)
 #Define the route for the HTML page
 @app.route("/")
 def index():
-   greeting = "Hello"
    try:
       mapenv = os.environ['API_KEY']
-      greeting = greeting + mapenv + "!!!!!"
    except (RuntimeError, TypeError, NameError, ValueError, OSError, IOError):
       print("Oops!  That was no valid number.  Try again... greeting=" + greeting)
    
