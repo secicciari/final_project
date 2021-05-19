@@ -6,7 +6,8 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
 	maxZoom: 18,
 	//accessToken: os.environ['API_KEY']
-  accessToken: API_KEY
+  //accessToken: API_KEY
+  accessToken: mapenv
 });
 
 // Create a base layer that holds the map.
