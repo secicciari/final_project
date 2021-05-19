@@ -3,12 +3,12 @@ console.log("working");
 
 var webpageurl = window.location.href;
 //console.log("webpageurl");
-//console.log(webpageurl);
+console.log(webpageurl);
 
 if (webpageurl == "http://127.0.0.1:5000/") {
-  accessTokenvar = API_KEY
+  var accessTokenvar = API_KEY
 } else if (webpageurl == "https://green-team-wine.herokuapp.com/") {
-  accessTokenvar = mapenvvar;
+  var accessTokenvar = mapenvvar;
 }
 
 var mapenvvar = document.getElementById("mapenvid").getAttribute("name");
