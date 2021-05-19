@@ -8,8 +8,7 @@ app = Flask(__name__)
 #Define the route for the HTML page
 @app.route("/")
 def index():
-   #mapenv = os.environ.get('API_KEY')
-   mapenv = os.environ.get['API_KEY']
+   mapenv = os.environ.get('API_KEY')
 
    return render_template("index.html", mapenv=mapenv)
 
