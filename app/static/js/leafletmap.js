@@ -8,6 +8,7 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
 	//accessToken: os.environ['API_KEY']
   //accessToken: API_KEY
   accessToken: mapenv
+  //accessToken: 'API_KEY'
 });
 
 // Create a base layer that holds the map.
