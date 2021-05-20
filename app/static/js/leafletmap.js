@@ -9,6 +9,8 @@ if (webpageurl == "http://127.0.0.1:5000/") {
   var accessTokenvar = API_KEY
 } else if (webpageurl == "https://green-team-wine.herokuapp.com/") {
   var accessTokenvar = mapenvvar;
+} else if (webpageurl == "http://green-team-wine.herokuapp.com/") {
+  var accessTokenvar = mapenvvar;
 }
 
 // We create the tile layer that will be the background of our map.
