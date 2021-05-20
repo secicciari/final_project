@@ -5,7 +5,7 @@ var webpageurl = window.location.href;
 
 var mapenvvar = document.getElementById("mapenvid").getAttribute("name");
 
-if (webpageurl == "http://127.0.0.1:5000/") {
+if (location.hostname === "127.0.0.1"){
   var accessTokenvar = API_KEY
 } else if (webpageurl == "https://green-team-wine.herokuapp.com/") {
   var accessTokenvar = mapenvvar;
