@@ -53,7 +53,7 @@ let overlays = {
 let map = L.map('mapid', {
 	center: [38.0, -95.6],
   zoomSnap: 0.25,
-	zoom: 4.5,
+	zoom: 4.8,
   scrollWheelZoom: 'center',
 	layers: [streets]
 });
