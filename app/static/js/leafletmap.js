@@ -104,7 +104,7 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
       "Avg. Temperature: " + getTemp(feature.properties["Average Temperature (Kelvin)"]) +"° F <br>" +
       "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +" hPa <br>" +  
       "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
-      "Avg. Precipitation: " + Math.round(feature.properties["Average Daily Precipitation (mm)"]) +"mm per day" 
+      "Avg. Precipitation: " + feature.properties["Average Daily Precipitation (mm)"].toFixed(2) +" mm per day" 
       );
       }
   }).addTo(cabSauv);
@@ -127,7 +127,7 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
       "Avg. Temperature: " + getTemp(feature.properties["Average Temperature (Kelvin)"]) +"° F <br>" +
       "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +" hPa <br>" + 
       "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
-      "Avg. Precipitation: " + Math.round(feature.properties["Average Daily Precipitation (mm)"]) +"mm per day" 
+      "Avg. Precipitation: " + feature.properties["Average Daily Precipitation (mm)"].toFixed(2) +" mm per day" 
       );
       }
   }).addTo(chardonnay);
@@ -150,7 +150,7 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
       "Avg. Temperature: " + getTemp(feature.properties["Average Temperature (Kelvin)"]) +"° F <br>" +
       "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +" hPa <br>" + 
       "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
-      "Avg. Precipitation: " + Math.round(feature.properties["Average Daily Precipitation (mm)"]) +"mm per day" 
+      "Avg. Precipitation: " + feature.properties["Average Daily Precipitation (mm)"].toFixed(2) +" mm per day" 
       );
       }
   }).addTo(merlot);
@@ -173,7 +173,7 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
       "Avg. Temperature: " + getTemp(feature.properties["Average Temperature (Kelvin)"]) +"° F <br>" +
       "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +" hPa <br>" + 
       "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
-      "Avg. Precipitation: " + Math.round(feature.properties["Average Daily Precipitation (mm)"]) +"mm per day" 
+      "Avg. Precipitation: " + feature.properties["Average Daily Precipitation (mm)"].toFixed(2) +" mm per day" 
       );
       }
   }).addTo(pinotNoir);
@@ -196,7 +196,7 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
       "Avg. Temperature: " + getTemp(feature.properties["Average Temperature (Kelvin)"]) +"° F <br>" +
       "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +" hPa <br>" + 
       "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
-      "Avg. Precipitation: " + Math.round(feature.properties["Average Daily Precipitation (mm)"]) +"mm per day" 
+      "Avg. Precipitation: " + feature.properties["Average Daily Precipitation (mm)"].toFixed(2) +" mm per day" 
       );
       }
   }).addTo(riesling);
@@ -219,7 +219,7 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
       "Avg. Temperature: " + getTemp(feature.properties["Average Temperature (Kelvin)"]) +"° F <br>" +
       "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +" hPa <br>" + 
       "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
-      "Avg. Precipitation: " + Math.round(feature.properties["Average Daily Precipitation (mm)"]) +"mm per day" 
+      "Avg. Precipitation: " + feature.properties["Average Daily Precipitation (mm)"].toFixed(2) +" mm per day" 
       );
       }
   }).addTo(sauvBlanc);
@@ -242,7 +242,7 @@ d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/sta
       "Avg. Temperature: " + getTemp(feature.properties["Average Temperature (Kelvin)"]) +"° F <br>" +
       "Avg. Air Pressure: " + Math.round(feature.properties["Average Air Pressure (hPa)"]) +" hPa <br>" + 
       "Avg. Humidity: " + Math.round(feature.properties["Average Humidity (%)"]) +"% <br>" + 
-      "Avg. Precipitation: " + Math.round(feature.properties["Average Daily Precipitation (mm)"]) +"mm per day" 
+      "Avg. Precipitation: " + feature.properties["Average Daily Precipitation (mm)"].toFixed(2) +" mm per day" 
       );
     }
   }).addTo(syrah);
