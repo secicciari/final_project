@@ -30,8 +30,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 jumbotron text-center">
+      <div class="col-xs-12 col-sm-12 col-md-12 text-center">
         <h4>Use the interactive dropdown box below to explore the dataset</h4><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-2 col-sm-2 col-md-2 text-center">
         <h4>Wine Variety:</h4>       
         <select onchange="optionChanged(this)">
           <option value="#">Select one</option>
@@ -44,47 +48,22 @@
           <option value="Syrah">Syrah</option>
         </select>
       </div>
-      <!-- <div class="col-xs-12 col-sm-12 col-md-12 jumbotron text-center" style="border:1px solid #000000;">
-        <h4>Wine Variety:</h4>
-        <select id="selDataset" onchange="optionChanged(this.value)"></select>
-      </div> -->
-    </div>
-    <!-- creating div container for panel -->
-    <!-- <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h3 class="panel-title">Wine Panel</h3>
-      </div>
-      <div id="sample-metadata" class="panel-body"></div>
-    </div> -->
-    <!-- creating div container for our map -->
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 jumbotron">
+          <!-- creating div container for our map -->
+      <div class="col-xs-10 col-sm-10 col-md-10">
         <div id="mapid"></div>
       </div>
     </div>
-    <!-- creating div container for our bar chart -->
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 jumbotron text-center">
-        <div id="bar"></div>
-      </div>
-    </div>
-    <!-- <div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 jumbotron text-center">
-        <p><a class="btn btn-primary btn-lg" href="/list_weather_db" role="button">Fetch all records from table weather</a></p>
-      </div>
-    </div>
-    </div> -->
+    <br>
+    <br>
     <br>
     <br>
     <br>
     <div class="container-fluid">
       <!-- Attribution required -->
-      <div class="jumbotron text-center">
+      <div class="text-left">
         <h5>Attributions:<br>
           <a href="https://www.freepik.com/photos/background">Background photo created by freepik - www.freepik.com</a><br>
-          <a href="https://openweathermap.org/">
-        OpenWeather</a>
+          <a href="https://openweathermap.org/">OpenWeather</a>
         </h5>
       </div>
       <!-- D3 JavaScript -->
@@ -97,6 +76,5 @@
       <script type="text/javascript" src="../static/js/config.js"></script>
       <!-- Our JavaScript -->
       <script type="text/javascript" src="../static/js/leafletmap.js"></script>
-      <!--script src="{{url_for('static',filename='js/dropdown.js')}}"></script> -->
   </body>
 </html>
