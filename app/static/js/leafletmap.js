@@ -1,13 +1,9 @@
 // Add console.log to check to see if our code is working.
-console.log("working");
+//console.log("working");
 
 var webpageurl = window.location.href;
-//console.log("webpageurl");
-//console.log(webpageurl);
 
 var mapenvvar = document.getElementById("mapenvid").getAttribute("name");
-//console.log("mapenvvar");
-//console.log(mapenvvar);
 
 if (webpageurl == "http://127.0.0.1:5000/") {
   var accessTokenvar = API_KEY
