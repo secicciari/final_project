@@ -1,5 +1,5 @@
 // Add console.log to check to see if our code is working.
-//console.log("working");
+console.log("working");
 
 var webpageurl = window.location.href;
 
@@ -7,8 +7,10 @@ var mapenvvar = document.getElementById("mapenvid").getAttribute("name");
 
 if (location.hostname === "127.0.0.1"){
   var accessTokenvar = API_KEY
+  console.log("here1");
 } else if (webpageurl == "https://green-team-wine.herokuapp.com/" || "http://green-team-wine.herokuapp.com/") {
   var accessTokenvar = mapenvvar;
+  console.log("here2");
 } else {
   console.log(webpageurl);
 }
