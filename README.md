@@ -2,7 +2,7 @@
 
 ## Project overview
 ### Topic
-Where are the best wines coming from - based on Wine Enthusiast reviews and weather data. 
+Where can you grow great wines in the US - based on Wine Enthusiast reviews and weather data. 
 
 #### Reason for topic
 We're sick of COVID data and wanted to analyze something a little more fun! We're excited for individuals to use our app to determine whether they should start a winery in their area.
@@ -10,10 +10,6 @@ We're sick of COVID data and wanted to analyze something a little more fun! We'r
 ### Questions we hope to answer
 - What combination(s) of weather features (temperature, air pressure, precipitation, humidity) will lead to the best wines by variety (according to Wine Enthusiast ratings)?
 - Which areas are best for growing each type of wine?
-
-### Communication protocols
-Our main communication tool is Slack. We also exchanged phone numbers and emails.
-We're using a [Trello board](https://trello.com/b/GN9969Z9/green-team-final-project) to track our deliverables and outstanding questions.
 
 ### Draft Presentation
 [Google slides presentation](https://docs.google.com/presentation/d/1iJc0YSuN67khUssQ01zkHyiPY-Uq6k2cHVeM4RxGUvQ/edit?usp=sharing)
@@ -27,15 +23,16 @@ We're using a [Trello board](https://trello.com/b/GN9969Z9/green-team-final-proj
 - Data cleaning/exploration: Python, Pandas
 - Data storage: Posgres, AWS
 - Machine learning: Random Forest Classifier via SciKitLearn
-- Dashboard: Heroku, Leaflet
+- Dashboard: Heroku, Leaflet, HTML
 
 ## Project Outline
 ### Data Exploration
 Our data exploration is documented in winesweeper.ipynb (Resources/cleaning_notebooks).
 - We dropped all of the columns that will not be used in our analysis (such as wine description, taster name).
 - We checked the number of unique values in our most important columns - variety, points, and country.
-- We narrowed down the 12 wine varietals that have the most entries in our dataset. Of those 12, we chose to focus on the top 8 single-grape varietals (i.e., no “blends”) - Pinot Noir, Chardonnay, Cabernet Sauvignon, Riesling, Sauvignon Blanc, Syrah, Rosé, and Merlot.
-![8 Varietals](https://github.com/secicciari/final_project/blob/main/Images/wine_varietals_barchart.png)
+- We narrowed down the 12 wine varietals that have the most entries in our dataset. Of those 12, we chose to focus on the top 8 single-grape varietals (i.e., no “blends”) - Pinot Noir, Chardonnay, Cabernet Sauvignon, Riesling, Sauvignon Blanc, Syrah, Rosé, and Merlot. Update as of 5/22: we decided to remove Rosé from our list because Rosé isn't actually a specific type of grape.
+
+![8 Varietals](https://github.com/secicciari/final_project/blob/main/Images/wine_varietals_barchart.PNG)
 - In order to get the weather data we needed, we had to find a way to identify latitudes and longitudes for each winery. Using our narrowed down dataset, we created a "winery_search" column by combining the winery name, the word "winery", and the country. We confirmed the number of unique wineries in our list (8,701) and used the unique search terms to get the geocoordinates for each winery from the Google Maps Places API. 
 
 ### Machine Learning
@@ -62,17 +59,11 @@ We analyzed the weather data for all the counties in the United States by puttin
 
 ### Project Database
 For our database we are using Postgres SQL hosted in AWS RDS. Our database will take in the output from our data exploration phase (cleaned up wine reviews file and winery weather data) and merge the data sets. The merged data will then be fed directly into our machine learning model. We will also use our database to hold the output from our model. The output will indicate whether each US county will or will not create great wine for each varietal, based on the average weather data. Our Heroku app will interact with this table in our database.
-![ERD](https://github.com/secicciari/final_project/blob/main/Images/ERD_v2.png)
+![ERD](https://github.com/secicciari/final_project/blob/main/Images/ERD.PNG)
 
 ### Dashboard
-Below is our v1 wireframe/storyboard for our webpage.
-![Mock Dashboard](https://github.com/secicciari/final_project/blob/main/Images/wine-project-wireframe.png)
-
-#### Tools
-- Heroku to build our app
-- Leaflet for a responsive map of the US
-- HTML to design and format our webpage
+Below is our v2 wireframe/storyboard for our webpage.
+![Mock Dashboard](https://github.com/secicciari/final_project/blob/main/Images/updated_project_wireframe_wk3.png)
 
 #### Interactive Elements
 - Users can select the type of wine they're interested in from a drop down and the map will update to indicate areas where that wine grows well.
-- Stretch goal: Users can also search for a specific zip code to view the weather in that area and compare that to the weather we are displaying for top performing areas. 
