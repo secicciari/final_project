@@ -40,14 +40,14 @@ d3.json("sorted_jsons/syrah_sums.json").then(function(data){
       bargap :0.05
     };
 
-    Plotly.newPlot("bar-plot", plot, layout);
+    Plotly.newPlot("overall-bar-plot", plot, layout);
   });
   
-function typesum(winelist){
-  var winecalc = [];
-  for (wine in winelist){
-    var typewins = d3.sum(state_sums.wine);
-    winecalc.append([wine,typewins])
-  };
-  return winecalc
-};
+// function typesum(winelist){
+//   var winecalc = [];
+//   for (wine in winelist){
+//     var typewins = d3.sum(state_sums.wine);
+//     winecalc.append([wine,typewins])
+//   };
+//   return winecalc
+// };
