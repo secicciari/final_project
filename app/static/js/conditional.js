@@ -10,6 +10,4 @@ if (location.hostname === "127.0.0.1") {
     s1.async = true;
     s1.src = '../static/js/leafletmap.js';
     h1.appendChild(s1);
-} else if (webpageurl == "https://green-team-wine.herokuapp.com/" || "http://green-team-wine.herokuapp.com/") {
-    var webpageurl = window.location.href;
 }
