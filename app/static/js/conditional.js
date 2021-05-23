@@ -21,5 +21,8 @@ if (location.hostname === "127.0.0.1") {
     console.log("h.s.src1b");
     console.log(h1);
 } else if (webpageurl == "https://green-team-wine.herokuapp.com/" || "http://green-team-wine.herokuapp.com/") {
+    var webpageurl = window.location.href;
     console.log("index_working2");
+    console.log("webpageurl");
+    console.log(webpageurl);
 }
