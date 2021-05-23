@@ -27,7 +27,7 @@ if (location.hostname === "127.0.0.1") {
     s1.type = 'text/javascript';
     s1.async = true;
     s1.src = '../static/js/leafletmap.js';
-    h1.appendChild(s1c);
+    h1.appendChild(s1);
     console.log("index_working1c");
     console.log("s1.src1c");
     console.log(s1.src);
