@@ -1,3 +1,5 @@
+var webpageurl = window.location.href;
+
 if (location.hostname === "127.0.0.1") {
     var d = document, h = d.getElementsByTagName('head')[0], s = d.createElement('script');
     s.type = 'text/javascript';
