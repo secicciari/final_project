@@ -2,6 +2,8 @@
 //console.log("working");
 
 var webpageurl = window.location.href;
+console.log("webpageurl");
+console.log(webpageurl);
 
 var mapenvvar = document.getElementById("mapenvid").getAttribute("name");
 
