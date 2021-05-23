@@ -1,29 +1,15 @@
 // Add console.log to check to see if our code is working.
 //console.log("working");
 
-// API key
 var webpageurl = window.location.href;
 
 var mapenvvar = document.getElementById("mapenvid").getAttribute("name");
 
-if (location.hostname === "127.0.0.1") {
-  document.getElementsByTagName("head")[0].innerHTML += ("<script type=\"text/javascript\" src=\"../static/js/config.js\"></script>");
+if (location.hostname === "127.0.0.1"){
   var accessTokenvar = API_KEY
-  console.log("working1");  
 } else if (webpageurl == "https://green-team-wine.herokuapp.com/" || "http://green-team-wine.herokuapp.com/") {
   var accessTokenvar = mapenvvar;
-  console.log("working2");
 }
-
-//var webpageurl = window.location.href;
-
-//var mapenvvar = document.getElementById("mapenvid").getAttribute("name");
-
-// if (location.hostname === "127.0.0.1"){
-//   var accessTokenvar = API_KEY
-// } else if (webpageurl == "https://green-team-wine.herokuapp.com/" || "http://green-team-wine.herokuapp.com/") {
-//   var accessTokenvar = mapenvvar;
-// }
 
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
