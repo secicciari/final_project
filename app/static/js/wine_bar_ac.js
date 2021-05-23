@@ -1,8 +1,8 @@
-d3.json("../sorted_data/state_sums_alphab.json").then(function(data){
-
-
+d3.json("../static/sorted_data/state_sums_totals.json").then(function(data){
 
     // console.log(typeof(wine_types));
+
+    
 
     var trace = {
       x: Object.values(data.state),
@@ -16,18 +16,24 @@ d3.json("../sorted_data/state_sums_alphab.json").then(function(data){
     var plot = [trace];
 
     var layout = {
-      title: "Number of Growable Wines in the US",
+      title: "Number of Award-Winning Varieties by State",
       font:{
         family: 'Raleway, sans-serif'
       },
       yaxis: {
         zeroline: false,
-        gridwidth: 2
+        gridwidth: 3
       },
-      bargap :0.05
+      xaxis: {
+        tickangle: -45,
+      },
+      bargap :0.1,
+      
     };
 
-    Plotly.newPlot("overall-bar-plot", plot, layout);
+    graphplace = document.getElementById("overall-bar");
+
+    Plotly.newPlot(graphplace, plot, layout);
   });
   
   // function optionChanged(dropdown){
