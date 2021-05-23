@@ -7,8 +7,14 @@ var mapenvvar = document.getElementById("mapenvid").getAttribute("name");
 
 if (location.hostname === "127.0.0.1"){
   var accessTokenvar = API_KEY
+  console.log("leafletmap_working1");
+  console.log("API_KEY");
+  console.log(API_KEY)
 } else if (webpageurl == "https://green-team-wine.herokuapp.com/" || "http://green-team-wine.herokuapp.com/") {
   var accessTokenvar = mapenvvar;
+  console.log("leafletmap_working2");
+  console.log("accessTokenvar");
+  console.log(accessTokenvar);
 }
 
 // We create the tile layer that will be the background of our map.
