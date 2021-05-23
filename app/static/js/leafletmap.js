@@ -257,10 +257,10 @@ function optionChanged(dropdown){
     if(map.hasLayer(layerList[i])) {  
       map.removeLayer(layerList[i]);
     }
-  }
+  };
 
   if (wineName === "Syrah") {
-    syrah.addTo(map)
+    syrah.addTo(map);
   }
      else if (wineName === "Sauvignon Blanc") {
        sauvBlanc.addTo(map)
@@ -279,5 +279,14 @@ function optionChanged(dropdown){
      }
      else if (wineName === "Cabernet Sauvignon") {
        cabSauv.addTo(map)
-     }
+     };
+     buildFacts(wineName)
  };
+
+ function buildFacts(dropdown){
+  let factsheet = d3.json('../static/sorted_data/fact_library.json')
+  var factable = d3.select("#winefacts");
+  factable.html("");
+  let tabbox = factable.append("td");
+  tabbox.text(factsheet.wineName)
+ }
