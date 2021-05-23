@@ -62,6 +62,8 @@ For our database we are using Postgres SQL hosted in AWS RDS. Our database will 
 ![ERD](https://github.com/secicciari/final_project/blob/main/Images/ERD.PNG)
 
 ### Dashboard
+[Link to our live app](https://green-team-wine.herokuapp.com/)
+
 Below is our v2 wireframe/storyboard for our webpage.
 ![Mock Dashboard](https://github.com/secicciari/final_project/blob/main/Images/updated_project_wireframe_wk3.png)
 
