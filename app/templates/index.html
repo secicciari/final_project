@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Grow my wine</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-    <style type="text/css">body { background:whitesmoke !important; font-family: Garamond, serif; }</style>
+    <style type="text/css">body { font-family: Garamond, serif; }</style>
+    <!-- <style type="text/css">body { background:whitesmoke !important; font-family: Garamond, serif; }</style> -->
      <!-- Leaflet CSS -->
      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
      crossorigin=""/>
@@ -20,7 +21,7 @@
   <body>
     <label id="mapenvid" name="{{ mapenv }}" style="display: none;"></label>
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 jumbotron text-center" style="background-image: url(../static/images/background_updated_v3.jpg); background-size: cover; background-position: center; color:rgb(255, 255, 255); height: 200px; font-weight: bold;">
+      <div class="col-xs-12 col-sm-12 col-md-12 text-center" style="background-image: url(../static/images/background_updated_v3.jpg); background-size: cover; background-position: center; color:rgb(255, 255, 255); height: 200px; font-weight: bold;">
         <h1>Grow My Wine</h1>
       </div>
     </div>
@@ -54,36 +55,35 @@
         <div id="mapid"></div>
       </div>
     </div>
+    <br>
     <!-- creating div container for our bar chart -->
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 text-center" style="width: 100%">
+      <div class="col-xs-12 col-sm-12 col-md-12 text-center" style="width: 100%; border:1px solid #000000;">
         <div id="overall-bar"></div>
       </div>
     </div>
+    <br>
     <div class="row" style="width: 100%"></div>
       <div class="col-xs-12 col-sm-12 col-md-12 text-center">
         <table style="width: max-content" align="center">
           <tr>
-            <td><div id="breakdown-row1p1"></div></td>
-            <td><div id="breakdown-row1p2"></div></td>
+            <td style="border:1px solid #000000;"><div id="breakdown-row1p1"></div></td>
+            <td style="border:1px solid #000000;"><div id="breakdown-row1p2"></div></td>
           </tr>
+          <br>
           <tr>
-            <td><div id="breakdown-row2p1"></div></td>
-            <td><div id="breakdown-row2p2"></div></td>
+            <td style="border:1px solid #000000;"><div id="breakdown-row2p1"></div></td>
+            <td style="border:1px solid #000000;"><div id="breakdown-row2p2"></div></td>
             <td><div id="breakdown-row2p3"></div></td>
           </tr>
           <tr>
-            <td><div id="breakdown-row3p1"></div></td>
-            <td><div id="breakdown-row3p2"></div></td>
+            <td style="border:1px solid #000000;"><div id="breakdown-row3p1"></div></td>
+            <td style="border:1px solid #000000;"><div id="breakdown-row3p2"></div></td>
           </tr>
         </table>  
+        <br><br><br><br>
       </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <div class="container-fluid">
       <!-- Attribution required -->
       <div class="text-left">
