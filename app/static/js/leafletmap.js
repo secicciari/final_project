@@ -264,20 +264,59 @@ function optionChanged(dropdown){
   }
      else if (wineName === "Sauvignon Blanc") {
        sauvBlanc.addTo(map)
+       buildFacts(wineName)
      }
      else if (wineName === "Riesling") {
        riesling.addTo(map)
+       buildFacts(wineName)
      }
      else if (wineName === "Pinot Noir") {
        pinotNoir.addTo(map)
+       buildFacts(wineName)
      }
      else if (wineName === "Merlot") {
        merlot.addTo(map)
+       buildFacts(wineName)
      }
      else if (wineName === "Chardonnay") {
        chardonnay.addTo(map)
+       buildFacts(wineName)
      }
      else if (wineName === "Cabernet Sauvignon") {
        cabSauv.addTo(map)
-     }
+       buildFacts(wineName)
+     };
  };
+
+ function buildFacts(selectedwine){
+  d3.json('../static/sorted_data/fact_library.json').then((data) => {
+  if (selectedwine === "Syrah") {
+    writeup = Object.values(data.Syrah)
+  }
+     else if (selectedwine === "Sauvignon Blanc") {
+       writeup = Object.values(data.SauvBlanc)
+     }
+     else if (selectedwine === "Riesling") {
+       writeup = Object.values(data.Riesling)
+     }
+     else if (selectedwine === "Pinot Noir") {
+       writeup = Object.values(data.PiNoir)
+     }
+     else if (selectedwine === "Merlot") {
+       writeup = Object.values(data.Merlot)
+     }
+     else if (selectedwine === "Chardonnay") {
+       writeup = Object.values(data.Chardonnay)
+     }
+     else if (selectedwine === "Cabernet Sauvignon") {
+       writeup = Object.values(data.CabSav)
+     };
+     let factable = document.getElementById("winefacts");
+     while(factable.firstChild) {
+       factable.removeChild(factable.firstChild);
+     }
+    factable.append(writeup)
+})};
+ 
+  
+    
