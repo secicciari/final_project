@@ -319,12 +319,4 @@ function optionChanged(dropdown){
 })};
  
   
-    //console.log(data)
-     
-   
     
-
-  // var factable = d3.select("#winefacts");
-  // factable.html("");
-  // let tabbox = factable.append("h4");
-  // tabbox.text(factsheet.Riesling)}
