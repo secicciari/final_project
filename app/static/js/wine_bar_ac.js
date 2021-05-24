@@ -9,7 +9,7 @@ d3.json("../static/sorted_data/state_sums_totals.json").then(function(data){
       y: Object.values(data.tot_success),
       type: "bar",
       marker: {
-        color: '#581845'
+        color: 'rgb(128,0,0)'
       }
     };
     
