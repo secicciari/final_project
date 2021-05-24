@@ -6,7 +6,7 @@ var webpageurl = window.location.href;
 var mapenvvar = document.getElementById("mapenvid").getAttribute("name");
 
 if (location.hostname === "127.0.0.1"){
-  var accessTokenvar = API_KEY
+  var accessTokenvar = 'pk.eyJ1IjoiZGF2aWRhbmRjYXJyIiwiYSI6ImNrbTE4ZGZxZjFuaXYydWt2NTJuanR6Z3EifQ.I_BwdywRMM50BCQkurWvqQ'
 } else if (webpageurl == "https://green-team-wine.herokuapp.com/" || "http://green-team-wine.herokuapp.com/") {
   var accessTokenvar = mapenvvar;
 }
@@ -257,36 +257,74 @@ function optionChanged(dropdown){
     if(map.hasLayer(layerList[i])) {  
       map.removeLayer(layerList[i]);
     }
-  };
+  }
 
   if (wineName === "Syrah") {
-    syrah.addTo(map);
+    syrah.addTo(map)
   }
      else if (wineName === "Sauvignon Blanc") {
-       sauvBlanc.addTo(map)
+       sauvBlanc.addTo(map);
+       buildFacts(wineName)
      }
      else if (wineName === "Riesling") {
        riesling.addTo(map)
+       buildFacts(wineName)
      }
      else if (wineName === "Pinot Noir") {
        pinotNoir.addTo(map)
+       buildFacts(wineName)
      }
      else if (wineName === "Merlot") {
        merlot.addTo(map)
+       buildFacts(wineName)
      }
      else if (wineName === "Chardonnay") {
        chardonnay.addTo(map)
+       buildFacts(wineName)
      }
      else if (wineName === "Cabernet Sauvignon") {
        cabSauv.addTo(map)
+       buildFacts(wineName)
      };
-     buildFacts(wineName)
  };
 
- function buildFacts(dropdown){
-  let factsheet = d3.json('../static/sorted_data/fact_library.json')
-  var factable = d3.select("#winefacts");
-  factable.html("");
-  let tabbox = factable.append("td");
-  tabbox.text(factsheet.wineName)
- }
+ function buildFacts(selectedwine){
+  d3.json('../static/sorted_data/fact_library.json').then((data) => {
+  if (selectedwine === "Syrah") {
+    writeup = Object.values(data.Syrah)
+  }
+     else if (selectedwine === "Sauvignon Blanc") {
+       writeup = Object.values(data.SauvBlanc)
+     }
+     else if (selectedwine === "Riesling") {
+       writeup = Object.values(data.Riesling)
+     }
+     else if (selectedwine === "Pinot Noir") {
+       writeup = Object.values(data.PiNoir)
+     }
+     else if (selectedwine === "Merlot") {
+       writeup = Object.values(data.Merlot)
+     }
+     else if (selectedwine === "Chardonnay") {
+       writeup = Object.values(data.Chardonnay)
+     }
+     else if (selectedwine === "Cabernet Sauvignon") {
+       writeup = Object.values(data.CabSav)
+     };
+     let factable = document.getElementById("winefacts");
+     while(factable.firstChild) {
+       factable.removeChild(factable.firstChild);
+     }
+    factable.append(writeup)
+})};
+ 
+  
+    //console.log(data)
+     
+   
+    
+
+  // var factable = d3.select("#winefacts");
+  // factable.html("");
+  // let tabbox = factable.append("h4");
+  // tabbox.text(factsheet.Riesling)}
