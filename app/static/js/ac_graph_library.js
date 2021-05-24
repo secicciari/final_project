@@ -4,7 +4,7 @@ d3.json('../static/sorted_data/cabsav_sums.json').then(function(data){
       y: (Object.values(data.cabsav)).slice(0,10),
       type: "bar",
       marker: {
-        color: 'rgb(128,0,0)'
+        color: '#581845'
       }
     };
     var plot = [trace];
@@ -33,7 +33,7 @@ d3.json('../static/sorted_data/chard_sums.json').then(function(data){
     y: (Object.values(data.chard)).slice(0,10),
     type: "bar",
     marker: {
-      color: 'rgb(128,0,0)'
+      color: '#581845'
     }
   };
   var plot = [trace];
@@ -61,7 +61,7 @@ d3.json('../static/sorted_data/merlot_sums.json').then(function(data){
     y: (Object.values(data.merlot)).slice(0,10),
     type: "bar",
     marker: {
-      color: 'rgb(128,0,0)'
+      color: '#581845'
     }
   };
   var plot = [trace];
@@ -89,7 +89,7 @@ d3.json('../static/sorted_data/pinot_sums.json').then(function(data){
     y: (Object.values(data.pinot)).slice(0,10),
     type: "bar",
     marker: {
-      color: 'rgb(128,0,0)'
+      color: '#581845'
     }
   };
   var plot = [trace];
@@ -117,7 +117,7 @@ d3.json('../static/sorted_data/riesling_sums.json').then(function(data){
     y: (Object.values(data.riesling)).slice(0,10),
     type: "bar",
     marker: {
-      color: 'rgb(128,0,0)'
+      color: '#581845'
     }
   };
   var plot = [trace];
@@ -145,7 +145,7 @@ d3.json('../static/sorted_data/savyb_sums.json').then(function(data){
     y: (Object.values(data.savyb)).slice(0,10),
     type: "bar",
     marker: {
-      color: 'rgb(128,0,0)'
+      color: '#581845'
     }
   };
   var plot = [trace];
