@@ -263,7 +263,7 @@ function optionChanged(dropdown){
     syrah.addTo(map)
   }
      else if (wineName === "Sauvignon Blanc") {
-       sauvBlanc.addTo(map);
+       sauvBlanc.addTo(map)
        buildFacts(wineName)
      }
      else if (wineName === "Riesling") {
