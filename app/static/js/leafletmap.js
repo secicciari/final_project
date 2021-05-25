@@ -6,7 +6,7 @@ var webpageurl = window.location.href;
 var mapenvvar = document.getElementById("mapenvid").getAttribute("name");
 
 if (location.hostname === "127.0.0.1"){
-  var accessTokenvar = API_KEY
+  var accessTokenvar = 'pk.eyJ1IjoiZGF2aWRhbmRjYXJyIiwiYSI6ImNrbTE4ZGZxZjFuaXYydWt2NTJuanR6Z3EifQ.I_BwdywRMM50BCQkurWvqQ'
 } else if (webpageurl == "https://green-team-wine.herokuapp.com/" || "http://green-team-wine.herokuapp.com/") {
   var accessTokenvar = mapenvvar;
 }
@@ -261,6 +261,7 @@ function optionChanged(dropdown){
 
   if (wineName === "Syrah") {
     syrah.addTo(map)
+    buildFacts(wineName)
   }
      else if (wineName === "Sauvignon Blanc") {
        sauvBlanc.addTo(map)
