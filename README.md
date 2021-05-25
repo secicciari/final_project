@@ -12,7 +12,9 @@ We're sick of COVID data and wanted to analyze something a little more fun! We'r
 - Which areas are best for growing each type of wine?
 
 ### Draft Presentation
-[Google slides presentation](https://docs.google.com/presentation/d/1iJc0YSuN67khUssQ01zkHyiPY-Uq6k2cHVeM4RxGUvQ/edit?usp=sharing)
+[Actual Google slides presentation](https://docs.google.com/presentation/d/1QfGb7kLyEm0FkPrgwYSgeHB_njD55bgDB1rZZVo8HMY/edit?usp=sharing)
+
+[Google slides with rubric content](https://docs.google.com/presentation/d/1iJc0YSuN67khUssQ01zkHyiPY-Uq6k2cHVeM4RxGUvQ/edit?usp=sharing)
 
 ### Data sources
 * Wine Enthusiast wine review data: https://www.kaggle.com/zynicide/wine-reviews
