@@ -56,28 +56,28 @@ let map = L.map('mapid', {
 L.control.layers(null, overlays, {})
 
 // Retrieve the GeoJSON data.
-d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/static/js/map.geojson").then(function(data) {
+d3.json("newmap.geojson").then(function(data) {
   // create functions to filter geojson data for only successful areas for each wine
   function pinotSuccess(feature) {
-      if (feature.properties.pinot_success === 1) return true
+      if (feature.properties.pinot_success === "True") return true
     };
   function chardSuccess(feature) {
-    if (feature.properties.char_success === 1) return true
+    if (feature.properties.char_success === "True") return true
     };
   function cabSuccess(feature) {
-    if (feature.properties.cabsav_success === 1) return true
+    if (feature.properties.cabsav_success === "True") return true
     };
   function sauvSuccess(feature) {
-     if (feature.properties.savyb_success === 1) return true
+     if (feature.properties.savyb_success === "True") return true
     };
   function riesSuccess(feature) {
-    if (feature.properties.ries_success === 1) return true
+    if (feature.properties.ries_success === "True") return true
     };
   function syrSuccess(feature) {
-    if (feature.properties.syr_success === 1) return true
+    if (feature.properties.syr_success === "True") return true
     };
   function merSuccess(feature) {
-    if (feature.properties.mer_success === 1) return true
+    if (feature.properties.mer_success === "True") return true
     };
 
   // convert temperature
