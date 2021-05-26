@@ -48,6 +48,9 @@ let map = L.map('mapid', {
 	center: [38.0, -95.6],
   zoomSnap: 0.25,
 	zoom: 4.8,
+  zoomDelta: 0.25,
+  minZoom: 4.5,
+  maxZoom: 10,
   scrollWheelZoom: 'center',
 	layers: [streets]
 });
@@ -56,7 +59,7 @@ let map = L.map('mapid', {
 L.control.layers(null, overlays, {})
 
 // Retrieve the GeoJSON data.
-d3.json("newmap.geojson").then(function(data) {
+d3.json("https://raw.githubusercontent.com/secicciari/final_project/sc_newmap/app/static/js/newmap.geojson").then(function(data) {
   // create functions to filter geojson data for only successful areas for each wine
   function pinotSuccess(feature) {
       if (feature.properties.pinot_success === "True") return true
@@ -290,7 +293,7 @@ function optionChanged(dropdown){
  };
 
  function buildFacts(selectedwine){
-  d3.json('../static/sorted_data/fact_library.json').then((data) => {
+  d3.json('../static/sorted_data/mkone/fact_library.json').then((data) => {
   if (selectedwine === "Syrah") {
     writeup = Object.values(data.Syrah)
   }

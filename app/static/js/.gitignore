@@ -1,6 +1,7 @@
 # Adding SC config.py file.
 config.py
 config.js
+map.geojson
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
