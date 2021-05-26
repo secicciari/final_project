@@ -59,7 +59,7 @@ let map = L.map('mapid', {
 L.control.layers(null, overlays, {})
 
 // Retrieve the GeoJSON data.
-d3.json("https://raw.githubusercontent.com/secicciari/final_project/sc_newmap/app/static/js/newmap.geojson").then(function(data) {
+d3.json("https://raw.githubusercontent.com/secicciari/final_project/main/app/static/js/newmap.geojson").then(function(data) {
   // create functions to filter geojson data for only successful areas for each wine
   function pinotSuccess(feature) {
       if (feature.properties.pinot_success === "True") return true
