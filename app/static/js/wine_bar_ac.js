@@ -1,4 +1,4 @@
-d3.json("../static/sorted_data/state_sums_totals.json").then(function(data){
+d3.json("../static/sorted_data/mktwo/state_sums_mktwo.json").then(function(data){
 
     // console.log(typeof(wine_types));
 

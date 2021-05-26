@@ -290,7 +290,7 @@ function optionChanged(dropdown){
  };
 
  function buildFacts(selectedwine){
-  d3.json('../static/sorted_data/fact_library.json').then((data) => {
+  d3.json('../static/sorted_data/mkone/fact_library.json').then((data) => {
   if (selectedwine === "Syrah") {
     writeup = Object.values(data.Syrah)
   }
