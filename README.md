@@ -1,12 +1,4 @@
-# growmywine
-
 # Green Team Final Project
-
-### Team members:
-- [Renata Barbalat](https://github.com/renatabg2205)
-- [Andrew Carr](https://github.com/davidandcarr)
-- [Sam Cicciari](https://github.com/secicciari)
-- [Katie Fell](https://github.com/katief01)
 
 ## Project overview
 ### Topic
@@ -19,8 +11,10 @@ We're sick of COVID data and wanted to analyze something a little more fun! We'r
 - What combination(s) of weather features (temperature, air pressure, precipitation, humidity) will lead to the best wines by variety (according to Wine Enthusiast ratings)?
 - Which areas are best for growing each type of wine?
 
-### Presentation
-[Google slides presentation](Presentation/GrowMyWine.pdf)
+### Draft Presentation
+[Actual Google slides presentation](https://docs.google.com/presentation/d/1QfGb7kLyEm0FkPrgwYSgeHB_njD55bgDB1rZZVo8HMY/edit?usp=sharing)
+
+[Google slides with rubric content](https://docs.google.com/presentation/d/1iJc0YSuN67khUssQ01zkHyiPY-Uq6k2cHVeM4RxGUvQ/edit?usp=sharing)
 
 ### Data sources
 * Wine Enthusiast wine review data: https://www.kaggle.com/zynicide/wine-reviews
@@ -40,7 +34,7 @@ Our data exploration is documented in winesweeper.ipynb (Resources/cleaning_note
 - We checked the number of unique values in our most important columns - variety, points, and country.
 - We narrowed down the 12 wine varietals that have the most entries in our dataset. Of those 12, we chose to focus on the top 8 single-grape varietals (i.e., no “blends”) - Pinot Noir, Chardonnay, Cabernet Sauvignon, Riesling, Sauvignon Blanc, Syrah, Rosé, and Merlot. Update as of 5/22: we decided to remove Rosé from our list because Rosé isn't actually a specific type of grape.
 
-![8 Varietals](Images/wine_varietals_barchart.PNG)
+![8 Varietals](https://github.com/secicciari/final_project/blob/main/Images/wine_varietals_barchart.PNG)
 - In order to get the weather data we needed, we had to find a way to identify latitudes and longitudes for each winery. Using our narrowed down dataset, we created a "winery_search" column by combining the winery name, the word "winery", and the country. We confirmed the number of unique wineries in our list (8,701) and used the unique search terms to get the geocoordinates for each winery from the Google Maps Places API. 
 
 ### Machine Learning
@@ -66,13 +60,14 @@ We will be using Random Forest Classifier, and we will be creating separate mode
 We analyzed the weather data for all the counties in the United States by putting it through each of our machine learning models to determine whether that county would or would not be a recommended place to grow each wine varietal.
 
 ### Project Database
-For our database we are using Postgres SQL hosted in AWS RDS. Our database will take in the output from our data exploration phase (cleaned up wine reviews file and winery weather data) and merge the data sets. The merged data will then be fed directly into our machine learning model. We will also use our database to hold the output from our model. The output will indicate whether each US county will or will not create great wine for each varietal, based on the average weather data.
+For our database we are using Postgres SQL hosted in AWS RDS. Our database will take in the output from our data exploration phase (cleaned up wine reviews file and winery weather data) and merge the data sets. The merged data will then be fed directly into our machine learning model. We will also use our database to hold the output from our model. The output will indicate whether each US county will or will not create great wine for each varietal, based on the average weather data. Our Heroku app will interact with this table in our database.
+![ERD](https://github.com/secicciari/final_project/blob/main/Images/ERD.PNG)
 
-### Website
-[Link to our website](https://growmywine.herokuapp.com/)
+### Dashboard
+[Link to our live app](https://green-team-wine.herokuapp.com/)
 
-![Website](Images/website.PNG)
-
+Below is our v2 wireframe/storyboard for our webpage.
+![Mock Dashboard](https://github.com/secicciari/final_project/blob/main/Images/updated_project_wireframe_wk3.png)
 
 #### Interactive Elements
 - Users can select the type of wine they're interested in from a drop down and the map will update to indicate areas where that wine grows well.
